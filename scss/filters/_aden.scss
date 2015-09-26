@@ -1,0 +1,12 @@
+.aden {
+  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2);
+
+  &:after{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
+    mix-blend-mode: darken;
+  }
+}
