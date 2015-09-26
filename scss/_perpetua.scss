@@ -1,12 +1,11 @@
-.reyes {
-  filter: sepia(22%) brightness(1.1) contrast(.85) saturate(.75);
-
-   &:after{
+%perpetua,
+.perpetua {
+  &:after{
     content: '';
     display: block;
     height: 100%;
     width: 100%;
-    background: #EFCDAD;
+    background: linear-gradient(to bottom, #005B9A, #E6C13D);
     mix-blend-mode: soft-light;
     opacity: .5;
   }

@@ -1,10 +1,13 @@
-.perpetua {
-  &:after{
+%reyes,
+.reyes {
+  filter: sepia(22%) brightness(1.1) contrast(.85) saturate(.75);
+
+   &:after{
     content: '';
     display: block;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #005B9A, #E6C13D);
+    background: #EFCDAD;
     mix-blend-mode: soft-light;
     opacity: .5;
   }
