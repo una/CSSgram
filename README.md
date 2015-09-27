@@ -1,5 +1,6 @@
 # CSSgram
-Instagram filter library in CSS
+
+Instagram filter library in Sass and CSS.
 
 This is a WIP.
 
@@ -23,3 +24,5 @@ There are 3 ways to consume this library.
 - [x] Reyes
 - [x] Perpetua
 - [x] Inkwell
+
+Note: this will also have a PostCSS Component.
