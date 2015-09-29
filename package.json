@@ -1,5 +1,6 @@
 {
-  "name": "gulp-starter-env",
+  "name": "cssgram",
+  "author": "Una Kravets",
   "version": "0.1.0",
   "dependencies": {},
   "devDependencies": {
@@ -10,7 +11,6 @@
     "gulp-concat": "^2.4.3",
     "gulp-gh-pages": "^0.4.0",
     "gulp-imagemin": "^2.1.0",
-    "gulp-jshint": "^1.9.0",
     "gulp-minify-css": "^0.3.12",
     "gulp-minify-html": "^0.1.8",
     "gulp-notify": "^2.2.0",

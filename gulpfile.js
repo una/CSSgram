@@ -8,7 +8,6 @@ var gulp        = require('gulp'),
     prefix      = require('gulp-autoprefixer'),
     browserSync = require('browser-sync'),
     reload      = browserSync.reload,
-    minifyHTML  = require('gulp-minify-html'),
     size        = require('gulp-size'),
     imagemin    = require('gulp-imagemin'),
     pngquant    = require('imagemin-pngquant'),
@@ -29,29 +28,28 @@ gulp.task('scss', function() {
       this.emit('end');
   };
 
-  return gulp.src('scss/**/*.scss')
+  return gulp.src('source/scss/**/*.scss')
     .pipe(plumber({errorHandler: onError}))
     .pipe(sass())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
-    .pipe(gulp.dest('dist/css'))
     .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('source/css'))
 });
 
 gulp.task('browser-sync', function() {
     browserSync({
         server: {
-            baseDir: "dist/"
+            baseDir: "site/"
         }
     });
 });
 
 gulp.task('deploy', function () {
-    return gulp.src('dist/**/*')
+    return gulp.src('site/**/*')
         .pipe(deploy());
 });
 
@@ -63,21 +61,8 @@ gulp.task('sass-lint', function () {
     .pipe(sassLint.failOnError());
 });
 
-gulp.task('minify-html', function() {
-    var opts = {
-      comments:true,
-      spare:true
-    };
-
-  gulp.src('./*.html')
-    .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('dist/'))
-    .pipe(reload({stream:true}));
-});
-
 gulp.task('watch', function() {
-  gulp.watch('scss/**/*.scss', ['scss']);
-  gulp.watch('./*.html', ['minify-html']);
+  gulp.watch('source/scss/**/*.scss', ['scss']);
   gulp.watch('img/*', ['imgmin']);
 });
 
@@ -88,7 +73,7 @@ gulp.task('imgmin', function () {
         svgoPlugins: [{removeViewBox: false}],
         use: [pngquant()]
     }))
-    .pipe(gulp.dest('dist/img'));
+    .pipe(gulp.dest('site/img'));
 });
 
-gulp.task('default', ['browser-sync', 'imgmin', 'minify-html', 'scss', 'watch']);
+gulp.task('default', ['browser-sync', 'imgmin', 'scss', 'watch']);
