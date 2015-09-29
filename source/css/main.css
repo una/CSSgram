@@ -1,0 +1,56 @@
+/*
+ *
+ * Aden
+ *
+ */
+.aden {
+  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2); }
+  .aden:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
+    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
+    mix-blend-mode: darken; }
+
+/*
+ *
+ * Inkwell
+ *
+ */
+.inkwell {
+  -webkit-filter: sepia(30%) contrast(1.2) brightness(1.1) grayscale(1);
+          filter: sepia(30%) contrast(1.2) brightness(1.1) grayscale(1); }
+
+/*
+ *
+ * Perpetua
+ *
+ */
+.perpetua:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #005B9A, #E6C13D);
+  background: linear-gradient(to bottom, #005B9A, #E6C13D);
+  mix-blend-mode: soft-light;
+  opacity: .5; }
+
+/*
+ *
+ * Reyes
+ *
+ */
+.reyes {
+  -webkit-filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75);
+          filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75); }
+  .reyes:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #EFCDAD;
+    mix-blend-mode: soft-light;
+    opacity: .5; }
