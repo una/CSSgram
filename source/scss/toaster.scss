@@ -1,0 +1,19 @@
+/*
+ *
+ * Toaster
+ *
+ */
+
+%toaster,
+.toaster {
+  filter: contrast(1.5) brightness(.9);
+
+  &:after{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, #804E0F, #3B003B);
+    mix-blend-mode: screen;
+  }
+}
