@@ -2,3 +2,21 @@
 @import 'inkwell';
 @import 'perpetua';
 @import 'reyes';
+@import 'gingham';
+
+// per page:
+
+.demo {
+  &__img {
+    width: 350px;
+    height: 350px;
+
+    &:hover {
+      filter: none;
+    }
+
+    &:after:hover {
+      background: none;
+    }
+  }
+}

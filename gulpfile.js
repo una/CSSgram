@@ -10,6 +10,7 @@ var gulp        = require('gulp'),
     reload      = browserSync.reload,
     size        = require('gulp-size'),
     imagemin    = require('gulp-imagemin'),
+    minifyHTML  = require('gulp-minify-html'),
     pngquant    = require('imagemin-pngquant'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
@@ -64,19 +65,27 @@ gulp.task('sass-lint', function () {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['scss']);
-  gulp.watch('site/img/*', ['imgmin']);
+  gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.html', ['minify-html']);
 });
 
-gulp.task('imgmin', function () {
-  return gulp.src('site/img/*')
-    .pipe(imagemin({
-        progressive: true,
-        svgoPlugins: [{removeViewBox: false}],
-        use: [pngquant()]
-    }))
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('site/img/'));
+gulp.task('minify-html', function() {
+    var opts = {
+      comments:true,
+      spare:true
+    };
+
+  gulp.src('./*.html')
+    .pipe(minifyHTML(opts))
+    .pipe(gulp.dest('dist/'))
+    .pipe(reload({stream:true}));
 });
 
-gulp.task('default', ['browser-sync', 'imgmin', 'scss', 'watch']);
+gulp.task('jshint', function() {
+  gulp.src('js/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+});
+
+
+gulp.task('default', ['browser-sync', 'minify-html', 'scss', 'watch']);
