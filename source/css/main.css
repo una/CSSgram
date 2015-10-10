@@ -1,6 +1,6 @@
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -14,9 +14,9 @@
  * Aden
  *
  */
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -47,9 +47,9 @@
  * Perpetua
  *
  */
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -69,9 +69,9 @@
  * Reyes
  *
  */
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -93,9 +93,9 @@
  * Gingham
  *
  */
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -117,9 +117,9 @@
  * Toaster
  *
  */
-.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+.aden, .perpetua, .reyes, .gingham, .toaster {
   position: relative; }
-  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
@@ -139,18 +139,29 @@
 ul {
   width: 100%; }
 
-li {
-  margin: 3em auto;
+.demo__item {
+  margin: 1em;
   list-style: none;
-  display: block; }
+  display: inline-block; }
 
-.demo__img {
+figure {
   width: 350px;
-  height: 350px; }
-  .demo__img img {
-    width: 100%; }
-  .demo__img:hover {
-    -webkit-filter: none;
-            filter: none; }
-  .demo__img:after:hover {
-    background: none; }
+  height: 350px;
+  overflow: hidden;
+  position: relative; }
+  figure:hover {
+    -webkit-filter: none !important;
+            filter: none !important; }
+  figure:hover:after {
+    background: none !important; }
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  padding: .25em 1em .25em .25em;
+  background: black;
+  color: white; }
+
+img {
+  width: 100%; }

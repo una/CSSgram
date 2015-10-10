@@ -3,9 +3,9 @@
  * Perpetua
  *
  */
-.filter-base, .perpetua {
+.perpetua {
   position: relative; }
-  .filter-base:after, .perpetua:after {
+  .perpetua:after {
     content: '';
     display: block;
     height: 100%;

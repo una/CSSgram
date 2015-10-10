@@ -3,9 +3,9 @@
  * Toaster
  *
  */
-.filter-base, .toaster {
+.toaster {
   position: relative; }
-  .filter-base:after, .toaster:after {
+  .toaster:after {
     content: '';
     display: block;
     height: 100%;

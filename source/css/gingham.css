@@ -3,9 +3,9 @@
  * Gingham
  *
  */
-.filter-base, .gingham {
+.gingham {
   position: relative; }
-  .filter-base:after, .gingham:after {
+  .gingham:after {
     content: '';
     display: block;
     height: 100%;

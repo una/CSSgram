@@ -3,9 +3,9 @@
  * Aden
  *
  */
-.filter-base, .aden {
+.aden {
   position: relative; }
-  .filter-base:after, .aden:after {
+  .aden:after {
     content: '';
     display: block;
     height: 100%;

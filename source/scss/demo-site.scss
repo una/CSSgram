@@ -1,0 +1,39 @@
+ul {
+  width: 100%;
+}
+
+.demo {
+  &__item {
+    margin: 1em;
+    list-style: none;
+    display: inline-block;
+  }
+}
+
+figure {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    filter: none !important;
+  }
+
+  &:hover:after {
+    background: none !important;
+  }
+}
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  padding: .25em 1em .25em .25em;
+  background: black;
+  color: white;
+}
+
+img {
+  width: 100%;
+}

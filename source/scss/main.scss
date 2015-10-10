@@ -5,35 +5,4 @@
 @import 'reyes';
 @import 'gingham';
 @import 'toaster';
-
-// per page:
-
-
-ul {
-  width: 100%;
-}
-
-li {
-  margin: 3em auto;
-  list-style: none;
-  display: block;
-}
-
-.demo {
-  &__img {
-    width: 350px;
-    height: 350px;
-
-    img {
-      width: 100%;
-    }
-
-    &:hover {
-      filter: none;
-    }
-
-    &:after:hover {
-      background: none;
-    }
-  }
-}
+@import 'demo-site';

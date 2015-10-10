@@ -3,9 +3,9 @@
  * Reyes
  *
  */
-.filter-base, .reyes {
+.reyes {
   position: relative; }
-  .filter-base:after, .reyes:after {
+  .reyes:after {
     content: '';
     display: block;
     height: 100%;
