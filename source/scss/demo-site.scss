@@ -1,3 +1,14 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: 2em auto;
+  max-width: 1200px;
+  line-height: 1.5;
+}
+
+p {
+  max-width: 32em;
+}
+
 ul {
   width: 100%;
 }
@@ -15,6 +26,8 @@ figure {
   height: 350px;
   overflow: hidden;
   position: relative;
+  margin: 0;
+  padding: 0;
 
   &:hover {
     filter: none !important;
@@ -32,6 +45,7 @@ figcaption {
   padding: .25em 1em .25em .25em;
   background: black;
   color: white;
+  font-weight: 200;
 }
 
 img {

@@ -136,6 +136,15 @@
     background: radial-gradient(circle, #804E0F, #3B003B);
     mix-blend-mode: screen; }
 
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: 2em auto;
+  max-width: 1200px;
+  line-height: 1.5; }
+
+p {
+  max-width: 32em; }
+
 ul {
   width: 100%; }
 
@@ -148,7 +157,9 @@ figure {
   width: 350px;
   height: 350px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  margin: 0;
+  padding: 0; }
   figure:hover {
     -webkit-filter: none !important;
             filter: none !important; }
@@ -161,7 +172,8 @@ figcaption {
   right: 0;
   padding: .25em 1em .25em .25em;
   background: black;
-  color: white; }
+  color: white;
+  font-weight: 200; }
 
 img {
   width: 100%; }
