@@ -24,5 +24,7 @@ There are 3 ways to consume this library.
 - [x] Reyes
 - [x] Perpetua
 - [x] Inkwell
+- [x] Toaster
+- [x] Gingham
 
 Note: this will also have a PostCSS Component.

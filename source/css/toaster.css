@@ -1,0 +1,16 @@
+/*
+ *
+ * Toaster
+ *
+ */
+.toaster {
+  -webkit-filter: contrast(1.5) brightness(.9);
+          filter: contrast(1.5) brightness(.9); }
+  .toaster:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: -webkit-radial-gradient(circle, #804E0F, #3B003B);
+    background: radial-gradient(circle, #804E0F, #3B003B);
+    mix-blend-mode: screen; }
