@@ -1,16 +1,34 @@
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
 /*
  *
  * Aden
  *
  */
-.aden {
-  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2);
-          filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2); }
-  .aden:after {
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+.aden {
+  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2);
+          filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2); }
+  .aden:after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
     mix-blend-mode: darken; }
@@ -29,11 +47,18 @@
  * Perpetua
  *
  */
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
 .perpetua:after {
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
   background: -webkit-linear-gradient(top, #005B9A, #E6C13D);
   background: linear-gradient(to bottom, #005B9A, #E6C13D);
   mix-blend-mode: soft-light;
@@ -44,14 +69,21 @@
  * Reyes
  *
  */
-.reyes {
-  -webkit-filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75);
-          filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75); }
-  .reyes:after {
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+.reyes {
+  -webkit-filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75);
+          filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75); }
+  .reyes:after {
     background: #EFCDAD;
     mix-blend-mode: soft-light;
     opacity: .5; }
@@ -61,14 +93,21 @@
  * Gingham
  *
  */
-.gingham {
-  -webkit-filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2);
-          filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2); }
-  .gingham:after {
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+.gingham {
+  -webkit-filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2);
+          filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2); }
+  .gingham:after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
     mix-blend-mode: darken; }
@@ -78,14 +117,21 @@
  * Toaster
  *
  */
-.toaster {
-  -webkit-filter: contrast(1.5) brightness(.9);
-          filter: contrast(1.5) brightness(.9); }
-  .toaster:after {
+.filter-base, .aden, .perpetua, .reyes, .gingham, .toaster {
+  position: relative; }
+  .filter-base:after, .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after {
     content: '';
     display: block;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+.toaster {
+  -webkit-filter: contrast(1.5) brightness(.9);
+          filter: contrast(1.5) brightness(.9); }
+  .toaster:after {
     background: -webkit-radial-gradient(circle, #804E0F, #3B003B);
     background: radial-gradient(circle, #804E0F, #3B003B);
     mix-blend-mode: screen; }

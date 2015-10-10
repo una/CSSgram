@@ -3,11 +3,18 @@
  * Perpetua
  *
  */
+.filter-base, .perpetua {
+  position: relative; }
+  .filter-base:after, .perpetua:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
 .perpetua:after {
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
   background: -webkit-linear-gradient(top, #005B9A, #E6C13D);
   background: linear-gradient(to bottom, #005B9A, #E6C13D);
   mix-blend-mode: soft-light;
