@@ -1,0 +1,18 @@
+/*
+ *
+ * Walden
+ *
+ */
+@import 'shared';
+
+%walden,
+.walden {
+  @extend %filter-base;
+  filter: brightness(110%) hue-rotate(-10deg)sepia(30%) saturate(1.6);
+
+  &:after{
+    background: #04c;
+    mix-blend-mode: screen;
+    opacity: .3;
+  }
+}
