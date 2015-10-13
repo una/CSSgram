@@ -8,7 +8,7 @@
 %reyes,
 .reyes {
   @extend %filter-base;
-  filter: sepia(22%) brightness(1.1) contrast(.85) saturate(.75);
+  filter: sepia(.22) brightness(1.1) contrast(.85) saturate(.75);
 
    &:after{
     background: #EFCDAD;

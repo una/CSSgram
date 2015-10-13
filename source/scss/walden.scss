@@ -8,7 +8,7 @@
 %walden,
 .walden {
   @extend %filter-base;
-  filter: brightness(110%) hue-rotate(-10deg)sepia(30%) saturate(1.6);
+  filter: brightness(1.1) hue-rotate(-10deg)sepia(.3) saturate(1.6);
 
   &:after{
     background: #04c;
