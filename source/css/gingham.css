@@ -15,8 +15,8 @@
     position: absolute; }
 
 .gingham {
-  -webkit-filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2);
-          filter: brightness(1.05) hue-rotate(-10deg) contrast(1.3) saturate(1.2); }
+  -webkit-filter: brightness(1.05) hue-rotate(-10deg);
+          filter: brightness(1.05) hue-rotate(-10deg); }
   .gingham:after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);

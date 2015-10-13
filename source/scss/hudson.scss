@@ -1,0 +1,18 @@
+/*
+ *
+ * Hudson
+ *
+ */
+@import 'shared';
+
+%hudson, //needs work!
+.hudson {
+  @extend %filter-base;
+  filter: brightness(1.2) contrast(.9) saturate(1.1);
+
+  &:after{
+    background: radial-gradient(#A6B1FF 50%, #342134);
+    mix-blend-mode: multiply;
+    opacity: .5;
+  }
+}
