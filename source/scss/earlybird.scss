@@ -1,0 +1,17 @@
+/*
+ *
+ * Earlybird
+ *
+ */
+@import 'shared';
+
+%earlybird,
+.earlybird {
+  @extend %filter-base;
+  filter: contrast(.9) sepia(.2);
+
+  &:after{
+    background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
+  mix-blend-mode: overlay;
+  }
+}

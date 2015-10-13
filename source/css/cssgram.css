@@ -1,6 +1,6 @@
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -14,9 +14,9 @@
  * Aden
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -26,8 +26,8 @@
     position: absolute; }
 
 .aden {
-  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2);
-          filter: hue-rotate(-20deg) contrast(.9) saturate(85%) brightness(1.2); }
+  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
+          filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2); }
   .aden:after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
@@ -39,17 +39,17 @@
  *
  */
 .inkwell {
-  -webkit-filter: sepia(30%) contrast(1.2) brightness(1.1) grayscale(1);
-          filter: sepia(30%) contrast(1.2) brightness(1.1) grayscale(1); }
+  -webkit-filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1);
+          filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1); }
 
 /*
  *
  * Perpetua
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -59,8 +59,8 @@
     position: absolute; }
 
 .perpetua:after {
-  background: -webkit-linear-gradient(top, #005B9A, #E6C13D);
-  background: linear-gradient(to bottom, #005B9A, #E6C13D);
+  background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
+  background: linear-gradient(to bottom, #005b9a, #e6c13d);
   mix-blend-mode: soft-light;
   opacity: .5; }
 
@@ -69,9 +69,9 @@
  * Reyes
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -81,10 +81,10 @@
     position: absolute; }
 
 .reyes {
-  -webkit-filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75);
-          filter: sepia(22%) brightness(1.1) contrast(.85) saturate(0.75); }
+  -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
+          filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75); }
   .reyes:after {
-    background: #EFCDAD;
+    background: #efcdad;
     mix-blend-mode: soft-light;
     opacity: .5; }
 
@@ -93,9 +93,9 @@
  * Gingham
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -117,9 +117,9 @@
  * Toaster
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -132,8 +132,8 @@
   -webkit-filter: contrast(1.5) brightness(.9);
           filter: contrast(1.5) brightness(.9); }
   .toaster:after {
-    background: -webkit-radial-gradient(circle, #804E0F, #3B003B);
-    background: radial-gradient(circle, #804E0F, #3B003B);
+    background: -webkit-radial-gradient(circle, #804e0f, #3b003b);
+    background: radial-gradient(circle, #804e0f, #3b003b);
     mix-blend-mode: screen; }
 
 /*
@@ -141,9 +141,9 @@
  * Walden
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -153,8 +153,8 @@
     position: absolute; }
 
 .walden {
-  -webkit-filter: brightness(110%) hue-rotate(-10deg) sepia(30%) saturate(1.6);
-          filter: brightness(110%) hue-rotate(-10deg) sepia(30%) saturate(1.6); }
+  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
+          filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6); }
   .walden:after {
     background: #04c;
     mix-blend-mode: screen;
@@ -165,9 +165,9 @@
  * Hudson
  *
  */
-.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson {
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
   position: relative; }
-  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after {
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
     content: '';
     display: block;
     height: 100%;
@@ -180,7 +180,31 @@
   -webkit-filter: brightness(1.2) contrast(.9) saturate(1.1);
           filter: brightness(1.2) contrast(.9) saturate(1.1); }
   .hudson:after {
-    background: -webkit-radial-gradient(#A6B1FF 50%, #342134);
-    background: radial-gradient(#A6B1FF 50%, #342134);
+    background: -webkit-radial-gradient(#a6b1ff 50%, #342134);
+    background: radial-gradient(#a6b1ff 50%, #342134);
     mix-blend-mode: multiply;
     opacity: .5; }
+
+/*
+ *
+ * Earlybird
+ *
+ */
+.aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird {
+  position: relative; }
+  .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+.earlybird {
+  -webkit-filter: contrast(.9) sepia(.2);
+          filter: contrast(.9) sepia(.2); }
+  .earlybird:after {
+    background: -webkit-radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
+    background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
+    mix-blend-mode: overlay; }

@@ -11,7 +11,7 @@
   filter: sepia(.22) brightness(1.1) contrast(.85) saturate(.75);
 
    &:after{
-    background: #EFCDAD;
+    background: #efcdad;
     mix-blend-mode: soft-light;
     opacity: .5;
   }

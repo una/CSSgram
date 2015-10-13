@@ -18,6 +18,6 @@
   -webkit-filter: contrast(1.5) brightness(.9);
           filter: contrast(1.5) brightness(.9); }
   .toaster:after {
-    background: -webkit-radial-gradient(circle, #804E0F, #3B003B);
-    background: radial-gradient(circle, #804E0F, #3B003B);
+    background: -webkit-radial-gradient(circle, #804e0f, #3b003b);
+    background: radial-gradient(circle, #804e0f, #3b003b);
     mix-blend-mode: screen; }
