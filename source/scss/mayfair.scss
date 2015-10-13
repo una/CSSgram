@@ -1,0 +1,18 @@
+/*
+ *
+ * Mayfair
+ *
+ */
+@import 'shared';
+
+%mayfair,
+.mayfair {
+  @extend %filter-base;
+  filter: contrast(1.1) saturate(1.1);
+
+  &:after{
+    background: radial-gradient(circle at 40% 40%, rgba(255,255,255, .8), rgba(255,200,200,.6), #111 60%);
+    mix-blend-mode: overlay;
+    opacity: .4;
+  }
+}
