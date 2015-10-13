@@ -244,7 +244,9 @@ p {
   max-width: 32em; }
 
 ul {
-  width: 100%; }
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 .demo__item {
   margin: 1em;
@@ -252,8 +254,8 @@ ul {
   display: inline-block; }
 
 figure {
-  width: 350px;
-  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
   overflow: hidden;
   position: relative;
   margin: 0;

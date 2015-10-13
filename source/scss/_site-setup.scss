@@ -11,6 +11,8 @@ p {
 
 ul {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .demo {
@@ -22,8 +24,8 @@ ul {
 }
 
 figure {
-  width: 350px;
-  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
   overflow: hidden;
   position: relative;
   margin: 0;

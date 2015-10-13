@@ -3,65 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>CSSGram</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <!-- angular for data-binding -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
   <link rel="stylesheet" href="css/demo-site.min.css">
 </head>
 <body>
-  <h1>CSSGram</h1>
-  <h2>Recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
-  <p>Please note: this is a WIP!</p>
-
-  <section class="how-to-section">
-    <h3>Implementation</h3>
-    <p>Because we are using pseudo-elements (<code>:after</code>) to create filter effects, you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. Read more about the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure tag here.</a></p>
-
-    <p>There are currently 2 ways to consume this library.</p>
-
-    <h3>Use Sass <code>@extends</code></h3>
-
-    <ol>
-      <li>Include <code>scss/cssgram.scss</code> or any individual file (i.e. <code>scss/aden.scss</code>) into your Sass manifest</li>
-      <li>Extend the silent placeholder selector <code>@extend %aden;</code> in your element.</li>
-    </ol>
-
-    <p>For example:</p>
-
-    <pre><code>
-      &lt;!-- HTML --&gt;
-      &lt;figure class="viz--beautiful"&gt;
-        &lt;img src="../img.png" alt=""&gt;
-      &lt;/figure&gt;
-    </code></pre>
-
-    <pre><code>
-      // Sass
-      .viz--beautiful {
-        @extend %aden;
-      }
-    </code></pre>
-
-    <h3 id="use-css-classes">Use CSS classes</h3>
-
-    <ol>
-      <li>Link to the cssgram library: <code>&lt;link rel="stylesheet" href="css/cssgram.min.css"&gt;</code> or any individual css file (i.e. <code>&lt;link rel="stylesheet" href="css/aden.min.css"&gt;</code>)</li>
-      <li>Add a class to your image element with the name of the filter you would like to use</li>
-    </ol>
-
-    <p>For example:</p>
-
-    <pre><code>
-      &lt;!-- HTML --&gt;
-      &lt;figure class="aden"&gt;
-        &lt;img src="../img.png" alt=""&gt;
-      &lt;/figure&gt;
-    </code></pre>
-
-  </section>
+  <h1 class="title--top-head">CSSGram (WIP!)</h1>
+  <h2 class="title--top-sub">Recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
 
   <div ng-app="imgLoader" ng-controller="imgCtrl">
     <section class="demo__section">
-      <p>Hovering over any of these images will remove the filter effect.</p>
+      <p>Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</p>
       <label for="input-img">Try out your own photo:</label>
       <input class="input-img" type="text" ng-model="defaultImg">
       <ul class="demo__list">
@@ -132,6 +85,53 @@
           </figure>
         </li>
       </ul>
+    </section>
+
+    <section class="how-to-section">
+      <h2>Usage</h2>
+      <p>Because we are using pseudo-elements (<code>:after</code>) to create filter effects, you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. Read more about the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure tag here.</a></p>
+
+      <p>There are currently 2 ways to consume this library.</p>
+
+      <h3>Use Sass <code>@extends</code></h3>
+
+      <ol>
+        <li>Include <code>scss/cssgram.scss</code> or any individual file (i.e. <code>scss/aden.scss</code>) into your Sass manifest</li>
+        <li>Extend the silent placeholder selector <code>@extend %aden;</code> in your element.</li>
+      </ol>
+
+      <p>For example:</p>
+
+      <pre><code>
+        &lt;!-- HTML --&gt;
+        &lt;figure class="viz--beautiful"&gt;
+          &lt;img src="../img.png" alt=""&gt;
+        &lt;/figure&gt;
+      </code></pre>
+
+      <pre><code>
+        // Sass
+        .viz--beautiful {
+          @extend %aden;
+        }
+      </code></pre>
+
+      <h3 id="use-css-classes">Use CSS classes</h3>
+
+      <ol>
+        <li>Link to the cssgram library: <code>&lt;link rel="stylesheet" href="css/cssgram.min.css"&gt;</code> or any individual css file (i.e. <code>&lt;link rel="stylesheet" href="css/aden.min.css"&gt;</code>)</li>
+        <li>Add a class to your image element with the name of the filter you would like to use</li>
+      </ol>
+
+      <p>For example:</p>
+
+      <pre><code>
+        &lt;!-- HTML --&gt;
+        &lt;figure class="aden"&gt;
+          &lt;img src="../img.png" alt=""&gt;
+        &lt;/figure&gt;
+      </code></pre>
+
     </section>
   </div>
 
