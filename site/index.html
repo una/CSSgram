@@ -10,12 +10,14 @@
 </head>
 <body>
   <h1 class="title--top-head">CSSGram (WIP!)</h1>
-  <h2 class="title--top-sub">Recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
+  <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
+
+  <h2>Examples:</h2>
 
   <div ng-app="imgLoader" ng-controller="imgCtrl">
     <section class="demo__section">
       <p>Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</p>
-      <label for="input-img">Try out your own photo:</label>
+      <label for="input-img">Paste in a link to your own photo:</label>
       <input class="input-img" type="text" ng-model="defaultImg">
       <ul class="demo__list">
         <li class="demo__item">
@@ -86,6 +88,7 @@
         </li>
       </ul>
     </section>
+    </div>
 
     <section class="how-to-section">
       <h2>Usage</h2>
@@ -96,7 +99,8 @@
       <h3>Use Sass <code>@extends</code></h3>
 
       <ol>
-        <li>Include <code>scss/cssgram.scss</code> or any individual file (i.e. <code>scss/aden.scss</code>) into your Sass manifest</li>
+        <li>Download the <a href="https://github.com/una/CSSgram/tree/master/source/scss" download><code>/scss folder contents</code></a></li>
+        <li>Include <a href="https://github.com/una/CSSgram/blob/master/source/scss/cssgram.scss"><code>scss/cssgram.scss</code></a> or any individual file (i.e. <code>scss/aden.scss</code>) into your Sass manifest</li>
         <li>Extend the silent placeholder selector <code>@extend %aden;</code> in your element.</li>
       </ol>
 
@@ -119,7 +123,8 @@
       <h3 id="use-css-classes">Use CSS classes</h3>
 
       <ol>
-        <li>Link to the cssgram library: <code>&lt;link rel="stylesheet" href="css/cssgram.min.css"&gt;</code> or any individual css file (i.e. <code>&lt;link rel="stylesheet" href="css/aden.min.css"&gt;</code>)</li>
+        <li><a href="https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css" download>Download the CSSgram Library</a></li>
+        <li>Link to the cssgram library: <code>&lt;link rel="stylesheet" href="css/vendor/cssgram.min.css"&gt;</code> or any individual css file (i.e. <code>&lt;link rel="stylesheet" href="css/vendor/aden.min.css"&gt;</code>)</li>
         <li>Add a class to your image element with the name of the filter you would like to use</li>
       </ol>
 
@@ -133,7 +138,7 @@
       </code></pre>
 
     </section>
-  </div>
+    <footer>Made with love by <a href="http://twitter.com/una">Una Kravets</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
 
   <script>
     var imgLoader = angular.module('imgLoader',[]);
