@@ -1,18 +1,36 @@
+$dusky-blue: #649CA7;
+$accent: $dusky-blue;
+
+&::selection {
+  background: $accent;
+  color: white;
+}
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   margin: 2em auto;
   max-width: 1200px;
   line-height: 1.5;
-}
-
-p {
-  max-width: 32em;
+  font-size: 1.1em;
 }
 
 ul {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $accent;
+  transition-duration: .5s;
+  border-bottom: .08em solid $accent;
+  padding-bottom: .05em;
+
+  &:hover {
+    color: mix($accent, black, 50%);
+    border-bottom: .08em solid mix($accent, white, 50%);
+  }
 }
 
 .demo {
@@ -59,4 +77,76 @@ img {
 
   width: auto;
   max-width: 100%;
+}
+
+.demo {
+  &__section {
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+
+  &__subtitle {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  &__note {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__input-area {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    margin: 1em auto;
+  }
+
+  &__input-label {
+    text-align: center;
+    color: $accent;
+  }
+
+  &__input-img {
+    width: 16em;
+    font-size: 1em;
+    padding: .5em;
+    border: 2px solid $accent;
+    outline: none;
+    margin: .5em;
+    font-weight: 200;
+
+    &:focus {
+      background: mix(white, $accent, 80%);
+    }
+  }
+}
+
+.title {
+  &--logo {
+    max-width: 400px;
+  }
+
+  &--top-sub {
+    font-weight: 200;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 26em;
+  }
+}
+
+.how-to-section {
+  font-size: 1.2em;
+  max-width: 40em;
+  margin: 0 auto;
+  display: block;
+}
+
+.attribution {
+  padding: 1em;
+  text-align: center;
+
 }
