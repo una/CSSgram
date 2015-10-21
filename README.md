@@ -47,8 +47,12 @@ For example:
 - [x] Reyes
 - [x] Perpetua
 - [x] Inkwell
+- [x] Earlybird
 - [x] Toaster
+- [x] Walden
+- [x] Hudson
 - [x] Gingham
+- [x] Mayfair
 
 ## Contributing
 
@@ -61,9 +65,8 @@ For example:
 
 ## File Structure Outline
 
-- `dist/cssgram.css` contains each of the css classes you can apply to your `<img>` to give it the filter
-- `dist/cssgram.min.scss` is a minified file with each of the filters
-- `scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
-- site is in the gh-pages branch (Note to self, pushing the site subtree is like this: `git subtree push --prefix site origin gh-pages`)
+- `source/css/cssgram.css` contains each of the css classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the
+- `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
+- site is the public facing website
 
 Note: this will also have mixin options and a PostCSS Component.
