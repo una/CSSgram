@@ -1,8 +1,22 @@
 {
   "name": "cssgram",
-  "author": "Una Kravets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {},
+  "author": {
+    "name": "Una Kravets",
+    "email": "una.kravets@gmail.com",
+    "url": "http://una.im"
+  },
+  "license": "MIT",
+  "repository": "http://github.com/una/CSSgram",
+  "keywords": [
+    "cssgram",
+    "filters",
+    "CSS",
+    "library",
+    "photo",
+    "effects"
+  ],
   "devDependencies": {
     "browser-sync": "^2.0.0-rc4",
     "gulp": "^3.8.10",
