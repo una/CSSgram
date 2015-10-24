@@ -249,10 +249,25 @@ body {
   line-height: 1.5;
   font-size: 1.1em; }
 
+pre, code {
+  background: #f4f5f4;
+  border: 2px solid #cad1cc; }
+  pre code, code code {
+    border: none;
+    background: none; }
+
+code {
+  font-family: monospace;
+  padding: 0;
+  padding: .25em; }
+
 ul {
   width: 100%;
   margin: 0;
   padding: 0; }
+
+ul, ol {
+  line-height: 1.8; }
 
 a {
   text-decoration: none;
@@ -332,7 +347,7 @@ img {
     background: #e0ebed; }
 .demo__option-field {
   color: #649CA7;
-  border: 2px dashed lightgrey; }
+  border: 2px dashed #cad1cc; }
 .demo__option {
   -webkit-appearance: none;
   -moz-appearance: none;

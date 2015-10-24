@@ -1,5 +1,7 @@
 $dusky-blue: #649CA7;
-$lightgrey: lightgrey;
+$lightgrey: #cad1cc;
+$midgrey: mix($lightgrey, black, 50%);
+$lightergrey: mix(white, $lightgrey, 80%);
 $accent: $dusky-blue;
 
 &::selection {
@@ -15,10 +17,33 @@ body {
   font-size: 1.1em;
 }
 
+pre, code {
+  background: $lightergrey;
+  border: 2px solid $lightgrey;
+
+  code {
+    border: none;
+    background: none;
+  }
+}
+
+code {
+  font-family: monospace;
+  padding: 0;
+  padding: .25em;
+}
+
+
+
 ul {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+ul,
+ol {
+  line-height: 1.8;
 }
 
 a {
