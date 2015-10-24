@@ -235,11 +235,11 @@
     opacity: .4; }
 
 ::-moz-selection {
-  background: #649CA7;
+  background: #9b1c9b;
   color: white; }
 
 ::selection {
-  background: #649CA7;
+  background: #9b1c9b;
   color: white; }
 
 body {
@@ -250,8 +250,7 @@ body {
   font-size: 1.1em; }
 
 pre, code {
-  background: #f4f5f4;
-  border: 2px solid #cad1cc; }
+  background: #eff1ef; }
   pre code, code code {
     border: none;
     background: none; }
@@ -259,7 +258,11 @@ pre, code {
 code {
   font-family: monospace;
   padding: 0;
-  padding: .25em; }
+  padding: .25em .5em; }
+
+.highlight {
+  color: #c63082;
+  font-weight: 800; }
 
 ul {
   width: 100%;
@@ -271,14 +274,14 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: #649CA7;
+  color: #9b1c9b;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-  border-bottom: .08em solid #649CA7;
+  border-bottom: .08em solid #c63082;
   padding-bottom: .05em; }
-  a:hover {
-    color: #324e53;
-    border-bottom: .08em solid #b1cdd3; }
+  a:hover, a:focus {
+    color: #e297c0;
+    border-bottom: .08em solid #e297c0; }
 
 .demo__item {
   margin: 1em;
@@ -292,10 +295,10 @@ figure {
   position: relative;
   margin: 0;
   padding: 0; }
-  figure:hover {
+  figure:hover, figure:focus {
     -webkit-filter: none !important;
             filter: none !important; }
-  figure:hover:after {
+  figure:hover:after, figure:focus:after {
     background: none !important; }
 
 figcaption {
@@ -303,7 +306,7 @@ figcaption {
   bottom: 1em;
   right: 0;
   padding: .25em 1em .25em .25em;
-  background: black;
+  background: #000;
   color: white;
   font-weight: 200; }
 
@@ -334,19 +337,23 @@ img {
   margin: 1em auto; }
 .demo__input-label {
   text-align: center;
-  color: #649CA7; }
+  color: #9b1c9b; }
 .demo__input-img {
   width: 16em;
   font-size: 1em;
   padding: .5em;
-  border: 2px solid #649CA7;
+  border: 2px solid #9b1c9b;
   outline: none;
   margin: .5em;
-  font-weight: 200; }
+  font-weight: 200;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  .demo__input-img:hover {
+    background: #f5e8f5; }
   .demo__input-img:focus {
-    background: #e0ebed; }
+    background: #e6c6e6; }
 .demo__option-field {
-  color: #649CA7;
+  color: #9b1c9b;
   border: 2px dashed #cad1cc; }
 .demo__option {
   -webkit-appearance: none;

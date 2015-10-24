@@ -1,8 +1,13 @@
 $dusky-blue: #649CA7;
+$maroon: #c63082;
+$purple: #9b1c9b;
 $lightgrey: #cad1cc;
-$midgrey: mix($lightgrey, black, 50%);
-$lightergrey: mix(white, $lightgrey, 80%);
-$accent: $dusky-blue;
+$black: #000;
+$midgrey: mix($lightgrey, $black, 50%);
+$lightergrey: mix(white, $lightgrey, 70%);
+
+$accent: $purple;
+$secondary: $maroon;
 
 &::selection {
   background: $accent;
@@ -19,7 +24,6 @@ body {
 
 pre, code {
   background: $lightergrey;
-  border: 2px solid $lightgrey;
 
   code {
     border: none;
@@ -30,10 +34,13 @@ pre, code {
 code {
   font-family: monospace;
   padding: 0;
-  padding: .25em;
+  padding: .25em .5em;
 }
 
-
+.highlight {
+  color: $secondary;
+  font-weight: 800;
+}
 
 ul {
   width: 100%;
@@ -50,12 +57,13 @@ a {
   text-decoration: none;
   color: $accent;
   transition-duration: .5s;
-  border-bottom: .08em solid $accent;
+  border-bottom: .08em solid $secondary;
   padding-bottom: .05em;
 
-  &:hover {
-    color: mix($accent, black, 50%);
-    border-bottom: .08em solid mix($accent, white, 50%);
+  &:hover,
+  &:focus {
+    color: mix(white, $secondary, 50%);
+    border-bottom: .08em solid mix(white, $secondary, 50%);
   }
 }
 
@@ -75,11 +83,13 @@ figure {
   margin: 0;
   padding: 0;
 
-  &:hover {
+  &:hover,
+  &:focus {
     filter: none !important;
   }
 
-  &:hover:after {
+  &:hover:after,
+  &:focus:after {
     background: none !important;
   }
 }
@@ -89,7 +99,7 @@ figcaption {
   bottom: 1em;
   right: 0;
   padding: .25em 1em .25em .25em;
-  background: black;
+  background: $black;
   color: white;
   font-weight: 200;
 }
@@ -144,9 +154,14 @@ img {
     outline: none;
     margin: .5em;
     font-weight: 200;
+    transition-duration: .25s;
+
+    &:hover {
+      background: mix(white, $accent, 90%);
+    }
 
     &:focus {
-      background: mix(white, $accent, 80%);
+      background: mix(white, $accent, 75%);
     }
   }
 
