@@ -16,7 +16,24 @@
 
   <section class="demo__section" ng-app="imgLoader" ng-controller="imgCtrl">
     <div class="demo__input-area">
-      <label class="demo__input-label" for="demo__input-img">Paste in a link to your own photo:</label>
+
+      <fieldset class="demo__option-field">
+        <legend>Choose a sample image:</legend>
+        <input class="demo__option" id="atx" type="radio" name="shipping" value="img/atx.jpg" ng-model="defaultImg">
+        <label for="atx">
+          <img class="demo__option-img" src="img/atx.jpg" alt="austin image">
+        </label>
+        <input class="demo__option" id="cacti" type="radio" name="shipping" value="img/cacti.jpg" ng-model="defaultImg">
+        <label for="cacti">
+          <img class="demo__option-img" src="img/cacti.jpg" alt="cacti image">
+        </label>
+        <input class="demo__option" id="tahoe" type="radio" name="shipping" value="img/tahoe.jpg" ng-model="defaultImg">
+        <label for="tahoe">
+          <img class="demo__option-img" src="img/tahoe.jpg" alt="tahoe image">
+        </label>
+      </fieldset>
+
+      <label class="demo__input-label" for="demo__input-img">Or paste in a link to your own photo:</label>
       <input class="demo__input-img" type="text" ng-model="defaultImg">
       <small class="demo__note">Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</small>
     </div>
@@ -144,7 +161,7 @@
     var imgLoader = angular.module('imgLoader',[]);
 
     imgLoader.controller('imgCtrl', ['$scope', function($scope) {
-      $scope.defaultImg = './img/atx.jpg';
+      $scope.defaultImg = 'img/atx.jpg';
     }]);
   </script>
 
