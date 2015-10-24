@@ -330,6 +330,19 @@ img {
   font-weight: 200; }
   .demo__input-img:focus {
     background: #e0ebed; }
+.demo__option-field {
+  color: #649CA7;
+  border: 2px dashed lightgrey; }
+.demo__option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  display: inline-block; }
+.demo__option-img {
+  max-width: 150px;
+  height: 150px;
+  display: inline-block;
+  cursor: pointer; }
 
 .title--logo {
   max-width: 400px; }

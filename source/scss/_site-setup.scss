@@ -1,4 +1,5 @@
 $dusky-blue: #649CA7;
+$lightgrey: lightgrey;
 $accent: $dusky-blue;
 
 &::selection {
@@ -122,6 +123,24 @@ img {
     &:focus {
       background: mix(white, $accent, 80%);
     }
+  }
+
+  &__option-field {
+    color: $accent;
+    border: 2px dashed $lightgrey;
+  }
+
+  &__option {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+  }
+
+  &__option-img {
+    max-width: 150px;
+    height: 150px;
+    display: inline-block;
+    cursor: pointer;
   }
 }
 
