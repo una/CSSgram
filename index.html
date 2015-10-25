@@ -7,6 +7,17 @@
   <!-- angular for data-binding -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
   <link rel="stylesheet" href="css/demo-site.min.css">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-36758177-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </head>
 <body>
   <section class="title-section">
@@ -39,10 +50,11 @@
         <label for="lakegeneva">
           <img class="demo__option-img" src="img/lakegeneva.jpg" alt="lake geneva image">
         </label>
+        <br>
+        <label class="demo__input-label" for="demo__input-img">Or paste in a link to your own photo:</label>
+        <input class="demo__input-img" type="text" ng-model="defaultImg">
       </fieldset>
 
-      <label class="demo__input-label" for="demo__input-img">Or paste in a link to your own photo:</label>
-      <input class="demo__input-img" type="text" ng-model="defaultImg">
       <small class="demo__note">Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</small>
     </div>
     <ul class="demo__list">
@@ -115,52 +127,72 @@
     </ul>
   </section>
 
+  <section class="explanation-section">
+    <h2>What is This?</h2>
+
+    <p><strong class="callout">For more CSS Image Effects, you can check out my blog series <a href="http://una.im">here</a>, or watch my <a href="https://www.youtube.com/watch?v=LY65F2e4B5w">video</a> from CSS Conf EU, which gives a baseline on blend modes and filters.</strong></p>
+
+    <p>Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we're doing here is adding filters to the images as well as applying color and/or gradient overlways via various blending techniques to mimick these effects. This means <em>less manual image processing</em> and more fun filter effects on the web!</p>
+
+    <p>We are using pseudo-elements (i.e. <code>:after</code>) to create the filter effects, so you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. More about the tag <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">here.</a></p>
+  <hr>
+  </section>
+
   <section class="how-to-section">
     <h2>Usage</h2>
-    <p>Because we are using pseudo-elements (<code>:after</code>) to create filter effects, you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. Read more about the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure tag here.</a></p>
 
-    <p>There are currently 2 ways to consume this library.</p>
-
-    <h3>Use Sass <code>@extends</code></h3>
-
-    <ol>
-      <li>Download the <a href="https://github.com/una/CSSgram/tree/master/source/scss" download><code>/scss folder contents</code></a></li>
-      <li>Include <a href="https://github.com/una/CSSgram/blob/master/source/scss/cssgram.scss"><code>scss/cssgram.scss</code></a> or any individual file (i.e. <code>scss/aden.scss</code>) into your Sass manifest</li>
-      <li>Extend the silent placeholder selector <code>@extend %aden;</code> in your element.</li>
-    </ol>
-
-    <p>For example:</p>
-
-    <pre><code>
-      &lt;!-- HTML --&gt;
-      &lt;figure class=<span class="highlight">"viz--beautiful"</span>&gt;
-        &lt;img src="../img.png" alt=""&gt;
-      &lt;/figure&gt;
-    </code></pre>
-
-    <pre><code>
-      // Sass
-      <span class="highlight">.viz--beautiful</span> {
-        @extend %aden;
-      }
-    </code></pre>
+    <p><strong>There are currently 2 ways to consume this library:</strong></p>
 
     <h3 id="use-css-classes">Use CSS classes</h3>
 
+    <p>When using CSS classes, you can simply add the class with the filter name to the element containing your image.</p>
+
     <ol>
       <li><a href="https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css" download>Download the CSSgram Library</a></li>
-      <li>Link to the cssgram library: <code>&lt;link rel="stylesheet" href="css/vendor/cssgram.min.css"&gt;</code> or any individual css file (i.e. <code>&lt;link rel="stylesheet" href="css/vendor/aden.min.css"&gt;</code>)</li>
+      <li>Link to the cssgram library within your project: <br><code>&lt;link rel="stylesheet" href="css/vendor/cssgram.min.css"&gt;</code></li>
       <li>Add a class to your image element with the name of the filter you would like to use</li>
     </ol>
 
     <p>For example:</p>
 
     <pre><code>
-      &lt;!-- HTML --&gt;
+      <span class="comment">&lt;!-- HTML --&gt;</span>
       &lt;figure <span class="highlight">class="aden"</span>&gt;
         &lt;img src="../img.png" alt=""&gt;
       &lt;/figure&gt;
     </code></pre>
+
+    <small>Alternatively, you can just download and link to any individual css file: <br> <code>&lt;link rel="stylesheet" href="css/vendor/aden.min.css"&gt;</code>, if you're just using one of the styles.</li></small>
+
+    <hr>
+
+    <h3>Use Sass <code>@extends</code></h3>
+
+    <p>If you use custom naming in your CSS architecture, you can add the .scss files for the provided styles within your project and then <code>@extend</code> the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.</p>
+
+    <ol>
+      <li><a href="https://github.com/una/CSSgram/tree/master/source/scss" download>Download the /scss folder contents</a></li>
+      <li>Include a link to <code>scss/cssgram.scss</code> via an import statement in your Sass manifest file (i.e. <code>main.scss</code>). It may look like: <code>@import 'vendor/cssgram';</code></li>
+      <li>Extend the silent placeholder selector <code>@extend %aden;</code> in your element.</li>
+    </ol>
+
+    <p>For example:</p>
+
+    <pre><code>
+      <span class="comment">&lt;!-- HTML --&gt;</span>
+      &lt;figure class=<span class="highlight">"viz--beautiful"</span>&gt;
+        &lt;img src="../img.png" alt=""&gt;
+      &lt;/figure&gt;
+    </code></pre>
+
+    <pre><code>
+      <span class="comment">// Sass</span>
+      <span class="highlight">.viz--beautiful</span> {
+        @extend %aden;
+      }
+    </code></pre>
+
+    <small>Alternatively, you can just download and link any individual .scss file in your Sass manifest: <br> (i.e. <code>scss/aden.scss</code>), if you're just using one of the styles.</li></small>
 
   </section>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una Kravets</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
