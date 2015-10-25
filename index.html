@@ -60,68 +60,74 @@
     <ul class="demo__list">
       <li class="demo__item">
         <figure>
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>#nofilter</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="aden">
-          <img class="" src="{{defaultImg}}" alt="">
+          <img class="" src="{{defaultImg}}">
           <figcaption>Aden</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="reyes">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Reyes</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="perpetua">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Perpetua</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="inkwell">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Inkwell</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="earlybird">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Earlybird</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="toaster">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Toaster</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="walden">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Walden</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="hudson">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Hudson</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="gingham">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Gingham</figcaption>
         </figure>
       </li>
       <li class="demo__item">
         <figure class="mayfair">
-          <img src="{{defaultImg}}" alt="">
+          <img src="{{defaultImg}}">
           <figcaption>Mayfair</figcaption>
+        </figure>
+      </li>
+      <li class="demo__item">
+        <figure class="lofi">
+          <img src="{{defaultImg}}">
+          <figcaption>Lo-fi</figcaption>
         </figure>
       </li>
     </ul>
@@ -158,11 +164,26 @@
     <pre><code>
       <span class="comment">&lt;!-- HTML --&gt;</span>
       &lt;figure <span class="highlight">class="aden"</span>&gt;
-        &lt;img src="../img.png" alt=""&gt;
+        &lt;img src="../img.png"&gt;
       &lt;/figure&gt;
     </code></pre>
 
     <small>Alternatively, you can just download and link to any individual css file: <br> <code>&lt;link rel="stylesheet" href="css/vendor/aden.min.css"&gt;</code>, if you're just using one of the styles.</li></small>
+
+    <h3>Available Classes</h3>
+    <small><em>For use in HTML markup:</em></small>
+    <ul class="available-classes">
+      <li>Aden: <code>class="aden"</code></li>
+      <li>Reyes: <code>class="reyes"</code></li>
+      <li>Perpetua: <code>class="perpetua"</code></li>
+      <li>Inkwell: <code>class="inkwell"</code></li>
+      <li>Toaster: <code>class="toaster"</code></li>
+      <li>Walden: <code>class="walden"</code></li>
+      <li>Hudson: <code>class="hudson"</code></li>
+      <li>Gingham: <code>class="gingham"</code></li>
+      <li>Mayfair: <code>class="mayfar"</code></li>
+      <li>Lo-fi: <code>class="lofi"</code></li>
+    </ul>
 
     <hr>
 
@@ -181,7 +202,7 @@
     <pre><code>
       <span class="comment">&lt;!-- HTML --&gt;</span>
       &lt;figure class=<span class="highlight">"viz--beautiful"</span>&gt;
-        &lt;img src="../img.png" alt=""&gt;
+        &lt;img src="../img.png"&gt;
       &lt;/figure&gt;
     </code></pre>
 
@@ -193,6 +214,21 @@
     </code></pre>
 
     <small>Alternatively, you can just download and link any individual .scss file in your Sass manifest: <br> (i.e. <code>scss/aden.scss</code>), if you're just using one of the styles.</li></small>
+
+    <h3>Available Extends</h3>
+    <small><em>For use in Sass elements:</em></small>
+    <ul class="available-classes">
+      <li>Aden: <code>@extend %aden;</code></li>
+      <li>Reyes: <code>@extend %reyes;</code></li>
+      <li>Perpetua: <code>@extend %perpetua;</code></li>
+      <li>Inkwell: <code>@extend %inkwell;</code></li>
+      <li>Toaster: <code>@extend %toaster;</code></li>
+      <li>Walden: <code>@extend %walden;</code></li>
+      <li>Hudson: <code>@extend %hudson;</code></li>
+      <li>Gingham: <code>@extend %gingham;</code></li>
+      <li>Mayfair: <code>@extend %mayfar;</code></li>
+      <li>Lo-fi: <code>@extend %lofi;</code></li>
+    </ul>
   <hr>
   </section>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
