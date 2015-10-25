@@ -285,8 +285,8 @@ ul, ol {
 a {
   text-decoration: none;
   color: #9b1c9b;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
+  -webkit-transition-duration: .35s;
+          transition-duration: .35s;
   border-bottom: 1px solid #c63082;
   padding-bottom: .05em; }
   a:hover, a:focus {
@@ -299,12 +299,17 @@ figure {
   overflow: hidden;
   position: relative;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-transition-duration: .35s;
+          transition-duration: .35s; }
   figure:hover, figure:focus {
     -webkit-filter: none !important;
             filter: none !important; }
+  figure:after {
+    -webkit-transition-duration: .35s;
+            transition-duration: .35s; }
   figure:hover:after, figure:focus:after {
-    background: none !important; }
+    opacity: 0 !important; }
 
 figcaption {
   position: absolute;
@@ -333,10 +338,6 @@ img {
 .demo__section {
   font-weight: 300;
   font-size: 1.2em; }
-.demo__item {
-  margin: 1em;
-  list-style: none;
-  display: inline-block; }
 .demo__subtitle {
   font-size: 2em;
   text-align: center; }
@@ -362,8 +363,8 @@ img {
   outline: none;
   margin: .5em;
   font-weight: 200;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s; }
+  -webkit-transition-duration: .35s;
+          transition-duration: .35s; }
   .demo__input-img:hover {
     background: #f5e8f5; }
   .demo__input-img:focus {
@@ -381,6 +382,22 @@ img {
   height: 150px;
   display: inline-block;
   cursor: pointer; }
+.demo__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+.demo__item {
+  margin: 1em;
+  list-style: none; }
 
 .title--logo {
   max-width: 400px; }

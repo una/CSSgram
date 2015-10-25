@@ -1,3 +1,5 @@
+//  VARS
+
 $dusky-blue: #649CA7;
 $maroon: #c63082;
 $purple: #9b1c9b;
@@ -8,6 +10,31 @@ $lightergrey: mix(white, $lightgrey, 70%);
 
 $accent: $purple;
 $secondary: $maroon;
+
+//  MIXINS
+
+// Grid Mixin
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 500px) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (max-width: 768px) { @content; }
+  }
+
+  @else if $class == md {
+    @media (max-width: 992px) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (max-width: 1240px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
 
 &::selection {
   background: $accent;
@@ -71,7 +98,7 @@ ol {
 a {
   text-decoration: none;
   color: $accent;
-  transition-duration: .5s;
+  transition-duration: .35s;
   border-bottom: 1px solid $secondary;
   padding-bottom: .05em;
 
@@ -89,15 +116,20 @@ figure {
   position: relative;
   margin: 0;
   padding: 0;
+  transition-duration: .35s;
 
   &:hover,
   &:focus {
     filter: none !important;
   }
 
+  &:after {
+    transition-duration: .35s;
+  }
+
   &:hover:after,
   &:focus:after {
-    background: none !important;
+    opacity: 0 !important;
   }
 }
 
@@ -136,12 +168,6 @@ img {
     font-size: 1.2em;
   }
 
-  &__item {
-    margin: 1em;
-    list-style: none;
-    display: inline-block;
-  }
-
   &__subtitle {
     font-size: 2em;
     text-align: center;
@@ -175,7 +201,7 @@ img {
     outline: none;
     margin: .5em;
     font-weight: 200;
-    transition-duration: .25s;
+    transition-duration: .35s;
 
     &:hover {
       background: mix(white, $accent, 90%);
@@ -202,6 +228,18 @@ img {
     height: 150px;
     display: inline-block;
     cursor: pointer;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin: 1em;
+    list-style: none;
   }
 }
 
@@ -241,3 +279,4 @@ img {
   font-weight: 200;
   float: right;
 }
+
