@@ -1,0 +1,17 @@
+/*
+ *
+ * Brooklyn
+ *
+ */
+@import 'shared';
+
+%brooklyn,
+.brooklyn {
+  @extend %filter-base;
+  filter: contrast(.9) brightness(1.1);
+
+  &:after{
+    background: radial-gradient(circle,rgba(168, 223, 193, .4) 70%, rgb(196, 183, 200));
+    mix-blend-mode: overlay;
+  }
+}
