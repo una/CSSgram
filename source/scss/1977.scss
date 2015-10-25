@@ -1,0 +1,16 @@
+/*
+ *Lo-fi
+ *
+ */
+@import 'shared';
+
+%_1977,
+._1977 {
+  @extend %filter-base;
+  filter: contrast(1.1) brightness(1.1) saturate(1.3);
+
+  &:after{
+    background: rgba(243, 106, 188, .3);
+    mix-blend-mode: screen;
+  }
+}
