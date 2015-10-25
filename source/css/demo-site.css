@@ -244,10 +244,17 @@
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  margin: 2em auto;
+  margin: 0 auto;
+  padding: 0 1em;
   max-width: 1200px;
   line-height: 1.5;
   font-size: 1.1em; }
+
+h1, h2 {
+  color: #9b1c9b; }
+
+h3, em {
+  color: #c63082; }
 
 pre, code {
   background: #eff1ef; }
@@ -264,6 +271,9 @@ code {
   color: #c63082;
   font-weight: 800; }
 
+.comment {
+  color: #abb1ad; }
+
 ul {
   width: 100%;
   margin: 0;
@@ -277,16 +287,11 @@ a {
   color: #9b1c9b;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-  border-bottom: .08em solid #c63082;
+  border-bottom: 1px solid #c63082;
   padding-bottom: .05em; }
   a:hover, a:focus {
     color: #e297c0;
-    border-bottom: .08em solid #e297c0; }
-
-.demo__item {
-  margin: 1em;
-  list-style: none;
-  display: inline-block; }
+    border-color: #e297c0; }
 
 figure {
   max-width: 350px;
@@ -310,6 +315,13 @@ figcaption {
   color: white;
   font-weight: 200; }
 
+hr {
+  clear: both;
+  float: none;
+  border: 1px solid #eff1ef;
+  margin: 2em auto;
+  display: block; }
+
 img {
   display: block;
   margin: auto;
@@ -321,6 +333,10 @@ img {
 .demo__section {
   font-weight: 300;
   font-size: 1.2em; }
+.demo__item {
+  margin: 1em;
+  list-style: none;
+  display: inline-block; }
 .demo__subtitle {
   font-size: 2em;
   text-align: center; }
@@ -328,7 +344,7 @@ img {
   font-style: italic;
   text-align: center;
   display: block;
-  margin: 0 auto; }
+  margin: 2em auto 0; }
 .demo__input-area {
   display: block;
   font-size: 1em;
@@ -354,7 +370,7 @@ img {
     background: #e6c6e6; }
 .demo__option-field {
   color: #9b1c9b;
-  border: 2px dashed #cad1cc; }
+  border: 1px solid #cad1cc; }
 .demo__option {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -374,8 +390,9 @@ img {
   text-align: center;
   max-width: 26em; }
 
-.how-to-section {
+.how-to-section, .explanation-section {
   font-size: 1.2em;
+  font-weight: 300;
   max-width: 40em;
   margin: 0 auto;
   display: block; }
@@ -383,3 +400,12 @@ img {
 .attribution {
   padding: 1em;
   text-align: center; }
+
+.callout {
+  max-width: 14em;
+  background: #eff1ef;
+  padding: 2em;
+  margin: -.5em 2em 0;
+  display: block;
+  font-weight: 200;
+  float: right; }

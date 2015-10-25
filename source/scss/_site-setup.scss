@@ -3,7 +3,7 @@ $maroon: #c63082;
 $purple: #9b1c9b;
 $lightgrey: #cad1cc;
 $black: #000;
-$midgrey: mix($lightgrey, $black, 50%);
+$midgrey: mix($black, $lightgrey, 15%);
 $lightergrey: mix(white, $lightgrey, 70%);
 
 $accent: $purple;
@@ -16,10 +16,21 @@ $secondary: $maroon;
 
 body {
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  margin: 2em auto;
+  margin: 0 auto;
+  padding: 0 1em;
   max-width: 1200px;
   line-height: 1.5;
   font-size: 1.1em;
+}
+
+h1,
+h2 {
+  color: $accent;
+}
+
+h3,
+em {
+  color: $secondary;
 }
 
 pre, code {
@@ -42,6 +53,10 @@ code {
   font-weight: 800;
 }
 
+.comment {
+  color: $midgrey;
+}
+
 ul {
   width: 100%;
   margin: 0;
@@ -57,21 +72,13 @@ a {
   text-decoration: none;
   color: $accent;
   transition-duration: .5s;
-  border-bottom: .08em solid $secondary;
+  border-bottom: 1px solid $secondary;
   padding-bottom: .05em;
 
   &:hover,
   &:focus {
     color: mix(white, $secondary, 50%);
-    border-bottom: .08em solid mix(white, $secondary, 50%);
-  }
-}
-
-.demo {
-  &__item {
-    margin: 1em;
-    list-style: none;
-    display: inline-block;
+    border-color: mix(white, $secondary, 50%);
   }
 }
 
@@ -104,6 +111,14 @@ figcaption {
   font-weight: 200;
 }
 
+hr {
+  clear: both;
+  float: none;
+  border: 1px solid $lightergrey;
+  margin: 2em auto;
+  display: block;
+}
+
 img {
   display: block;
   margin: auto;
@@ -121,6 +136,12 @@ img {
     font-size: 1.2em;
   }
 
+  &__item {
+    margin: 1em;
+    list-style: none;
+    display: inline-block;
+  }
+
   &__subtitle {
     font-size: 2em;
     text-align: center;
@@ -130,7 +151,7 @@ img {
     font-style: italic;
     text-align: center;
     display: block;
-    margin: 0 auto;
+    margin: 2em auto 0;
   }
 
   &__input-area {
@@ -167,7 +188,7 @@ img {
 
   &__option-field {
     color: $accent;
-    border: 2px dashed $lightgrey;
+    border: 1px solid $lightgrey;
   }
 
   &__option {
@@ -197,8 +218,10 @@ img {
   }
 }
 
-.how-to-section {
+.how-to-section,
+.explanation-section {
   font-size: 1.2em;
+  font-weight: 300;
   max-width: 40em;
   margin: 0 auto;
   display: block;
@@ -207,5 +230,14 @@ img {
 .attribution {
   padding: 1em;
   text-align: center;
+}
 
+.callout {
+  max-width: 14em;
+  background: $lightergrey;
+  padding: 2em;
+  margin: -.5em 2em 0;
+  display: block;
+  font-weight: 200;
+  float: right;
 }

@@ -6,6 +6,20 @@ Instagram filter library in Sass and CSS. (This is a WIP)
 
 There are currently 2 ways to consume this library.
 
+### Use CSS classes
+
+1. Link to the cssgram library: `<link rel="stylesheet" href="css/cssgram.min.css">` or any individual css file (i.e. `<link rel="stylesheet" href="css/aden.min.css">`)
+2. Add a class to your image element with the name of the filter you would like to use
+
+For example:
+
+```html
+<!-- HTML -->
+<figure class="aden">
+  <img src="../img.png" alt="">
+</figure>
+```
+
 ### Use Sass `@extends`
 
 1. Include `scss/cssgram.scss` or any individual file (i.e. `scss/aden.scss`) into your Sass manifest
@@ -25,20 +39,6 @@ For example:
 .viz--beautiful {
   @extend %aden;
 }
-```
-
-### Use CSS classes
-
-1. Link to the cssgram library: `<link rel="stylesheet" href="css/cssgram.min.css">` or any individual css file (i.e. `<link rel="stylesheet" href="css/aden.min.css">`)
-2. Add a class to your image element with the name of the filter you would like to use
-
-For example:
-
-```html
-<!-- HTML -->
-<figure class="aden">
-  <img src="../img.png" alt="">
-</figure>
 ```
 
 ## Current Filters
