@@ -11,7 +11,7 @@
   filter: brightness(1.2) contrast(.9) saturate(1.1);
 
   &:after{
-    background: radial-gradient(#a6b1ff 50%, #342134);
+    background: radial-gradient(circle, #a6b1ff 50%, #342134);
     mix-blend-mode: multiply;
     opacity: .5;
   }

@@ -1,0 +1,16 @@
+/*
+ *Lo-fi
+ *
+ */
+@import 'shared';
+
+%lofi,
+.lofi {
+  @extend %filter-base;
+  filter: saturate(1.1) contrast(1.5);
+
+  &:after{
+    background: radial-gradient(circle, transparent 70%, #222 150%);
+    mix-blend-mode: multiply;
+  }
+}
