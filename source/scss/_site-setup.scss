@@ -333,7 +333,7 @@ img {
 }
 
 .attribution {
-  padding: 1em 0 2em;
+  padding: 1em 0 4em;
   text-align: center;
 }
 
@@ -354,3 +354,7 @@ img {
   }
 }
 
+.available-classes,
+.available-extends {
+  columns: 15em 2;
+}

@@ -489,7 +489,7 @@ img {
   display: block; }
 
 .attribution {
-  padding: 1em 0 2em;
+  padding: 1em 0 4em;
   text-align: center; }
 
 .callout {
@@ -506,3 +506,8 @@ img {
       margin: 1em auto;
       float: none;
       font-size: .8em; } }
+
+.available-classes, .available-extends {
+  -webkit-columns: 15em 2;
+     -moz-columns: 15em 2;
+          columns: 15em 2; }
