@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .aden, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
   position: relative; }
   .aden:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
@@ -577,7 +578,17 @@ img {
       float: none;
       font-size: .8em; } }
 
-.available-classes, .available-extends {
+.available-classes, .available-extends, .supported-browsers {
   -webkit-columns: 15em 2;
      -moz-columns: 15em 2;
           columns: 15em 2; }
+
+.supported:after {
+  content: '✔';
+  color: #62B859;
+  margin-left: .5em; }
+
+.not-supported:after {
+  content: '✘';
+  color: #c63082;
+  margin-left: .5em; }
