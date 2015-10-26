@@ -1,10 +1,10 @@
 # CSSgram
 
-Instagram filter library in Sass and CSS. (This is a WIP)
+Instagram filter library in Sass and CSS.
 
 ## Usage
 
-There are currently 2 ways to consume this library.
+There are currently 2 ways to consume this library:
 
 ### Use CSS classes
 
@@ -53,6 +53,10 @@ For example:
 - [x] Hudson
 - [x] Gingham
 - [x] Mayfair
+- [x] Lo-fi
+- [x] X Pro II
+- [x] 1977
+- [x] Brooklyn
 
 ## Browser Support
 
