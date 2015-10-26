@@ -5,6 +5,7 @@ $maroon: #c63082;
 $purple: #9b1c9b;
 $lightgrey: #cad1cc;
 $black: #000;
+$green: #62B859;
 $midgrey: mix($black, $lightgrey, 15%);
 $lightergrey: mix(white, $lightgrey, 70%);
 
@@ -355,6 +356,23 @@ img {
 }
 
 .available-classes,
-.available-extends {
+.available-extends,
+.supported-browsers {
   columns: 15em 2;
+}
+
+.supported {
+  &:after {
+    content: '✔';
+    color: $green;
+    margin-left: .5em;
+  }
+}
+
+.not-supported {
+  &:after {
+    content: '✘';
+    color: $maroon;
+    margin-left: .5em;
+  }
 }
