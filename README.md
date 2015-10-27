@@ -57,6 +57,7 @@ For example:
 - [x] X Pro II
 - [x] 1977
 - [x] Brooklyn
+- [x] Crema
 
 ## Browser Support
 
