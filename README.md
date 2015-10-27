@@ -124,4 +124,4 @@ _For use in Sass elements:_
 - `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
 - site is the public facing website
 
-Note: this will also have mixin options and a PostCSS Component.
+Note: this will also have mix-in options and a PostCSS Component.
