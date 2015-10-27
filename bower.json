@@ -1,0 +1,26 @@
+{
+  "name": "cssgram",
+  "description": "Instagram filter library in Sass and CSS.",
+  "main": "",
+  "authors": [
+    "Una Kravets"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cssgram",
+    "filters",
+    "CSS",
+    "library",
+    "photo",
+    "effects"
+  ],
+  "homepage": "http://una.im/CSSgram/",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
