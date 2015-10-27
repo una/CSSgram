@@ -498,12 +498,6 @@ img {
   color: #9b1c9b;
   border: 1px solid #cad1cc;
   min-width: 200px; }
-.demo__option {
-  -khtml-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  display: inline-block; }
 .demo__option-img {
   max-width: 150px;
   height: 150px;
