@@ -110,7 +110,7 @@ _For use in Sass elements:_
 
 ## Contributing
 
-1. Create an [issue](https://github.com/una/CSSgram/issues)
+1. ~~Create an [issue](https://github.com/una/CSSgram/issues)~~ *Issues temporarily shut down due to a spam attack*
 1. Fork this repo
 2. Clone the fork onto your system
 3. `npm install` dependancies (must have Node installed)
