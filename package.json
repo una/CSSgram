@@ -1,6 +1,7 @@
 {
   "name": "cssgram",
   "version": "0.1.2",
+  "style": "source/css/cssgram.css",
   "dependencies": {},
   "author": {
     "name": "Una Kravets",
