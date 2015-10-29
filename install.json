@@ -1,0 +1,80 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "style",
+        "src": "./source/css/cssgram.css"
+      },
+      {
+        "type": "script",
+        "src": "./install/helper.js"
+      }
+    ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["*"],
+        "execute": "CSSGramInstall.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "regions": {
+        "title": "Images to Style",
+        "order": 1,
+        "type": "array",
+        "items": {
+          "title": "Image or Images",
+          "type": "object",
+          "properties": {
+            "location": {
+              "title": "Location",
+              "description": "Select the region which contains your image or images",
+              "type": "string",
+              "format": "selector",
+              "order": 1
+            },
+            "filter": {
+              "title": "Filter",
+              "type": "string",
+              "order": 2,
+              "default": "lofi",
+              "enum": [
+                "aden",
+                "reyes",
+                "perpetua",
+                "inkwell",
+                "toaster",
+                "walden",
+                "hudson",
+                "gingham",
+                "mayfair",
+                "lofi",
+                "xpro2",
+                "_1977",
+                "brooklyn"
+              ],
+              "enumNames": {
+                "aden": "Aden",
+                "reyes": "Reyes",
+                "perpetua": "Perpetua",
+                "inkwell": "Inkwell",
+                "toaster": "Toaster",
+                "walden": "Walden",
+                "hudson": "Hudson",
+                "gingham": "Gingham",
+                "mayfair": "Mayfair",
+                "lofi": "Lo-fi",
+                "xpro2": "X-Pro II",
+                "_1977": "1977",
+                "brooklyn": "Brooklyn"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
