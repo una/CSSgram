@@ -118,6 +118,22 @@ _For use in Sass elements:_
 5. Make changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
+If you'd like to contribute, the following filters are yet to be added (again, listing them here because issues but are temporarily closed):
+
+- [ ] Charmes
+- [ ] Stinsen
+- [ ] Kelvin
+- [ ] Sutro
+- [ ] Nashville
+- [ ] Hefe
+- [ ] Valencia
+- [ ] Rise
+- [ ] Sierra
+- [ ] Amaro
+- [ ] Crema
+
+Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
+
 ## File Structure Outline
 
 - `source/css/cssgram.css` contains each of the css classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the
