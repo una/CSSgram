@@ -22,25 +22,24 @@
   "options": {
     "properties": {
       "regions": {
-        "title": "Images to Style",
+        "title": "Sets of images to filter",
         "order": 1,
         "type": "array",
         "items": {
-          "title": "Image or Images",
+          "notitle": true,
           "type": "object",
           "properties": {
             "location": {
+              "order": 1,
               "title": "Location",
-              "description": "Select the region which contains your image or images",
+              "description": "Select the part of your page which contains the image or images you’d like to filter.",
               "type": "string",
-              "format": "selector",
-              "order": 1
+              "format": "selector"
             },
             "filter": {
+              "order": 2,
               "title": "Filter",
               "type": "string",
-              "order": 2,
-              "default": "lofi",
               "enum": [
                 "aden",
                 "reyes",
@@ -70,10 +69,17 @@
                 "xpro2": "X-Pro II",
                 "_1977": "1977",
                 "brooklyn": "Brooklyn"
-              }
+              },
+              "default": "aden"
             }
           }
-        }
+        },
+        "default": [
+          {
+            "location": "body",
+            "filter": "walden"
+          }
+        ]
       }
     }
   }
