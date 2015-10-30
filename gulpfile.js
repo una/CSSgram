@@ -15,7 +15,8 @@ var gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
-    sassLint    = require('gulp-sass-lint');
+    sassLint    = require('gulp-sass-lint'),
+    twig        = require('gulp-twig');
 
 
 gulp.task('scss', function() {
@@ -64,9 +65,17 @@ gulp.task('sass-lint', function () {
     .pipe(sassLint.failOnError());
 });
 
+gulp.task('twig', function () {
+  gulp.src('source/test/**/*.twig')
+    .pipe(twig())
+    .pipe(gulp.dest('test/'));
+});
+
+
 gulp.task('watch', function() {
   gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
+  gulp.watch('source/test/**/*.twig', ['twig']);
 });
 
 gulp.task('minify-html', function() {
