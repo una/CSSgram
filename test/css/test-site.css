@@ -75,6 +75,11 @@ section {
   padding: 10px;
 }
 
+.test-images figure {
+  margin: 0;
+  padding:0;
+}
+
 .test-images img {
   display: block;
   height: auto;
