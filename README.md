@@ -10,7 +10,7 @@ We are using pseudo-elements (i.e. `:after`) to create the filter effects, so yo
 
 ## Browser Support
 
-This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). This features are supported in the following browsers:
+This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:
 
 | <img src="http://i.imgur.com/dJC1GUv.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/8h3iz5H.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/iQV4nmJ.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/j3tgNKJ.png" width="48px" height="48px" alt="Safari logo"> |
 |:---:|:---:|:---:|:---:|:---:|
@@ -113,7 +113,7 @@ _For use in Sass elements:_
 1. ~~Create an [issue](https://github.com/una/CSSgram/issues)~~ *Issues temporarily shut down due to a spam attack*
 1. Fork this repo
 2. Clone the fork onto your system
-3. `npm install` dependancies (must have Node installed)
+3. `npm install` dependencies (must have Node installed)
 4. Run `gulp` to compile CSS and the site
 5. Make changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
