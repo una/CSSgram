@@ -18,7 +18,7 @@ var gulp        = require('gulp'),
     sassLint    = require('gulp-sass-lint');
 
 
-gulp.task('scss', function() {
+gulp.task('lib-scss', function() {
     var onError = function(err) {
       notify.onError({
           title:    "Gulp",
@@ -39,7 +39,30 @@ gulp.task('scss', function() {
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('source/css'))
+    .pipe(gulp.dest('source/css'));
+});
+
+gulp.task('site-scss', function() {
+    var onError = function(err) {
+      notify.onError({
+          title:    "Gulp",
+          subtitle: "Failure!",
+          message:  "Error: <%= error.message %>",
+          sound:    "Beep"
+      })(err);
+      this.emit('end');
+  };
+
+  return gulp.src('site/scss/**/*.scss')
+    .pipe(plumber({errorHandler: onError}))
+    .pipe(sass())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(prefix())
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}))
+    .pipe(cssmin())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('site/css'));
 });
 
@@ -88,4 +111,4 @@ gulp.task('jshint', function() {
 });
 
 
-gulp.task('default', ['browser-sync', 'minify-html', 'scss', 'watch']);
+gulp.task('default', ['browser-sync', 'minify-html', 'lib-scss', 'site-scss', 'watch']);
