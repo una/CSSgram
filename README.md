@@ -20,7 +20,7 @@ For more information, check on [Can I Use](http://caniuse.com/).
 
 ## Usage
 
-**There are currently 2 ways to consume this library:**
+**There are currently 3 ways to consume this library:**
 
 ### Use CSS classes
 
@@ -60,6 +60,14 @@ _For use in HTML markup:_
 *   X-Pro II: `class="xpro2"`
 *   1977: `class="_1977"`
 *   Brooklyn: `class="brooklyn"`
+
+* * *
+
+### Use [Eager.io](https://eager.io)
+
+You can preview and install CSSgram filters on your site using Eager: [CSSgram Eager App](https://eager.io/app/cssgram/install).
+
+This is a great option if you aren't technical or would like to see a preview of how CSSgram works before installing it.
 
 * * *
 
