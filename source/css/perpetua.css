@@ -12,7 +12,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .perpetua:after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);

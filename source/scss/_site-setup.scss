@@ -132,24 +132,9 @@ figure {
   padding: 0;
   transition-duration: .35s;
 
-  @include breakpoint(lg) {
-    max-width: 300px;
-    max-height: 300px;
-  }
-
   @include breakpoint(md) {
     max-width: 250px;
     max-height: 250px;
-  }
-
-  @include breakpoint(sm) {
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  @include breakpoint(xs) {
-    max-width: 400px;
-    max-height: 400px;
   }
 
   &:hover,
