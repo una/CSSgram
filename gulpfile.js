@@ -89,7 +89,7 @@ gulp.task('sass-lint', function () {
 });
 
 gulp.task('twig', function () {
-  gulp.src('source/test/**/*.twig')
+  gulp.src('test/**/*.twig')
     .pipe(twig())
     .pipe(gulp.dest('test/'));
 });
@@ -98,7 +98,7 @@ gulp.task('twig', function () {
 gulp.task('watch', function() {
   gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
-  gulp.watch('source/test/**/*.twig', ['twig']);
+  gulp.watch('test/**/*.twig', ['twig']);
 });
 
 gulp.task('minify-html', function() {
