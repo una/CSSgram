@@ -11,7 +11,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 ._1977 {
   -webkit-filter: contrast(1.1) brightness(1.1) saturate(1.3);

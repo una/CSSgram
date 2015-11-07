@@ -8,7 +8,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 /*
  *
@@ -24,7 +25,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .aden {
   -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
@@ -57,7 +59,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .perpetua:after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
@@ -79,7 +82,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .reyes {
   -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
@@ -103,7 +107,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .gingham {
   -webkit-filter: brightness(1.05) hue-rotate(-10deg);
@@ -127,7 +132,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .toaster {
   -webkit-filter: contrast(1.5) brightness(.9);
@@ -151,7 +157,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .walden {
   -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
@@ -175,7 +182,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .hudson {
   -webkit-filter: brightness(1.2) contrast(.9) saturate(1.1);
@@ -200,7 +208,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .earlybird {
   -webkit-filter: contrast(.9) sepia(.2);
@@ -224,7 +233,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .mayfair {
   -webkit-filter: contrast(1.1) saturate(1.1);
@@ -248,7 +258,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .lofi {
   -webkit-filter: saturate(1.1) contrast(1.5);
@@ -271,7 +282,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 ._1977 {
   -webkit-filter: contrast(1.1) brightness(1.1) saturate(1.3);
@@ -294,7 +306,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .brooklyn {
   -webkit-filter: contrast(.9) brightness(1.1);
@@ -318,7 +331,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .xpro2 {
   -webkit-filter: sepia(.3);

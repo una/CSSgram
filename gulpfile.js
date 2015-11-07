@@ -19,7 +19,7 @@ var gulp        = require('gulp'),
     twig        = require('gulp-twig');
 
 
-gulp.task('scss', function() {
+gulp.task('lib-scss', function() {
     var onError = function(err) {
       notify.onError({
           title:    "Gulp",
@@ -40,7 +40,30 @@ gulp.task('scss', function() {
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('source/css'))
+    .pipe(gulp.dest('source/css'));
+});
+
+gulp.task('site-scss', function() {
+    var onError = function(err) {
+      notify.onError({
+          title:    "Gulp",
+          subtitle: "Failure!",
+          message:  "Error: <%= error.message %>",
+          sound:    "Beep"
+      })(err);
+      this.emit('end');
+  };
+
+  return gulp.src('site/scss/**/*.scss')
+    .pipe(plumber({errorHandler: onError}))
+    .pipe(sass())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(prefix())
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}))
+    .pipe(cssmin())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('site/css'));
 });
 
@@ -57,7 +80,6 @@ gulp.task('deploy', function () {
         .pipe(deploy());
 });
 
-
 gulp.task('sass-lint', function () {
   gulp.src('scss/**/*.scss')
     .pipe(sassLint())
@@ -66,29 +88,18 @@ gulp.task('sass-lint', function () {
 });
 
 gulp.task('twig', function () {
-  gulp.src('source/test/**/*.twig')
+  gulp.src('site/**/*.twig')
     .pipe(twig())
-    .pipe(gulp.dest('test/'));
+    .pipe(gulp.dest('site/'));
 });
 
 
 gulp.task('watch', function() {
   gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
-  gulp.watch('source/test/**/*.twig', ['twig']);
+  gulp.watch('site/**/*.twig', ['twig']);
 });
 
-gulp.task('minify-html', function() {
-    var opts = {
-      comments:true,
-      spare:true
-    };
-
-  gulp.src('./*.html')
-    .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('dist/'))
-    .pipe(reload({stream:true}));
-});
 
 gulp.task('jshint', function() {
   gulp.src('js/*.js')
@@ -96,5 +107,4 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-
-gulp.task('default', ['browser-sync', 'minify-html', 'scss', 'watch']);
+gulp.task('default', ['browser-sync', 'twig', 'lib-scss', 'site-scss', 'watch']);

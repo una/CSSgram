@@ -12,7 +12,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .gingham {
   -webkit-filter: brightness(1.05) hue-rotate(-10deg);

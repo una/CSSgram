@@ -12,7 +12,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .reyes {
   -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
