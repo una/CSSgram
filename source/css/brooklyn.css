@@ -12,7 +12,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none; }
 
 .brooklyn {
   -webkit-filter: contrast(.9) brightness(1.1);
