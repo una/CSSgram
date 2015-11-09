@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="description" content="Testing CSSgram filters"/>
-    <meta name="author" content="Miles Croxford"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="../source/css/cssgram.min.css">
-    <title>CSSgram test sheet</title>
-    <link rel="stylesheet" href="css/test-site.css">
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="Testing CSSgram filters"/>
+  <meta name="author" content="Miles Croxford"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../css/cssgram.min.css">
+  <title>CSSgram test sheet</title>
+  <link rel="stylesheet" href="css/test-site.css">
 </head>
 <body>
 
-{% set filters = [
+  {% set filters = [
     {name: 'aden',       is_done: true},
     {name: 'amaro',      is_done: false},
     {name: 'brannan',    is_done: false},
@@ -35,38 +35,45 @@
     {name: 'valencia',   is_done: false},
     {name: 'willow',     is_done: false},
     {name: 'xpro2',      is_done: true},
-    ] %}
+  ] %}
 
-{% set images = ['atx', 'bike', 'cacti', 'lakegeneva', 'tahoe'] %}
+  {% set images = ['atx', 'bike', 'cacti', 'lakegeneva', 'tahoe'] %}
 
-<header>
+  <header>
     <img class="logo" src="../img/cssgram-logo.svg" alt="CSSgram logo"> <h1 class="blurb"> – Test sheet </h1>
-</header>
+  </header>
 
-{% for f in filters %}
+  {% for f in filters %}
     <section id="{{f.name}}">
-        <h2 class="filter-header"><a href="#{{f.name}}">{{f.name|title}}</a> <span class="done  done--{{f.is_done ? 'yep' : 'nope'}}">{{f.is_done ? '✓' : '✗'}}</span></h2>
-        <div class="headers">
-            <h3>Instagram</h3>
-            <h3>CSSgram</h3>
-        </div>
-    {% for i in images %}
+      <h2 class="filter-header"><a href="#{{f.name}}">{{f.name|title}}</a> <span class="done  done--{{f.is_done ? 'yep' : 'nope'}}">{{f.is_done ? '✓' : '✗'}}</span></h2>
+      
+      <div class="headers">
+        <h3>Instagram</h3>
+        <h3>CSSgram</h3>
+      </div>
+
+      {% for i in images %}
         <section class="test-images">
 
-             {# ig #}
-            <div>
-                <div><img src="ref/{{i}}-{{f.name}}.jpg" alt="Instagram version of {{f.name}}"></div>
-            </div>
+          {# ig #}
+          <div>
+            <figure>
+              <img src="ref/{{i}}-{{f.name}}.jpg" alt="Instagram version of {{f.name}}">
+            </figure>
+          </div>
 
-            {# cssgram #}
-            <div>
-                <div><img src="../img/{{i}}.jpg" class="{{f.name}}" alt="CSSgram version of {{f.name}}"></div>
-            </div>
+          {# cssgram #}
+          <div>
+            <figure class="{{f.name}}">
+              <img src="../img/{{i}}.jpg" alt="CSSgram version of {{f.name}}"></div>
+            </figure>
+          </div>
 
         </section>
-    {% endfor %}
+      {% endfor %}
+
     </section>
-{% endfor %}
+  {% endfor %}
 
 </body>
 </html>

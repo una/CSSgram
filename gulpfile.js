@@ -88,9 +88,9 @@ gulp.task('sass-lint', function () {
 });
 
 gulp.task('twig', function () {
-  gulp.src('site/**/*.twig')
+  gulp.src('site/**/*.twig', {base: './'})
     .pipe(twig())
-    .pipe(gulp.dest('site/'));
+    .pipe(gulp.dest('./'));
 });
 
 

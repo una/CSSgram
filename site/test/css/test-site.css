@@ -1,4 +1,4 @@
-::selection {
+  ::selection {
   background: #9b1c9b;
   color: white;
 }
@@ -54,11 +54,11 @@ section {
 }
 
 .filter-header .done.done--yep{
-  color:#62B859;
+  color: #62B859;
 }
 
 .filter-header .done.done--nope{
-  color:#c63082;
+  color: #c63082;
 }
 
 .headers h3{
@@ -71,13 +71,10 @@ section {
   width: 50%;
 }
 
-.test-images>div>div {
-  padding: 10px;
-}
 
 .test-images figure {
-  margin: 0;
-  padding:0;
+  margin: 10px;
+  padding: 0;
 }
 
 .test-images img {
@@ -85,10 +82,3 @@ section {
   height: auto;
   width: 100%;
 }
-
-/*        img{ height: 250px; width: auto;}
-        .headers { width: 500px; overflow: hidden;  }
-        .headers h2 { float: left; width: 50%; }
-        section { }  
-        section>img {  margin-right: 10px; }
-*/
