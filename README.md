@@ -1,3 +1,5 @@
+![](http://una.im/CSSgram/img/cssgram-logo.png)
+
 # CSSgram
 
 Instagram filter library in Sass and CSS.
@@ -110,12 +112,12 @@ _For use in Sass elements:_
 
 ## Contributing
 
-1. ~~Create an [issue](https://github.com/una/CSSgram/issues)~~ *Issues temporarily shut down due to a spam attack*
+1. Create an [issue](https://github.com/una/CSSgram/issues)
 1. Fork this repo
 2. Clone the fork onto your system
 3. `npm install` dependencies (must have Node installed)
-4. Run `gulp` to compile CSS and the site
-5. Make changes (see file structure outline below)
+4. Run `gulp` to compile CSS and the test site
+5. Make changes and check the test site with your changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
 If you'd like to contribute, the following filters are yet to be added (again, listing them here because issues but are temporarily closed):
