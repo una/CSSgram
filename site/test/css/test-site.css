@@ -1,48 +1,29 @@
-  ::selection {
-  background: #9b1c9b;
-  color: white;
-}
-
-body {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  margin: 0 auto;
-  padding: 0 2em;
+.test-page {
   max-width: 650px;
   line-height: 1.5;
   font-size: 1.1em;
   text-align: center;
 }
 
-h1,
-h2 {
-  color: #9b1c9b;
-
+.test-page a {
+  border-bottom: none;
 }
 
-h3,
-em {
-  color: #c63082;
-}
-
-header {
-  width: 100%
-}
-
-header .logo {
+.test-page .logo {
   display: block;
   float: left;
   height: 100px;
   width: auto;
 }
 
-header .blurb {
+.test-page .blurb {
   display: block;
   float: left;
 
 }
 
-section {
-  display: block; 
+.test-page section {
+  display: block;
   margin-bottom: 10px;
   overflow: hidden;
   width: 100%;
@@ -70,7 +51,6 @@ section {
   float: left;
   width: 50%;
 }
-
 
 .test-images figure {
   margin: 10px;
