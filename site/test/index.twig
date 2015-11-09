@@ -8,9 +8,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="../css/cssgram.min.css">
   <title>CSSgram test sheet</title>
+  <link rel="stylesheet" href="../css/demo-site.min.css">
   <link rel="stylesheet" href="css/test-site.css">
 </head>
-<body>
+<body class="test-page">
 
   {% set filters = [
     {name: 'aden',       is_done: true},
@@ -46,7 +47,7 @@
   {% for f in filters %}
     <section id="{{f.name}}">
       <h2 class="filter-header"><a href="#{{f.name}}">{{f.name|title}}</a> <span class="done  done--{{f.is_done ? 'yep' : 'nope'}}">{{f.is_done ? '✓' : '✗'}}</span></h2>
-      
+
       <div class="headers">
         <h3>Instagram</h3>
         <h3>CSSgram</h3>
@@ -74,6 +75,8 @@
 
     </section>
   {% endfor %}
+
+  <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source and Contribute</a></footer>
 
 </body>
 </html>
