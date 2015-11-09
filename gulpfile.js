@@ -15,7 +15,8 @@ var gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
-    sassLint    = require('gulp-sass-lint');
+    sassLint    = require('gulp-sass-lint'),
+    twig        = require('gulp-twig');
 
 
 gulp.task('lib-scss', function() {
@@ -79,7 +80,6 @@ gulp.task('deploy', function () {
         .pipe(deploy());
 });
 
-
 gulp.task('sass-lint', function () {
   gulp.src('scss/**/*.scss')
     .pipe(sassLint())
@@ -87,22 +87,19 @@ gulp.task('sass-lint', function () {
     .pipe(sassLint.failOnError());
 });
 
+gulp.task('twig', function () {
+  gulp.src('site/**/*.twig', {base: './'})
+    .pipe(twig())
+    .pipe(gulp.dest('./'));
+});
+
+
 gulp.task('watch', function() {
   gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
+  gulp.watch('site/**/*.twig', ['twig']);
 });
 
-gulp.task('minify-html', function() {
-    var opts = {
-      comments:true,
-      spare:true
-    };
-
-  gulp.src('./*.html')
-    .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('dist/'))
-    .pipe(reload({stream:true}));
-});
 
 gulp.task('jshint', function() {
   gulp.src('js/*.js')
@@ -110,5 +107,4 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-
-gulp.task('default', ['browser-sync', 'minify-html', 'lib-scss', 'site-scss', 'watch']);
+gulp.task('default', ['browser-sync', 'twig', 'lib-scss', 'site-scss', 'watch']);

@@ -23,17 +23,16 @@
     <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
   </section>
 
-  
+  {% set images = ['atx', 'bike', 'cacti', 'lakegeneva', 'tahoe'] %}
+
   <section class="demo__section">
     <div class="demo__input-area">
       <fieldset class="demo__option-field">
         <legend>Choose a sample image:</legend>
-                  <img class="demo__option-img" src="img/atx.jpg" alt="atx image">
-                <img class="demo__option-img" src="img/bike.jpg" alt="bike image">
-                <img class="demo__option-img" src="img/cacti.jpg" alt="cacti image">
-                <img class="demo__option-img" src="img/lakegeneva.jpg" alt="lakegeneva image">
-                <img class="demo__option-img" src="img/tahoe.jpg" alt="tahoe image">
-              <br>
+        {% for i in images %}
+          <img class="demo__option-img" src="img/{{i}}.jpg" alt="{{i}} image">
+      {% endfor %}
+        <br>
         <label class="demo__input-label">
           Or paste in a link to your own photo:
           <input class="demo__input-img" type="text">

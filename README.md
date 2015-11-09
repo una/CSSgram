@@ -139,5 +139,6 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `source/css/cssgram.css` contains each of the css classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the
 - `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
 - site is the public facing website
+- site/test is the how you test filters if you're developing, remember to change is_done for the filter you're creating in site/test/index.twig whilst gulp is running.
 
 Note: this will also have mixin options and a PostCSS Component.
