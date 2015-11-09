@@ -1,0 +1,84 @@
+  ::selection {
+  background: #9b1c9b;
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 650px;
+  line-height: 1.5;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #9b1c9b;
+
+}
+
+h3,
+em {
+  color: #c63082;
+}
+
+header {
+  width: 100%
+}
+
+header .logo {
+  display: block;
+  float: left;
+  height: 100px;
+  width: auto;
+}
+
+header .blurb {
+  display: block;
+  float: left;
+
+}
+
+section {
+  display: block; 
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.filter-header a {
+  color: #9b1c9b;
+  text-decoration: none;
+}
+
+.filter-header .done.done--yep{
+  color: #62B859;
+}
+
+.filter-header .done.done--nope{
+  color: #c63082;
+}
+
+.headers h3{
+  float: left;
+  width: 50%;
+}
+
+.test-images>div {
+  float: left;
+  width: 50%;
+}
+
+
+.test-images figure {
+  margin: 10px;
+  padding: 0;
+}
+
+.test-images img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
