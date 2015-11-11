@@ -28,9 +28,8 @@ For more information, check on [Can I Use](http://caniuse.com/).
 
 When using CSS classes, you can simply add the class with the filter name to the element containing your image.
 
-  1. [Download the CSSgram Library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css)
-  * Link to the CSSgram library within your project:
-    `<link rel="stylesheet" href="css/vendor/cssgram.min.css">`
+  1. Include the CDN link in your `<head>` tag: `<link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">`
+  * Alternatively, you can [download the CSSgram Library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) locally and link to the it within your project: `<link rel="stylesheet" href="css/vendor/cssgram.min.css">`
   * Add a class to your image element with the name of the filter you would like to use
 
 For example:
