@@ -5,6 +5,8 @@
  */
 .toaster {
   position: relative; }
+  .toaster img {
+    width: 100%; }
   .toaster:after {
     content: '';
     display: block;

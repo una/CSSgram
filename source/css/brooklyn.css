@@ -5,6 +5,8 @@
  */
 .brooklyn {
   position: relative; }
+  .brooklyn img {
+    width: 100%; }
   .brooklyn:after {
     content: '';
     display: block;

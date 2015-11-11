@@ -5,6 +5,8 @@
  */
 .perpetua {
   position: relative; }
+  .perpetua img {
+    width: 100%; }
   .perpetua:after {
     content: '';
     display: block;

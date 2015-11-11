@@ -4,6 +4,8 @@
  */
 .lofi {
   position: relative; }
+  .lofi img {
+    width: 100%; }
   .lofi:after {
     content: '';
     display: block;

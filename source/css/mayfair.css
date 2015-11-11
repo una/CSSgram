@@ -5,6 +5,8 @@
  */
 .mayfair {
   position: relative; }
+  .mayfair img {
+    width: 100%; }
   .mayfair:after {
     content: '';
     display: block;

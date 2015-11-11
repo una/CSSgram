@@ -1,6 +1,10 @@
 %filter-base {
   position: relative;
 
+  img {
+    width: 100%;
+  }
+
   &:after {
     content: '';
     display: block;

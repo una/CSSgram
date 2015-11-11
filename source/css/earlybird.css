@@ -5,6 +5,8 @@
  */
 .earlybird {
   position: relative; }
+  .earlybird img {
+    width: 100%; }
   .earlybird:after {
     content: '';
     display: block;

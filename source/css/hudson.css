@@ -5,6 +5,8 @@
  */
 .hudson {
   position: relative; }
+  .hudson img {
+    width: 100%; }
   .hudson:after {
     content: '';
     display: block;

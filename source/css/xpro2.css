@@ -5,6 +5,8 @@
  */
 .xpro2 {
   position: relative; }
+  .xpro2 img {
+    width: 100%; }
   .xpro2:after {
     content: '';
     display: block;

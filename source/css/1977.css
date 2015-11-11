@@ -4,6 +4,8 @@
  */
 ._1977 {
   position: relative; }
+  ._1977 img {
+    width: 100%; }
   ._1977:after {
     content: '';
     display: block;

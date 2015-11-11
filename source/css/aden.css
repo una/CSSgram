@@ -5,6 +5,8 @@
  */
 .aden {
   position: relative; }
+  .aden img {
+    width: 100%; }
   .aden:after {
     content: '';
     display: block;

@@ -5,6 +5,8 @@
  */
 .gingham {
   position: relative; }
+  .gingham img {
+    width: 100%; }
   .gingham:after {
     content: '';
     display: block;

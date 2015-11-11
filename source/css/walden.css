@@ -5,6 +5,8 @@
  */
 .walden {
   position: relative; }
+  .walden img {
+    width: 100%; }
   .walden:after {
     content: '';
     display: block;

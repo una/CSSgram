@@ -5,6 +5,8 @@
  */
 .reyes {
   position: relative; }
+  .reyes img {
+    width: 100%; }
   .reyes:after {
     content: '';
     display: block;
