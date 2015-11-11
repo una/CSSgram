@@ -40,7 +40,8 @@ gulp.task('lib-scss', function() {
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('source/css'));
+    .pipe(gulp.dest('source/css'))
+    .pipe(gulp.dest('site/css'));
 });
 
 gulp.task('site-scss', function() {
