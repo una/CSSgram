@@ -1,3 +1,14 @@
+%pseudo-elem {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
 %filter-base {
   position: relative;
 
@@ -6,25 +17,13 @@
     z-index: 1;
   }
 
-  &:after {
-    content: '';
-    z-index: 3;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0; left: 0;
-    position: absolute;
-    pointer-events: none;
+  &:before {
+    @extend %pseudo-elem;
+    z-index: 2;
   }
 
-  &:before {
-    content: '';
-    z-index: 2;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0; left: 0;
-    position: absolute;
-    pointer-events: none;
+  &:after {
+    @extend %pseudo-elem;
+    z-index: 3;
   }
 }

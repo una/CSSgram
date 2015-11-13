@@ -3,31 +3,25 @@
  * Gingham
  *
  */
+.gingham:before, .gingham:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .gingham {
   position: relative; }
   .gingham img {
     width: 100%;
     z-index: 1; }
-  .gingham:after {
-    content: '';
-    z-index: 3;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
   .gingham:before {
-    content: '';
-    z-index: 2;
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 2; }
+  .gingham:after {
+    z-index: 3; }
 
 .gingham {
   -webkit-filter: brightness(1.05) hue-rotate(-10deg);
