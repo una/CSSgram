@@ -5,9 +5,21 @@
 ._1977 {
   position: relative; }
   ._1977 img {
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
   ._1977:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  ._1977:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;

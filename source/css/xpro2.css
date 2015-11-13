@@ -6,9 +6,21 @@
 .xpro2 {
   position: relative; }
   .xpro2 img {
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
   .xpro2:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .xpro2:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;

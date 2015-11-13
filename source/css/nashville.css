@@ -1,14 +1,14 @@
 /*
  *
- * Aden
+ * Nashville
  *
  */
-.aden {
+.nashville {
   position: relative; }
-  .aden img {
+  .nashville img {
     width: 100%;
     z-index: 1; }
-  .aden:after {
+  .nashville:after {
     content: '';
     z-index: 3;
     display: block;
@@ -18,7 +18,7 @@
     left: 0;
     position: absolute;
     pointer-events: none; }
-  .aden:before {
+  .nashville:before {
     content: '';
     z-index: 2;
     display: block;
@@ -29,10 +29,12 @@
     position: absolute;
     pointer-events: none; }
 
-.aden {
-  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
-          filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2); }
-  .aden:after {
-    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
-    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
+.nashville {
+  -webkit-filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2);
+          filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2); }
+  .nashville::after {
+    background: rgba(0, 70, 150, 0.4);
+    mix-blend-mode: lighten; }
+  .nashville::before {
+    background: rgba(247, 176, 153, 0.56);
     mix-blend-mode: darken; }

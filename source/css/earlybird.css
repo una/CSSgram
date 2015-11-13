@@ -6,9 +6,21 @@
 .earlybird {
   position: relative; }
   .earlybird img {
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
   .earlybird:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .earlybird:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;

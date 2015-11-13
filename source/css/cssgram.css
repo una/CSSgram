@@ -1,9 +1,21 @@
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -17,12 +29,24 @@
  * Aden
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -53,12 +77,24 @@
  * Perpetua
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -78,12 +114,24 @@
  * Reyes
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -105,12 +153,24 @@
  * Gingham
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -132,12 +192,24 @@
  * Toaster
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -159,12 +231,24 @@
  * Walden
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -186,12 +270,24 @@
  * Hudson
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -214,12 +310,24 @@
  * Earlybird
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -241,12 +349,24 @@
  * Mayfair
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -268,12 +388,24 @@
  * Lo-fi
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -294,12 +426,24 @@
  * 1977
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -320,12 +464,24 @@
  * Brooklyn
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -347,12 +503,24 @@
  * X-Pro II
  *
  */
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2 {
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img {
-    width: 100%; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after {
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
     content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
     display: block;
     height: 100%;
     width: 100%;
@@ -368,3 +536,44 @@
     background: -webkit-radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%);
     background: radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%);
     mix-blend-mode: color-burn; }
+
+/*
+ *
+ * Nashville
+ *
+ */
+.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville {
+  position: relative; }
+  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img {
+    width: 100%;
+    z-index: 1; }
+  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after {
+    content: '';
+    z-index: 3;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before {
+    content: '';
+    z-index: 2;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none; }
+
+.nashville {
+  -webkit-filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2);
+          filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2); }
+  .nashville::after {
+    background: rgba(0, 70, 150, 0.4);
+    mix-blend-mode: lighten; }
+  .nashville::before {
+    background: rgba(247, 176, 153, 0.56);
+    mix-blend-mode: darken; }
