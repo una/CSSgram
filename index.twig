@@ -132,6 +132,12 @@
           <figcaption>Brooklyn</figcaption>
         </figure>
       </li>
+      <li class="demo__item">
+        <figure class="nashville">
+          <img>
+          <figcaption>Nashville</figcaption>
+        </figure>
+      </li>
     </ul>
   </section>
 
@@ -142,7 +148,7 @@
 
     <p>Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we're doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means <em>less manual image processing</em> and more fun filter effects on the web!</p>
 
-    <p>We are using pseudo-elements (i.e. <code>:after</code>) to create the filter effects, so you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. More about the tag <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">here.</a></p>
+    <p>We are using pseudo-elements (i.e. <code>:before</code> and <code>:after</code>) to create the filter effects, so you must apply these filters on a containing element (i.e. not a content-block like <code>&lt;img&gt;</code>. The recommendation is to wrap your images in a <code>&lt;figure&gt;</code> tag. More about the tag <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">here.</a></p>
 
     <h3>Browser Support</h3>
 
@@ -206,6 +212,7 @@
       <li>X-Pro II: <code>class="xpro2"</code></li>
       <li>1977: <code>class="_1977"</code></li>
       <li>Brooklyn: <code>class="brooklyn"</code></li>
+      <li>Nashville: <code>class="nashville"</code></li>
     </ul>
 
     <hr>
@@ -254,6 +261,7 @@
       <li>X-Pro II: <code>@extend %xpro2;</code></li>
       <li>1977: <code>@extend %_1977;</code></li>
       <li>Brooklyn: <code>@extend %brooklyn;</code></li>
+      <li>Nashville: <code>@extend %nashville;</code></li>
     </ul>
   <hr>
   </section>
