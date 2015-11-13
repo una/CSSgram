@@ -8,10 +8,10 @@
 %earlybird,
 .earlybird {
   @extend %filter-base;
-  filter: contrast(.9) sepia(.2);
+  filter: contrast(0.9) sepia(0.2);
 
-  &:after{
-    background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
+  &::after {
+    background: radial-gradient(circle, rgb(208, 186, 142) 20%, rgb(54, 3, 9) 85%, rgb(29, 2, 16) 100%);
     mix-blend-mode: overlay;
   }
 }

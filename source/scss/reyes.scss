@@ -8,11 +8,11 @@
 %reyes,
 .reyes {
   @extend %filter-base;
-  filter: sepia(.22) brightness(1.1) contrast(.85) saturate(.75);
+  filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75);
 
-   &:after{
-    background: #efcdad;
+   &::after {
+    background: rgb(239, 205, 173);
     mix-blend-mode: soft-light;
-    opacity: .5;
+    opacity: 0.5;
   }
 }
