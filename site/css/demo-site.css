@@ -586,10 +586,7 @@ figure {
   figure:hover, figure:focus {
     -webkit-filter: none !important;
             filter: none !important; }
-  figure:after {
-    -webkit-transition-duration: .35s;
-            transition-duration: .35s; }
-  figure:hover:after, figure:focus:after {
+  figure:hover::after, figure:focus::after, figure:hover::before, figure:focus::before {
     opacity: 0 !important; }
 
 figcaption {
