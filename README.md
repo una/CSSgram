@@ -60,6 +60,7 @@ _For use in HTML markup:_
 *   X-Pro II: `class="xpro2"`
 *   1977: `class="_1977"`
 *   Brooklyn: `class="brooklyn"`
+*   Nashville: `class="nashville"`
 
 * * *
 
@@ -106,6 +107,7 @@ _For use in Sass stylesheets:_
 *   X-Pro II: `@extend %xpro2`
 *   1977: `@extend %_1977`
 *   Brooklyn: `@extend %brooklyn`
+*   Nashville: `@extend %nashville`
 
 ## Contributing
 
@@ -128,7 +130,6 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
 - [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
-- [ ] [Nashville](https://github.com/una/CSSgram/issues/18)
 - [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
 - [ ] [Rise](https://github.com/una/CSSgram/issues/15)

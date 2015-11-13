@@ -118,12 +118,10 @@ figure {
     filter: none !important;
   }
 
-  &:after {
-    transition-duration: .35s;
-  }
-
-  &:hover:after,
-  &:focus:after {
+  &:hover::after,
+  &:focus::after,
+  &:hover::before,
+  &:focus::before {
     opacity: 0 !important;
   }
 }
