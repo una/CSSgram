@@ -1,17 +1,29 @@
+%pseudo-elem {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
 %filter-base {
   position: relative;
 
   img {
     width: 100%;
+    z-index: 1;
+  }
+
+  &:before {
+    @extend %pseudo-elem;
+    z-index: 2;
   }
 
   &:after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    top: 0; left: 0;
-    position: absolute;
-    pointer-events: none;
+    @extend %pseudo-elem;
+    z-index: 3;
   }
 }

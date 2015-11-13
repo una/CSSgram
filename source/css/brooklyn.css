@@ -3,19 +3,25 @@
  * Brooklyn
  *
  */
+.brooklyn:before, .brooklyn:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .brooklyn {
   position: relative; }
   .brooklyn img {
-    width: 100%; }
-  .brooklyn:after {
-    content: '';
-    display: block;
-    height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 1; }
+  .brooklyn:before {
+    z-index: 2; }
+  .brooklyn:after {
+    z-index: 3; }
 
 .brooklyn {
   -webkit-filter: contrast(.9) brightness(1.1);

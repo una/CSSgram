@@ -3,19 +3,25 @@
  * Mayfair
  *
  */
+.mayfair:before, .mayfair:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .mayfair {
   position: relative; }
   .mayfair img {
-    width: 100%; }
-  .mayfair:after {
-    content: '';
-    display: block;
-    height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 1; }
+  .mayfair:before {
+    z-index: 2; }
+  .mayfair:after {
+    z-index: 3; }
 
 .mayfair {
   -webkit-filter: contrast(1.1) saturate(1.1);

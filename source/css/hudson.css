@@ -3,19 +3,25 @@
  * Hudson
  *
  */
+.hudson:before, .hudson:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .hudson {
   position: relative; }
   .hudson img {
-    width: 100%; }
-  .hudson:after {
-    content: '';
-    display: block;
-    height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 1; }
+  .hudson:before {
+    z-index: 2; }
+  .hudson:after {
+    z-index: 3; }
 
 .hudson {
   -webkit-filter: brightness(1.2) contrast(.9) saturate(1.1);

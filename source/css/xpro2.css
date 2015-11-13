@@ -3,19 +3,25 @@
  * X-Pro II
  *
  */
+.xpro2:before, .xpro2:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .xpro2 {
   position: relative; }
   .xpro2 img {
-    width: 100%; }
-  .xpro2:after {
-    content: '';
-    display: block;
-    height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 1; }
+  .xpro2:before {
+    z-index: 2; }
+  .xpro2:after {
+    z-index: 3; }
 
 .xpro2 {
   -webkit-filter: sepia(.3);

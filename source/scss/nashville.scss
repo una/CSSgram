@@ -1,0 +1,22 @@
+/*
+ *
+ * Nashville
+ *
+ */
+@import 'shared';
+
+%nashville,
+.nashville {
+  @extend %filter-base;
+  filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2);
+
+  &::after {
+    background: rgba(0, 70, 150, .4);
+    mix-blend-mode: lighten;
+  }
+
+  &::before {
+    background: rgba(247, 176, 153, .56);
+    mix-blend-mode: darken;
+  }
+}

@@ -3,19 +3,25 @@
  * Aden
  *
  */
+.aden:before, .aden:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
 .aden {
   position: relative; }
   .aden img {
-    width: 100%; }
-  .aden:after {
-    content: '';
-    display: block;
-    height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    pointer-events: none; }
+    z-index: 1; }
+  .aden:before {
+    z-index: 2; }
+  .aden:after {
+    z-index: 3; }
 
 .aden {
   -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
