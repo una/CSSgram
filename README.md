@@ -6,9 +6,9 @@ Instagram filter library in Sass and CSS.
 
 ## What is This?
 
-Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we're doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
+Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we’re doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
 
-We are using pseudo-elements (i.e. `:after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a content-block like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+We are using pseudo-elements (i.e. `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
 
 ## Browser Support
 
@@ -29,7 +29,7 @@ For more information, check on [Can I Use](http://caniuse.com/).
 When using CSS classes, you can simply add the class with the filter name to the element containing your image.
 
   1. Include the CDN link in your `<head>` tag: `<link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">`
-  * Alternatively, you can [download the CSSgram Library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) locally and link to the it within your project: `<link rel="stylesheet" href="css/vendor/cssgram.min.css">`
+  * Alternatively, you can [download the CSSgram library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) locally and link to the it within your project: `<link rel="stylesheet" href="css/vendor/cssgram.min.css">`
   * Add a class to your image element with the name of the filter you would like to use
 
 For example:
@@ -41,8 +41,7 @@ For example:
 </figure>
 ```
 
-Alternatively, you can just download and link to any individual css file:
-`<link rel="stylesheet" href="css/vendor/aden.min.css">`, if you're just using one of the styles.
+Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
 
 ### Available Classes
 
@@ -64,13 +63,13 @@ _For use in HTML markup:_
 
 * * *
 
-### Use Sass `@extends`
+### Use Sass `@extend`
 
-If you use custom naming in your CSS architecture, you can add the .scss files for the provided styles within your project and then `@extend` the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.
+If you use custom naming in your CSS architecture, you can add the `.scss` files for the provided styles within your project and then `@extend` the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.
 
-1. [Download the /scss folder contents](https://github.com/una/CSSgram/tree/master/source/scss)
-* Include a link to `scss/cssgram.scss` via an import statement in your Sass manifest file (i.e. `main.scss`). It may look like: `@import 'vendor/cssgram';`
-* Extend the silent placeholder selector `@extend %aden;` in your element.
+1. [Download the `scss/` folder contents](https://github.com/una/CSSgram/tree/master/source/scss)
+* Include a link to `scss/cssgram.scss` via an `@import` statement in your Sass manifest file (i.e. `main.scss`). It may look like: `@import 'vendor/cssgram'`
+* Extend the placeholder selector (e.g. `@extend %aden`) in your element.
 
 For example:
 
@@ -88,58 +87,62 @@ For example:
 }
 ```
 
-Alternatively, you can just download and link any individual .scss file in your Sass manifest:
-(i.e. `scss/aden.scss`), if you're just using one of the styles.
+Alternatively, you can just download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`), if you're just using one of the styles.
 
-### Available Extends
+### Available Placeholders
 
-_For use in Sass elements:_
+_For use in Sass stylesheets:_
 
-*   Aden: `@extend %aden;`
-*   Reyes: `@extend %reyes;`
-*   Perpetua: `@extend %perpetua;`
-*   Inkwell: `@extend %inkwell;`
-*   Toaster: `@extend %toaster;`
-*   Walden: `@extend %walden;`
-*   Hudson: `@extend %hudson;`
-*   Gingham: `@extend %gingham;`
-*   Mayfair: `@extend %mayfair;`
-*   Lo-fi: `@extend %lofi;`
-*   X-Pro II: `@extend %xpro2;`
-*   1977: `@extend %_1977;`
-*   Brooklyn: `@extend %brooklyn;`
+*   Aden: `@extend %aden`
+*   Reyes: `@extend %reyes`
+*   Perpetua: `@extend %perpetua`
+*   Inkwell: `@extend %inkwell`
+*   Toaster: `@extend %toaster`
+*   Walden: `@extend %walden`
+*   Hudson: `@extend %hudson`
+*   Gingham: `@extend %gingham`
+*   Mayfair: `@extend %mayfair`
+*   Lo-fi: `@extend %lofi`
+*   X-Pro II: `@extend %xpro2`
+*   1977: `@extend %_1977`
+*   Brooklyn: `@extend %brooklyn`
 
 ## Contributing
 
+Either:
+
 1. Create an [issue](https://github.com/una/CSSgram/issues)
-1. Fork this repo
+
+Or:
+
+1. Fork this repository
 2. Clone the fork onto your system
 3. `npm install` dependencies (must have Node installed)
 4. Run `gulp` to compile CSS and the test site
 5. Make changes and check the test site with your changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
-If you'd like to contribute, the following filters are yet to be added (again, listing them here because issues but are temporarily closed):
+If you’d like to contribute, the following filters are yet to be added:
 
-- [ ] Charmes
-- [ ] Stinsen
-- [ ] Kelvin
-- [ ] Sutro
-- [ ] Nashville
-- [ ] Hefe
-- [ ] Valencia
-- [ ] Rise
-- [ ] Sierra
-- [ ] Amaro
-- [ ] Crema
+- [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
+- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
+- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
+- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
+- [ ] [Nashville](https://github.com/una/CSSgram/issues/18)
+- [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
+- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
+- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
+- [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
+- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
 ## File Structure Outline
 
-- `source/css/cssgram.css` contains each of the css classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the
+- `source/css/cssgram.css` contains each of the CSS classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the library
 - `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
-- site is the public facing website
-- site/test is the how you test filters if you're developing, remember to change is_done for the filter you're creating in site/test/index.twig whilst gulp is running.
+- `site/` is the public facing website
+- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/test/index.twig` whilst gulp is running.
 
 Note: this will also have mixin options and a PostCSS Component.
