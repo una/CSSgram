@@ -1,0 +1,16 @@
+/*
+ * Lark
+ *
+ */
+@import 'shared';
+
+%lark,
+.lark {
+  @extend %filter-base;
+  filter: contrast(1.2) brightness(1.1);
+
+  &:before {
+    background: #0c103c;
+    mix-blend-mode: color-dodge;
+  }
+}
