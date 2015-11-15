@@ -61,6 +61,7 @@ _For use in HTML markup:_
 *   1977: `class="_1977"`
 *   Brooklyn: `class="brooklyn"`
 *   Nashville: `class="nashville"`
+*   Lark: `class="lark"`
 
 * * *
 
@@ -108,6 +109,7 @@ _For use in Sass stylesheets:_
 *   1977: `@extend %_1977`
 *   Brooklyn: `@extend %brooklyn`
 *   Nashville: `@extend %nashville`
+*   Lark: `@extend %lark`
 
 ## Contributing
 
