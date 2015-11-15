@@ -7,10 +7,10 @@
 %lark,
 .lark {
   @extend %filter-base;
-  filter: contrast(1.2) brightness(1.1);
+  filter: contrast(0.9);
 
   &:before {
-    background: #0c103c;
+    background: #22253f;
     mix-blend-mode: color-dodge;
   }
 }
