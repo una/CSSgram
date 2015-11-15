@@ -26,8 +26,8 @@
     -webkit-filter: brightness(1.2) contrast(.9) saturate(.9);
     filter: brightness(1.2) contrast(.9) saturate(.9); }
   ._rise:before {
-    background: -webkit-radial-gradient(circle, rgba(236, 205, 169, .2) 55%, #321E07 90%);
-    background: radial-gradient(circle, rgba(236, 205, 169, .2) 55%, #321E07 90%);
+      background: -webkit-radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
+      background: radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
     mix-blend-mode: multiply;
     opacity: .8; }
   ._rise:after {
