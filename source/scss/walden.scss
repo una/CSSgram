@@ -8,11 +8,11 @@
 %walden,
 .walden {
   @extend %filter-base;
-  filter: brightness(1.1) hue-rotate(-10deg) sepia(0.3) saturate(1.6);
+  filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
 
   &::after {
     background: rgb(0, 68, 204);
     mix-blend-mode: screen;
-    opacity: 0.3;
+    opacity: .3;
   }
 }

@@ -8,11 +8,11 @@
 %hudson, //needs work!
 .hudson {
   @extend %filter-base;
-  filter: brightness(1.2) contrast(0.9) saturate(1.1);
+  filter: brightness(1.2) contrast(.9) saturate(1.1);
 
   &::after {
     background: radial-gradient(circle, rgb(166, 177, 255) 50%, rgb(52, 33, 52));
     mix-blend-mode: multiply;
-    opacity: 0.5;
+    opacity: .5;
   }
 }

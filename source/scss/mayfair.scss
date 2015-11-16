@@ -11,8 +11,8 @@
   filter: contrast(1.1) saturate(1.1);
 
   &::after {
-    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), rgb(17, 17, 17) 60%);
+    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, .8), rgba(255, 200, 200, .6), rgb(17, 17, 17) 60%);
     mix-blend-mode: overlay;
-    opacity: 0.4;
+    opacity: .4;
   }
 }
