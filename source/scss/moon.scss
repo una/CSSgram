@@ -1,0 +1,21 @@
+/*
+ * Moon
+ *
+ */
+@import 'shared';
+
+%moon,
+.moon {
+  @extend %filter-base;
+  filter: grayscale(1) contrast(1.1) brightness(1.1);
+
+  &:before {
+    background: rgb(160, 160, 160);
+    mix-blend-mode: soft-light;
+  }
+
+  &:after {
+    background: rgb(56, 56, 56);
+    mix-blend-mode: lighten;
+  }
+}
