@@ -1,0 +1,21 @@
+/*
+ * Clarendon
+ *
+ */
+@import 'shared';
+
+%clarendon,
+.clarendon {
+  @extend %filter-base;
+  filter: contrast(1.2) saturate(1.35);
+
+  &:after {
+    background: rgba(239, 239, 239, .8);
+    mix-blend-mode: soft-light;
+  }
+
+  &:before {
+    background: rgba(17, 129, 147, .1);
+    mix-blend-mode: multiply;
+  }
+}
