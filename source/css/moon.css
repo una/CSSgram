@@ -2,9 +2,13 @@
  * Moon
  *
  */
+<<<<<<< HEAD
 
 .moon:before,
 .moon:after {
+=======
+.moon:before, .moon:after {
+>>>>>>> 2c85fcb... updated site with Moon filter
   content: '';
   display: block;
   height: 100%;
@@ -14,6 +18,7 @@
   position: absolute;
   pointer-events: none; }
 
+<<<<<<< HEAD
 
 .moon {
   position: relative; }
@@ -37,6 +42,24 @@
     background: #a0a0a0;
     mix-blend-mode: soft-light; }
   
+=======
+.moon {
+  position: relative; }
+  .moon img {
+    width: 100%;
+    z-index: 1; }
+  .moon:before {
+    z-index: 2; }
+  .moon:after {
+    z-index: 3; }
+
+.moon {
+  -webkit-filter: grayscale(1) contrast(1.1) brightness(1.1);
+          filter: grayscale(1) contrast(1.1) brightness(1.1); }
+  .moon:before {
+    background: #a0a0a0;
+    mix-blend-mode: soft-light; }
+>>>>>>> 2c85fcb... updated site with Moon filter
   .moon:after {
     background: #383838;
     mix-blend-mode: lighten; }
