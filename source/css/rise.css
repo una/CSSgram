@@ -2,7 +2,9 @@
  * Rise
  *
  */
-.rise:before, .rise:after {
+
+.rise:before,
+.rise:after {
   content: '';
   display: block;
   height: 100%;
@@ -12,27 +14,33 @@
   position: absolute;
   pointer-events: none; }
 
+
 .rise {
   position: relative; }
+  
   .rise img {
     width: 100%;
     z-index: 1; }
+  
   .rise:before {
     z-index: 2; }
+  
   .rise:after {
     z-index: 3; }
 
+
 .rise {
-    -webkit-filter: brightness(1.2) contrast(.9) saturate(.9);
-    filter: brightness(1.2) contrast(.9) saturate(.9); }
+  -webkit-filter: brightness(1.2) contrast(0.9) saturate(0.9);
+          filter: brightness(1.2) contrast(0.9) saturate(0.9); }
+  
+  .rise:after {
+    background: -webkit-radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 90%);
+    background: radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 90%);
+    mix-blend-mode: overlay;
+    opacity: .6; }
+  
   .rise:before {
-      background: -webkit-radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
-      background: radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
+    background: -webkit-radial-gradient(circle, rgba(236, 205, 169, 0.2) 55%, #321e07 90%);
+    background: radial-gradient(circle, rgba(236, 205, 169, 0.2) 55%, #321e07 90%);
     mix-blend-mode: multiply;
     opacity: .8; }
-  .rise:after {
-    background: -webkit-radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
-    background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
-    mix-blend-mode: overlay;
-    opacity: .6;
-  }
