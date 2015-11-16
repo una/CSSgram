@@ -6,8 +6,8 @@
  
  @import 'shared';
  
- %sutro,
- .sutro {
+%sutro,
+.sutro {
   @extend %filter-base;
   filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg);
- }
+}

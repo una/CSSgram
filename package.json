@@ -2,7 +2,9 @@
   "name": "cssgram",
   "version": "0.1.3",
   "style": "source/css/cssgram.css",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-sass": "2.1.0"
+  },
   "author": {
     "name": "Una Kravets",
     "email": "una.kravets@gmail.com",
