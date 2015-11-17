@@ -1,0 +1,46 @@
+/*
+*
+* Sierra
+*
+*/
+
+.sierra:before,.sierra:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.sierra {
+  position: relative; }
+  
+  .sierra img {
+    width: 100%;
+    z-index: 1; }
+  
+  .sierra:before {
+    z-index: 2; }
+  
+  .sierra:after {
+    z-index: 3; }
+
+
+.sierra {
+  -webkit-filter: brightness(.9) contrast(.9) saturate(.9);
+          filter: brightness(.9) contrast(.9) saturate(.9); }
+  
+  .sierra::after {
+    background: -webkit-radial-gradient(60% 60%, circle, rgba(230, 197, 164, .8) 35%, rgba(178, 154, 186, .6), rgba(10, 40, 102, .5) 80%);
+    background: radial-gradient(circle at 60% 60%, rgba(230, 197, 164, .8) 35%, rgba(178, 154, 186, .6), rgba(10, 40, 102, .5) 80%);
+    mix-blend-mode: overlay;
+    opacity: .8; }
+  
+  .sierra::before {
+    background: -webkit-radial-gradient(circle, rgba(94, 76, 205, .65), rgba(34, 20, 81, .8) 80%);
+    background: radial-gradient(circle, rgba(94, 76, 205, .65), rgba(34, 20, 81, .8) 80%);
+    mix-blend-mode: soft-light;
+    opacity: .6; }
