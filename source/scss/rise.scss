@@ -1,0 +1,23 @@
+/*
+ *
+ * Rise
+ *
+ */
+@import 'shared';
+
+%rise,
+.rise {
+  @extend %filter-base;
+  filter: brightness(1.2) contrast(.9) saturate(.9);
+
+  &:after{
+    background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
+    mix-blend-mode: overlay;
+    opacity: .6;
+  }
+
+  &:before{
+    radial-gradient: (circle, rgba(236, 205, 169, .15) 55%, rgba(50, 30, 7, .4));
+    mix-blend-mode: multiply;
+  }
+}
