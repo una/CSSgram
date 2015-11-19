@@ -131,28 +131,28 @@ Or:
 If you’d like to contribute, the following filters are yet to be added:
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
-- [ ] Ashby
-- [ ] Brannan
+- [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
+- [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
-- [ ] Clarendon
+- [ ] [Clarendon](https://github.com/una/CSSgram/issues/121)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
-- [ ] Dogpatch
-- [ ] Ginza
+- [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
+- [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
 - [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
-- [ ] Helena
-- [ ] Juno
+- [ ] [Helena](https://github.com/una/CSSgram/issues/124)
+- [ ] [Juno](https://github.com/una/CSSgram/issues/125)
 - [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
-- [ ] Ludwig
-- [ ] Maven
+- [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
+- [ ] [Maven](https://github.com/una/CSSgram/issues/127)
 - [ ] [Rise](https://github.com/una/CSSgram/issues/15)
 - [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
-- [ ] Skyline
-- [ ] Slumber
+- [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
+- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
 - [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
-- [ ] Vesper
-- [ ] Willow
+- [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
+- [ ] [Willow](https://github.com/una/CSSgram/issues/131)
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
