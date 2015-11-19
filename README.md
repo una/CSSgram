@@ -164,5 +164,3 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/test/index.twig` whilst gulp is running.
 
 Note: this will also have mixin options and a PostCSS Component.
-
-Add 1977, Ashby, Brooklyn, Charmes, Clarendon, Dogpatch, Gingham, Ginza, Helena, Kelvin, Maven, Moon, Skyline, Stinson, Sutro, Toaster, Vesper and Walden to test site.
