@@ -10,7 +10,7 @@
   @extend %filter-base;
   filter: brightness(1.05) hue-rotate(-10deg);
 
-  &:after{
+  &::after {
     background: linear-gradient(to right, rgba(66, 10, 14, .2), transparent);
     mix-blend-mode: darken;
   }
