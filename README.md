@@ -130,16 +130,29 @@ Or:
 
 If you’d like to contribute, the following filters are yet to be added:
 
+- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [ ] Ashby
+- [ ] Brannan
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
-- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
-- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
-- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
+- [ ] Clarendon
+- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
+- [ ] Dogpatch
+- [ ] Ginza
 - [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
-- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
+- [ ] Helena
+- [ ] Juno
+- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
+- [ ] Ludwig
+- [ ] Maven
 - [ ] [Rise](https://github.com/una/CSSgram/issues/15)
 - [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
-- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
-- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
+- [ ] Skyline
+- [ ] Slumber
+- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
+- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
+- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
+- [ ] Vesper
+- [ ] Willow
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
@@ -151,3 +164,5 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/test/index.twig` whilst gulp is running.
 
 Note: this will also have mixin options and a PostCSS Component.
+
+Add 1977, Ashby, Brooklyn, Charmes, Clarendon, Dogpatch, Gingham, Ginza, Helena, Kelvin, Maven, Moon, Skyline, Stinson, Sutro, Toaster, Vesper and Walden to test site.
