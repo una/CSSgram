@@ -1,0 +1,24 @@
+/*
+*
+* Sierra
+*
+*/
+@import 'shared';
+
+%sierra,
+.sierra {
+    @extend %filter-base;
+    filter: brightness(.9) contrast(.9) saturate(.9); 
+
+    &::after {
+        background: radial-gradient(circle at 60% 60%, rgba(230, 197, 164, .8) 35%, rgba(178, 154, 186, .6), rgba(10, 40, 102, .5) 80%);
+        mix-blend-mode: overlay;
+        opacity: .8;
+    }
+
+    &::before {
+        background: radial-gradient(circle, rgba(94, 76, 205, .65), rgba(34, 20, 81, .8) 80%);
+        mix-blend-mode: soft-light;
+        opacity: .6;
+    }
+}
