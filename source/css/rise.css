@@ -2,7 +2,7 @@
  * Rise
  *
  */
-._rise:before, ._rise:after {
+.rise:before, .rise:after {
   content: '';
   display: block;
   height: 100%;
@@ -12,27 +12,27 @@
   position: absolute;
   pointer-events: none; }
 
-._rise {
+.rise {
   position: relative; }
-  ._rise img {
+  .rise img {
     width: 100%;
     z-index: 1; }
-  ._rise:before {
+  .rise:before {
     z-index: 2; }
-  ._rise:after {
+  .rise:after {
     z-index: 3; }
 
-._rise {
-    -webkit-filter: brightness(1.2) contrast(0.9) saturate(90%);
-    filter: brightness(1.2) contrast(0.9) saturate(90%); }
-  ._rise:before {
-    background: -webkit-radial-gradient(circle, rgba(236, 205, 169, 0.2) 55%, #321E07 100%);
-    background: radial-gradient(circle, rgba(236, 205, 169, 0.2) 55%, #321E07 100%);
+.rise {
+    -webkit-filter: brightness(1.2) contrast(.9) saturate(.9);
+    filter: brightness(1.2) contrast(.9) saturate(.9); }
+  .rise:before {
+      background: -webkit-radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
+      background: radial-gradient(circle, rgba(236, 205, 169, .2) 55%, rgb(50, 30, 7) 90%);
     mix-blend-mode: multiply;
-    opacity: 0.8; }
-  ._rise:after {
-    background: -webkit-radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 100%);
-    background: radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 100%);
+    opacity: .8; }
+  .rise:after {
+    background: -webkit-radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
+    background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
     mix-blend-mode: overlay;
-    opacity: 0.6;
+    opacity: .6;
   }
