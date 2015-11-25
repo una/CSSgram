@@ -25,7 +25,7 @@
 .lofi {
   -webkit-filter: saturate(1.1) contrast(1.5);
           filter: saturate(1.1) contrast(1.5); }
-  .lofi:after {
-    background: -webkit-radial-gradient(circle, transparent 70%, #222 150%);
-    background: radial-gradient(circle, transparent 70%, #222 150%);
+  .lofi::after {
+    background: -webkit-radial-gradient(circle, transparent 70%, #222222 150%);
+    background: radial-gradient(circle, transparent 70%, #222222 150%);
     mix-blend-mode: multiply; }

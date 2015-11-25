@@ -25,9 +25,9 @@
 .moon {
   -webkit-filter: grayscale(1) contrast(1.1) brightness(1.1);
           filter: grayscale(1) contrast(1.1) brightness(1.1); }
-  .moon:before {
+  .moon::before {
     background: #a0a0a0;
     mix-blend-mode: soft-light; }
-  .moon:after {
+  .moon::after {
     background: #383838;
     mix-blend-mode: lighten; }
