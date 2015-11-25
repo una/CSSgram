@@ -26,7 +26,7 @@
 .reyes {
   -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
           filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75); }
-  .reyes:after {
+  .reyes::after {
     background: #efcdad;
     mix-blend-mode: soft-light;
     opacity: .5; }
