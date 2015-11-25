@@ -26,7 +26,7 @@
 .aden {
   -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
           filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2); }
-  .aden:after {
+  .aden::after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
     mix-blend-mode: darken; }

@@ -9,8 +9,8 @@
 .perpetua {
   @extend %filter-base;
 
-  &:after{
-    background: linear-gradient(to bottom, #005b9a, #e6c13d);
+  &::after {
+    background: linear-gradient(to bottom, rgb(0, 91, 154), rgb(230, 193, 61));
     mix-blend-mode: soft-light;
     opacity: .5;
   }

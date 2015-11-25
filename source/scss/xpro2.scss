@@ -10,8 +10,8 @@
   @extend %filter-base;
   filter: sepia(.3);
 
-  &:after{
-    background: radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, .6) 110%);
+  &::after {
+    background: radial-gradient(circle, rgb(230, 231, 224) 40%, rgba(43, 42, 161, .6) 110%);
     mix-blend-mode: color-burn;
   }
 }

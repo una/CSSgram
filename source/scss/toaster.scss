@@ -10,8 +10,8 @@
   @extend %filter-base;
   filter: contrast(1.5) brightness(.9);
 
-  &:after{
-    background: radial-gradient(circle, #804e0f, #3b003b);
+  &::after {
+    background: radial-gradient(circle, rgb(128, 78, 15), rgb(59, 0, 59));
     mix-blend-mode: screen;
   }
 }

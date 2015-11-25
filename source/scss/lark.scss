@@ -9,12 +9,12 @@
   @extend %filter-base;
   filter: contrast(.9);
 
-  &:after {
+  &::after {
     background: rgba(242, 242, 242, .8);
     mix-blend-mode: darken;
   }
 
-  &:before {
+  &::before {
     background: rgb(34, 37, 63);
     mix-blend-mode: color-dodge;
   }
