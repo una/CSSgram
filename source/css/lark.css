@@ -25,9 +25,9 @@
 .lark {
   -webkit-filter: contrast(.9);
           filter: contrast(.9); }
-  .lark:after {
+  .lark::after {
     background: rgba(242, 242, 242, 0.8);
     mix-blend-mode: darken; }
-  .lark:before {
+  .lark::before {
     background: #22253f;
     mix-blend-mode: color-dodge; }

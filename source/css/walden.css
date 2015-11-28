@@ -26,7 +26,7 @@
 .walden {
   -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
           filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6); }
-  .walden:after {
-    background: #04c;
+  .walden::after {
+    background: #0044cc;
     mix-blend-mode: screen;
     opacity: .3; }

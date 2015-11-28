@@ -46,7 +46,7 @@
 .aden {
   -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
           filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2); }
-  .aden:after {
+  .aden::after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
     mix-blend-mode: darken; }
@@ -85,7 +85,7 @@
   .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after {
     z-index: 3; }
 
-.perpetua:after {
+.perpetua::after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
   background: linear-gradient(to bottom, #005b9a, #e6c13d);
   mix-blend-mode: soft-light;
@@ -119,7 +119,7 @@
 .reyes {
   -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
           filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75); }
-  .reyes:after {
+  .reyes::after {
     background: #efcdad;
     mix-blend-mode: soft-light;
     opacity: .5; }
@@ -152,7 +152,7 @@
 .gingham {
   -webkit-filter: brightness(1.05) hue-rotate(-10deg);
           filter: brightness(1.05) hue-rotate(-10deg); }
-  .gingham:after {
+  .gingham::after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
     mix-blend-mode: darken; }
@@ -185,7 +185,7 @@
 .toaster {
   -webkit-filter: contrast(1.5) brightness(.9);
           filter: contrast(1.5) brightness(.9); }
-  .toaster:after {
+  .toaster::after {
     background: -webkit-radial-gradient(circle, #804e0f, #3b003b);
     background: radial-gradient(circle, #804e0f, #3b003b);
     mix-blend-mode: screen; }
@@ -218,8 +218,8 @@
 .walden {
   -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
           filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6); }
-  .walden:after {
-    background: #04c;
+  .walden::after {
+    background: #0044cc;
     mix-blend-mode: screen;
     opacity: .3; }
 
@@ -251,7 +251,7 @@
 .hudson {
   -webkit-filter: brightness(1.2) contrast(.9) saturate(1.1);
           filter: brightness(1.2) contrast(.9) saturate(1.1); }
-  .hudson:after {
+  .hudson::after {
     background: -webkit-radial-gradient(circle, #a6b1ff 50%, #342134);
     background: radial-gradient(circle, #a6b1ff 50%, #342134);
     mix-blend-mode: multiply;
@@ -285,7 +285,7 @@
 .earlybird {
   -webkit-filter: contrast(.9) sepia(.2);
           filter: contrast(.9) sepia(.2); }
-  .earlybird:after {
+  .earlybird::after {
     background: -webkit-radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
     background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
     mix-blend-mode: overlay; }
@@ -318,9 +318,9 @@
 .mayfair {
   -webkit-filter: contrast(1.1) saturate(1.1);
           filter: contrast(1.1) saturate(1.1); }
-  .mayfair:after {
-    background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%);
-    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%);
+  .mayfair::after {
+    background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
+    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
     mix-blend-mode: overlay;
     opacity: .4; }
 
@@ -351,9 +351,9 @@
 .lofi {
   -webkit-filter: saturate(1.1) contrast(1.5);
           filter: saturate(1.1) contrast(1.5); }
-  .lofi:after {
-    background: -webkit-radial-gradient(circle, transparent 70%, #222 150%);
-    background: radial-gradient(circle, transparent 70%, #222 150%);
+  .lofi::after {
+    background: -webkit-radial-gradient(circle, transparent 70%, #222222 150%);
+    background: radial-gradient(circle, transparent 70%, #222222 150%);
     mix-blend-mode: multiply; }
 
 /*
@@ -415,7 +415,7 @@
 .brooklyn {
   -webkit-filter: contrast(.9) brightness(1.1);
           filter: contrast(.9) brightness(1.1); }
-  .brooklyn:after {
+  .brooklyn::after {
     background: -webkit-radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8);
     background: radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8);
     mix-blend-mode: overlay; }
@@ -448,9 +448,9 @@
 .xpro2 {
   -webkit-filter: sepia(.3);
           filter: sepia(.3); }
-  .xpro2:after {
-    background: -webkit-radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%);
-    background: radial-gradient(circle, #E6E7E0 40%, rgba(43, 42, 161, 0.6) 110%);
+  .xpro2::after {
+    background: -webkit-radial-gradient(circle, #e6e7e0 40%, rgba(43, 42, 161, 0.6) 110%);
+    background: radial-gradient(circle, #e6e7e0 40%, rgba(43, 42, 161, 0.6) 110%);
     mix-blend-mode: color-burn; }
 
 /*
@@ -515,10 +515,10 @@
 .lark {
   -webkit-filter: contrast(.9);
           filter: contrast(.9); }
-  .lark:after {
+  .lark::after {
     background: rgba(242, 242, 242, 0.8);
     mix-blend-mode: darken; }
-  .lark:before {
+  .lark::before {
     background: #22253f;
     mix-blend-mode: color-dodge; }
 
@@ -549,10 +549,10 @@
 .moon {
   -webkit-filter: grayscale(1) contrast(1.1) brightness(1.1);
           filter: grayscale(1) contrast(1.1) brightness(1.1); }
-  .moon:before {
+  .moon::before {
     background: #a0a0a0;
     mix-blend-mode: soft-light; }
-  .moon:after {
+  .moon::after {
     background: #383838;
     mix-blend-mode: lighten; }
 
