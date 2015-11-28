@@ -26,8 +26,8 @@
 .mayfair {
   -webkit-filter: contrast(1.1) saturate(1.1);
           filter: contrast(1.1) saturate(1.1); }
-  .mayfair:after {
-    background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%);
-    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111 60%);
+  .mayfair::after {
+    background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
+    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
     mix-blend-mode: overlay;
     opacity: .4; }

@@ -23,7 +23,7 @@
   .perpetua:after {
     z-index: 3; }
 
-.perpetua:after {
+.perpetua::after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
   background: linear-gradient(to bottom, #005b9a, #e6c13d);
   mix-blend-mode: soft-light;
