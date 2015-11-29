@@ -7,10 +7,10 @@
 %willow,
 .willow {
   @extend %filter-base;
-  filter: saturate(0.02) contrast(0.95) brightness(0.9) sepia(0.02);
+  filter: saturate(.02) contrast(.95) brightness(.9) sepia(.02);
 
   &::after {
-    background: rgba(227, 113, 8, 0.2);
-    mix-blend-mode: soft-light;
-  }
+    background: radial-gradient(left bottom, circle, transparent 55%, #000 200%);
+     mix-blend-mode: multiply;
+    }
 }
