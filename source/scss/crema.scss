@@ -1,0 +1,22 @@
+/*
+ *
+ * Crema
+ *
+ */
+@import 'shared';
+
+%crema,
+.crema {
+  @extend %filter-base;
+  filter: brightness(0.9) saturate(1.05) contrast(1.1) hue-rotate(10deg);
+
+  &::after {
+    background: rgba(33, 1, 49, .35);
+    mix-blend-mode: soft-light;
+  }
+
+  &::before {
+    background: rgba(31, 13, 38, .1);
+    mix-blend-mode: color;
+  }
+} 
