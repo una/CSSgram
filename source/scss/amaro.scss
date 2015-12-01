@@ -1,0 +1,22 @@
+/*
+ *
+ * Amaro
+ *
+ */
+@import 'shared';
+
+%amaro,
+.amaro {
+  @extend %filter-base;
+  filter: brightness(1.05) sepia(.1) contrast(1.35);
+
+  &::after {
+    background: radial-gradient(circle, rgba(177, 198, 244, .4) 35%, rgba(63, 26, 89, .75) 90%);
+    mix-blend-mode: soft-light;
+  }
+
+  &::before {
+    background: radial-gradient(circle, rgba(49, 10, 82, .65) 5%, rgba(118, 157, 188, .2) 70%, rgba(48, 17, 94, .75) 100%);
+    mix-blend-mode: screen;
+  }
+}
