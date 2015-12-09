@@ -1,50 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CSSGram</title>
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="css/demo-site.min.css">
+{% extends "twig/template.twig" %}
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+{% block stylesheets %}
+     <link rel="stylesheet" href="css/demo-site.min.css"> 
+{% endblock %}
 
-    ga('create', 'UA-36758177-8', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</head>
-<body>
+{% block content %}
   <section class="title-section">
     <img class="title--logo" src="img/cssgram-logo.svg" alt="CSSgram">
     <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
   </section>
-
-  {% set filters = [
-    {name: 'Aden',       usage: 'aden'},
-    {name: 'Reyes',      usage: 'reyes'},
-    {name: 'Perpetua',   usage: 'perpetua'},
-    {name: 'Inkwell',    usage: 'inkwell'},
-    {name: 'Earlybird',  usage: 'earlybird'},
-    {name: 'Toaster',    usage: 'toaster'},
-    {name: 'Walden',     usage: 'walden'},
-    {name: 'Hudson',     usage: 'hudson'},
-    {name: 'Gingham',    usage: 'gingham'},
-    {name: 'Mayfair',    usage: 'mayfair'},
-    {name: 'Lo-Fi',      usage: 'lofi'},
-    {name: 'X-Pro2 II',  usage: 'xpro2'},
-    {name: '1977',       usage: '_1977'},
-    {name: 'Brooklyn',   usage: 'brooklyn'},
-    {name: 'Nashville',  usage: 'nashville'},
-    {name: 'Lark',       usage: 'lark'},
-    {name: 'Moon',       usage: 'moon'},
-    {name: 'Clarendon',  usage: 'clarendon'}
-  ] %}
-
-  {% set images = ['atx', 'bike', 'cacti', 'lakegeneva', 'tahoe'] %}
 
   <section class="demo__section">
     <div class="demo__input-area">
@@ -70,12 +34,14 @@
         </figure>
       </li>
       {% for i in filters %}
-        <li class="demo__item">
-          <figure class="{{ i.usage }}">
-            <img>
-            <figcaption>{{ i.name }}</figcaption>
-          </figure>
-        </li>
+        {% if i.is_done %}
+          <li class="demo__item">
+            <figure class="{{ i.usage }}">
+              <img>
+              <figcaption>{{ i.name }}</figcaption>
+            </figure>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </section>
@@ -139,7 +105,9 @@
     <small><em>For use in HTML markup:</em></small>
     <ul class="available-classes">
       {% for i in filters %}
-        <li>{{ i.name }}: <code>class="{{ i.usage }}"</code></li>
+        {% if i.is_done %}
+          <li>{{ i.name }}: <code>class="{{ i.usage }}"</code></li>
+        {% endif %}
       {% endfor %}
     </ul>
 
@@ -177,40 +145,36 @@
     <small><em>For use in Sass elements:</em></small>
     <ul class="available-classes">
       {% for i in filters %}
-        <li>{{ i.name }}: <code>@extend %{{ i.usage }};</code></li>
+        {% if i.is_done %}
+          <li>{{ i.name }}: <code>@extend %{{ i.usage }};</code></li>
+        {% endif %}
       {% endfor %}
     </ul>
   <hr>
   </section>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
+{% endblock %}
 
+{% block javascript %}
   <script>
     var inputField = document.querySelector(".demo__input-img")
-
     function pickSample(img) {
       updateImages(img.src)
       inputField.value = img.getAttribute("src")
     }
-
     function updateImages(src) {
       var imgs = document.querySelectorAll(".demo__item img")
       for (var i = 0; i < imgs.length; i++) imgs[i].src = src
     }
-
     document.addEventListener("click", function(event) {
       if (/demo__option-img/.test(event.target.className)) pickSample(event.target)
     }, false)
-
     inputField.addEventListener("input", function() {
       updateImages(this.value)
     }, false)
-
     inputField.addEventListener("focus", function() {
       this.select()
     }, false)
-
     pickSample(document.querySelector(".demo__option-img"))
   </script>
-
-</body>
-</html>
+{% endblock %}
