@@ -1,0 +1,22 @@
+/*
+ *
+ * Kelvin
+ *
+ */
+@import 'shared';
+
+%kelvin,
+.kelvin {
+  @extend %filter-base;
+  filter: brightness(1.25) saturate(.9);
+
+  &::after {
+    radial-gradient(circle, rgba(245, 202, 117, .35) 25%, rgba(127, 104, 15, .75) 75%, rgba(44, 78, 17, .8) 100%);
+    mix-blend-mode: overlay;
+  }
+
+  &::before {
+    background: rgba(114, 79, 33, .8);
+    mix-blend-mode: overlay;
+  }
+}
