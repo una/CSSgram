@@ -63,6 +63,8 @@ _For use in HTML markup:_
 *   Nashville: `class="nashville"`
 *   Lark: `class="lark"`
 *   Moon: `class="moon"`
+*   Clarendon: `class="clarendon"`
+*   Willow: `class="willow"`
 
 * * *
 
@@ -112,6 +114,8 @@ _For use in Sass stylesheets:_
 *   Nashville: `@extend %nashville`
 *   Lark: `@extend %lark`
 *   Moon: `@extend %moon`
+*   Clarendon: `@extend %clarendon`
+*   Willow: `@extend %willow`
 
 ## Contributing
 
@@ -134,7 +138,6 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
 - [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
-- [ ] [Clarendon](https://github.com/una/CSSgram/issues/121)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
 - [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
@@ -152,7 +155,6 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
 - [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
-- [ ] [Willow](https://github.com/una/CSSgram/issues/131)
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
