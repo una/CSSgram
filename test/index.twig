@@ -1,47 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta name="description" content="Testing CSSgram filters"/>
-  <meta name="author" content="Miles Croxford"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+{% set title = 'CSSgram test sheet' %}
+{% set body_class = 'test-page' %}
+
+{% extends '../twig/template.twig' %}
+
+{% block stylesheets %}
   <link rel="stylesheet" href="../css/cssgram.min.css">
-  <title>CSSgram test sheet</title>
   <link rel="stylesheet" href="../css/demo-site.min.css">
   <link rel="stylesheet" href="css/test-site.css">
-</head>
-<body class="test-page">
+{% endblock %}
 
-  {% set filters = [
-    {name: 'aden',       is_done: true},
-    {name: 'amaro',      is_done: false},
-    {name: 'brannan',    is_done: false},
-    {name: 'crema',      is_done: false},
-    {name: 'earlybird',  is_done: true},
-    {name: 'hefe',       is_done: false},
-    {name: 'hudson',     is_done: true},
-    {name: 'inkwell',    is_done: true},
-    {name: 'juno',       is_done: false},
-    {name: 'lark',       is_done: true},
-    {name: 'lofi',       is_done: true},
-    {name: 'ludwig',     is_done: false},
-    {name: 'mayfair',    is_done: true},
-    {name: 'nashville',  is_done: true},
-    {name: 'perpetua',   is_done: true},
-    {name: 'reyes',      is_done: true},
-    {name: 'rise',       is_done: false},
-    {name: 'sierra',     is_done: false},
-    {name: 'slumber',    is_done: false},
-    {name: 'valencia',   is_done: false},
-    {name: 'willow',     is_done: false},
-    {name: 'xpro2',      is_done: true},
-    {name: 'moon',       is_done: true},
-  ] %}
-
-  {% set images = ['atx', 'bike', 'cacti', 'lakegeneva', 'tahoe'] %}
-
-  <header>
+{% block content %}
+    <header>
     <img class="logo" src="../img/cssgram-logo.svg" alt="CSSgram logo"> <h1 class="blurb"> – Test sheet </h1>
   </header>
 
@@ -77,7 +46,5 @@
     </section>
   {% endfor %}
 
-  <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source and Contribute</a></footer>
-
-</body>
-</html>
+  <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source and Contribute</a></footer>  
+{% endblock %}  
