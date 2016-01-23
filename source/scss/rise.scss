@@ -1,0 +1,21 @@
+/*
+ * Rise
+ *
+ */
+@import 'shared';
+
+%rise,
+.rise {
+  @extend %filter-base;
+  filter: contrast(1.1);
+
+  &::before {
+    background-color: radial-gradient(50%, rgba(251, 239, 195, 0.38) 56%, rgba(234, 231, 123, 0.09) 75%,rgba(0, 0, 0, 0.38) 90%);
+    mix-blend-mode: overlay;
+  }
+
+  &::after {
+    background-color: rgba(212, 181, 28, 0.13);
+    mix-blend-mode: color;
+  }
+}
