@@ -1,4 +1,5 @@
 /*
+ *
  * Rise
  *
  */
@@ -7,15 +8,16 @@
 %rise,
 .rise {
   @extend %filter-base;
-  filter: contrast(1.1);
+  filter: brightness(1.05) sepia(.3) contrast(.9) saturate(1.2);
 
-  &::before {
-    background-color: radial-gradient(50%, rgba(251, 239, 195, 0.38) 56%, rgba(234, 231, 123, 0.09) 75%,rgba(0, 0, 0, 0.38) 90%);
+  &::after{
+    background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
     mix-blend-mode: overlay;
+    opacity: .6;
   }
 
-  &::after {
-    background-color: rgba(212, 181, 28, 0.13);
-    mix-blend-mode: color;
+  &::before{
+    background: radial-gradient(circle, rgba(236, 205, 169, .15) 55%, rgba(50, 30, 7, .4));
+    mix-blend-mode: multiply;
   }
 }
