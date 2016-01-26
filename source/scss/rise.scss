@@ -8,7 +8,7 @@
 %rise,
 .rise {
   @extend %filter-base;
-  filter: brightness(1.05) sepia(.3) contrast(.9) saturate(1.2);
+  filter: brightness(1.05) sepia(.2) contrast(.9) saturate(.9);
 
   &::after{
     background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
