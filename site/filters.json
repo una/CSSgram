@@ -6,7 +6,7 @@
             "usage": "_1977"
         },
         {
-            "name": "aden",
+            "name": "Aden",
             "is_done": true,
             "usage": "aden"
         },
@@ -157,7 +157,7 @@
         },
         {
             "name": "Slumber",
-            "is_done": false,
+            "is_done": true,
             "usage": "slumber"
         },
         {
