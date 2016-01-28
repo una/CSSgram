@@ -1,0 +1,22 @@
+/*
+ *
+ * Slumber
+ *
+ */
+@import 'shared';
+
+%slumber,
+.slumber {
+  @extend %filter-base;
+  filter: saturate(.66) brightness(1.05);
+
+  &::after {
+    background: rgba(125, 105, 24, 0.5);
+    mix-blend-mode: soft-light;
+  }
+
+  &::before {
+    background: rgba(69, 41, 12, .4);
+    mix-blend-mode: lighten;
+  }
+}
