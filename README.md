@@ -34,7 +34,7 @@ When using CSS classes, you can simply add the class with the filter name to the
 
 For example:
 
-```
+```html
 <!-- HTML -->
 <figure class="aden">
   <img src="../img.png">
@@ -78,14 +78,14 @@ If you use custom naming in your CSS architecture, you can add the `.scss` files
 
 For example:
 
-```
+```html
 <!-- HTML -->
 <figure class="viz--beautiful">
   <img src="../img.png">
 </figure>
 ```
 
-```
+```sass
 // Sass
 .viz--beautiful {
   @extend %aden;
