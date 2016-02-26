@@ -74,7 +74,7 @@ If you use custom naming in your CSS architecture, you can add the `.scss` files
 
 1. [Download the `scss/` folder contents](https://github.com/una/CSSgram/tree/master/source/scss)
 * Include a link to `scss/cssgram.scss` via an `@import` statement in your Sass manifest file (i.e. `main.scss`). It may look like: `@import 'vendor/cssgram'`
-* Extend the placeholder selector (e.g. `@extend %aden`) in your element.
+* Extend the placeholder selector (e.g. `@extend %aden` or using mixins `@include aden()`) in your element.
 
 For example:
 
@@ -92,11 +92,27 @@ For example:
 }
 ```
 
+or using mixins (more flexible)
+
+```
+// Sass (without adding new CSS3 filters)
+.viz--beautiful {
+  @include aden();
+}
+
+// Sass (adding new CSS3 filters)
+.viz--beautiful {
+  @include aden(blur(2px) /*...*/);
+}
+```
+
 Alternatively, you can just download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`), if you're just using one of the styles.
 
 ### Available Placeholders
 
 _For use in Sass stylesheets:_
+
+**Extends**
 
 *   Aden: `@extend %aden`
 *   Reyes: `@extend %reyes`
@@ -116,6 +132,27 @@ _For use in Sass stylesheets:_
 *   Moon: `@extend %moon`
 *   Clarendon: `@extend %clarendon`
 *   Willow: `@extend %willow`
+
+**Mixins** (You can add more CSS3 filters as arguments)
+
+*   Aden: `@include aden()`
+*   Reyes: `@include reyes()`
+*   Perpetua: `@include perpetua()`
+*   Inkwell: `@include inkwell()`
+*   Toaster: `@include toaster()`
+*   Walden: `@include walden()`
+*   Hudson: `@include hudson()`
+*   Gingham: `@include gingham()`
+*   Mayfair: `@include mayfair()`
+*   Lo-fi: `@include lofi()`
+*   X-Pro II: `@include xpro2()`
+*   1977: `@include _1977()`
+*   Brooklyn: `@include brooklyn()`
+*   Nashville: `@include nashville()`
+*   Lark: `@include lark()`
+*   Moon: `@include moon()`
+*   Clarendon: `@include clarendon()`
+*   Willow: `@include willow()`
 
 ## Contributing
 
