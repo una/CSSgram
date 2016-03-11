@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSSGram</title>
+  <title>CSSgram test sheet</title>
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="css/demo-site.min.css">
@@ -19,7 +19,7 @@
 
   </script>
 </head>
-<body class="home">
+<body class="test-page">
     <section class="title-section">
     <img class="title--logo" src="img/cssgram-logo.svg" alt="CSSgram">
     <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
@@ -207,9 +207,9 @@
   <section class="how-to-section">
     <h2>Usage</h2>
 
-    <p><strong>There are currently 2 ways to consume this library:</strong></p>
+    <p><strong>There are currently 3 ways to consume this library:</strong></p>
 
-    <h3 id="use-css-classes">Use CSS classes</h3>
+    <h3 id="use-css-classes">1. Use CSS classes</h3>
 
     <p>When using CSS classes, you can simply add the class with the filter name to the element containing your image.</p>
 
@@ -262,7 +262,7 @@
 
     <hr>
 
-    <h3>Use Sass <code>@extends</code></h3>
+    <h3>2. Use Sass <code>@extends</code></h3>
 
     <p>If you use custom naming in your CSS architecture, you can add the .scss files for the provided styles within your project and then <code>@extend</code> the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.</p>
 
@@ -316,6 +316,69 @@
                                 <li>X-pro II: <code>@extend %xpro2;</code></li>
                   </ul>
   <hr>
+
+    <h3>3. Use Sass <code>@mixins</code></h3>
+
+    <p>Mixins allow for multiple filter arguments to be passed into your classes. This is useful for if you want to add filters in addition to the ones provided (i.e. add a blur).</p>
+
+    <ol>
+      <li><a href="https://github.com/una/CSSgram/tree/master/source/scss" download>Download the /scss folder contents</a></li>
+      <li>Include a link to <code>scss/cssgram.scss</code> via an import statement in your Sass manifest file (i.e. <code>main.scss</code>). It may look like: <code>@import 'vendor/cssgram';</code></li>
+      <li>Include the mixin <code>@include aden()</code> in your element.</li>
+    </ol>
+
+    <p>For example:</p>
+
+    <pre><code>
+      <span class="comment">&lt;!-- HTML --&gt;</span>
+      &lt;figure class=<span class="highlight">"viz--beautiful"</span>&gt;
+        &lt;img src="../img.png"&gt;
+      &lt;/figure&gt;
+    </code></pre>
+
+    <pre><code>
+      <span class="comment">// Sass</span>
+      <span class="highlight">.viz--beautiful</span> {
+        @include aden()
+      }
+    </code></pre>
+
+    <p>As mentioned above, you can also add additional filters as arguments when using the library with mixins:</p>
+
+    <pre><code>
+      <span class="comment">// Sass</span>
+      <span class="highlight">.viz--beautiful</span> {
+        @include @include aden(blur(2px) /*...*/);
+      }
+    </code></pre>
+
+    <h3>Available Mixins</h3>
+    <small><em>For use in Sass elements:</em></small>
+    <ul class="available-classes">
+                        <li>1977: <code>@include _1977();</code></li>
+                                <li>Aden: <code>@include aden();</code></li>
+                                                                          <li>Brooklyn: <code>@include brooklyn();</code></li>
+                                              <li>Clarendon: <code>@include clarendon();</code></li>
+                                                            <li>Earlybird: <code>@include earlybird();</code></li>
+                                <li>Gingham: <code>@include gingham();</code></li>
+                                                                          <li>Hudson: <code>@include hudson();</code></li>
+                                <li>Inkwell: <code>@include inkwell();</code></li>
+                                                            <li>Lark: <code>@include lark();</code></li>
+                                <li>Lo-Fi: <code>@include lofi();</code></li>
+                                                            <li>Mayfair: <code>@include mayfair();</code></li>
+                                <li>Moon: <code>@include moon();</code></li>
+                                <li>Nashville: <code>@include nashville();</code></li>
+                                <li>Perpetua: <code>@include perpetua();</code></li>
+                                <li>Reyes: <code>@include reyes();</code></li>
+                                <li>Rise: <code>@include rise();</code></li>
+                                                            <li>Slumber: <code>@include slumber();</code></li>
+                                                            <li>Toaster: <code>@include toaster();</code></li>
+                                                            <li>Walden: <code>@include walden();</code></li>
+                                <li>Willow: <code>@include willow();</code></li>
+                                <li>X-pro II: <code>@include xpro2();</code></li>
+                  </ul>
+  <hr>
+
   </section>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
 
