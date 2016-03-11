@@ -4,10 +4,26 @@
  */
 @import 'shared';
 
-%lark,
-.lark {
+// mixin to extend lark filter
+// @mixin lark
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include lark;
+//   }
+//   or
+//   img {
+//     @include lark(blur(2px));
+//   }
+//   or
+//   img {
+//     @include lark(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin lark($filters...) {
   @extend %filter-base;
-  filter: contrast(.9);
+  filter: contrast(.9) $filters;
 
   &::after {
     background: rgba(242, 242, 242, .8);
@@ -18,4 +34,12 @@
     background: rgb(34, 37, 63);
     mix-blend-mode: color-dodge;
   }
+
+  @content;
+}
+
+// lark Instagram filter
+%lark,
+.lark {
+  @include lark;
 }
