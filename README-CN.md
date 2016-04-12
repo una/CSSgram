@@ -28,20 +28,22 @@ Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所
 
 使用`class`你可以轻松给你的图片添加各式各样的滤镜
 
-1. 使用css 外链
- ``` bash
+1  使用css 外链
+``` bash
 <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
 ```
- *你也可直接下载压缩的[CSS文件](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) 。
+
+*你也可直接下载压缩的[CSS文件](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) 。
+
  然后本地引用:
-``` bash
- <link rel="stylesheet" href="css/vendor/cssgram.min.css">
- ```
+`<link rel="stylesheet" href="css/vendor/cssgram.min.css">
+`
+
 然后在你的元素添加class即可生效
 
 案例:
 
-```html
+``` html
 <!-- HTML -->
 <figure class="aden">
   <img src="../img.png">
@@ -51,7 +53,7 @@ Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所
 
 ### 目前提供的滤镜
 
-_For use in HTML markup:_
+你可以在html中直接使用:
 
 *   Aden: `class="aden"`
 *   Reyes: `class="reyes"`
@@ -76,29 +78,31 @@ _For use in HTML markup:_
 
 ### 使用Sass `@extend` or `@mixin`
 
-If you use custom naming in your CSS architecture, you can add the `.scss` files for the provided styles within your project and then `@extend` the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.
+如果你希望自定义你的css命名，你可以把`.scss` 文件引入到你的项目中来 。然后你可以使用`@extend`在你希望定义的样式中去使用这些滤镜。
 
-1. [Download the `scss/` folder contents](https://github.com/una/CSSgram/tree/master/source/scss)
-* Include a link to `scss/cssgram.scss` via an `@import` statement in your Sass manifest file (i.e. `main.scss`). It may look like: `@import 'vendor/cssgram'`
-* Extend the placeholder selector (e.g. `@extend %aden` or using mixins `@include aden()`) in your element.
+1. [下载 `scss/` 目录内容](https://github.com/una/CSSgram/tree/master/source/scss)
+*使用`@import`将文件 `scss/cssgram.scss` 引入到你的主文件中来 (i.e. `main.scss`).
+``` css
+@import 'vendor/cssgram';
+```
+*在需要的样式上进行扩展 (e.g. `@extend %aden` or 使用 mixins `@include aden()`)。
 
-For example:
+比如:
 
 ```html
 <!-- HTML -->
 <figure class="viz--beautiful">
   <img src="../img.png">
 </figure>
-```
 
-```sass
+
 // Sass
 .viz--beautiful {
   @extend %aden;
 }
 ```
 
-or using mixins (more flexible)
+或者使用 mixins (更加方便)
 
 ```
 // Sass (without adding new CSS3 filters)
@@ -112,11 +116,11 @@ or using mixins (more flexible)
 }
 ```
 
-Alternatively, you can just download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`), if you're just using one of the styles.
+当然，如果你只用到了某一个效果，这样你也只需要引入对应`scss`文件即可(`scss/aden.scss`)。
 
-### Available Placeholders
+### 目前可用的效果
 
-_For use in Sass stylesheets:_
+在Scss中使用
 
 **Extends**
 
@@ -139,7 +143,7 @@ _For use in Sass stylesheets:_
 *   Clarendon: `@extend %clarendon`
 *   Willow: `@extend %willow`
 
-**Mixins** (You can add more CSS3 filters as arguments)
+**Mixins** (你可以加入更多的css3滤镜进来)
 
 *   Aden: `@include aden()`
 *   Reyes: `@include reyes()`
@@ -160,22 +164,22 @@ _For use in Sass stylesheets:_
 *   Clarendon: `@include clarendon()`
 *   Willow: `@include willow()`
 
-## Contributing
+## 如何参与进来
 
-Either:
 
-1. Create an [issue](https://github.com/una/CSSgram/issues)
 
-Or:
+1. 开启一个 [issue](https://github.com/una/CSSgram/issues)
 
-1. Fork this repository
-2. Clone the fork onto your system
-3. `npm install` dependencies (must have Node installed)
-4. Run `gulp` to compile CSS and the test site
-5. Make changes and check the test site with your changes (see file structure outline below)
-6. Submit a PR referencing the issue with a smile :smile:
+或者:
 
-If you’d like to contribute, the following filters are yet to be added:
+1. Fork 这个项目
+2. Clone 你自己的 repos
+3. `npm install` 安装你自己的依赖
+4. 输入`gulp`命令进行css编译
+5. 现在你可以修改这些文件并查看效果
+6. 发起你的PR并且创建一个issue w附带上一个 :smile:
+
+下面这些效果正渴望你的加入完善:
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
@@ -199,13 +203,14 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
 - [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
 
-Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
+制作这些效果是一件开心嗨皮的时期，感谢 [Miles Croxford](https://twitter.com/milescroxford) 提供的[图片] (https://instagram.com/cssgram/).
 
-## File Structure Outline
+## 目录结构
 
-- `source/css/cssgram.css` contains each of the CSS classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the library
-- `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
-- `site/` is the public facing website
-- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/filters.json`.
+- `source/css/cssgram.css` 包含可可以使用的滤镜的`class`;你也可以在你的生产环境中。你也可以在身长环境使用压缩的文件`source/css/cssgram.min.css`
+- `source/scss/` 包含了独立的预置滤镜用于你去扩展你的CSS classes
+- `site/` 存放的网站
+- `site/test` 用于测试的文件，如果在开发期间记得修改里面的内容
+- `is_done` 存放你自己所创建的滤镜 `site/filters.json`.
 
-Note: this will also have mixin options and a PostCSS Component.
+注意：我们也支持mixin 选项以及PostCSS Component.。
