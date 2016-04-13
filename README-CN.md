@@ -177,7 +177,7 @@ Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所
 3. `npm install` 安装你自己的依赖
 4. 输入`gulp`命令进行css编译
 5. 现在你可以修改这些文件并查看效果
-6. 发起你的PR并且创建一个issue w附带上一个 :smile:
+6. 发起你的PR并且创建一个issue 附带上一个 :smile:
 
 下面这些效果正渴望你的加入完善:
 
