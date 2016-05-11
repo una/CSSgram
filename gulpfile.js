@@ -98,7 +98,8 @@ gulp.task('twig', function () {
 
 
 gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'site-scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'sass-lint']);
+  gulp.watch('site/scss/**/*.scss', ['site-scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
   gulp.watch('site/**/*.twig', ['twig']);
 });
