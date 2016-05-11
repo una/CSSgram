@@ -17,12 +17,19 @@
         {% for i in images %}
           <img class="demo__option-img" src="img/{{i}}.jpg" alt="{{i}} image">
       {% endfor %}
+          <button class="take-photo">Take a photo!</button>
         <br>
         <label class="demo__input-label">
           Or paste in a link to your own photo:
           <input class="demo__input-img" type="text">
         </label>
       </fieldset>
+
+      <section class="video-container">
+        <video id="camera-stream" width="480px" height="360px" autoplay></video>
+        <button id="snapshot">Use snapshot</button>
+        <canvas style="display: none"></canvas>
+      </section>
 
       <small class="demo__note">Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</small>
     </div>
@@ -57,7 +64,7 @@
 
     <h3>Browser Support</h3>
 
-    <p>This library uses <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">CSS Filters</a> and <a href="https://css-tricks.com/basics-css-blend-modes/">CSS Blend Modes</a>. This features are supported in the following browsers:</p>
+    <p>This library uses <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">CSS Filters</a> and <a href="https://css-tricks.com/basics-css-blend-modes/">CSS Blend Modes</a>. These features are supported in the following browsers:</p>
 
     <ul class="supported-browsers">
       <li class="supported">Google Chrome: 43+</li>
@@ -223,5 +230,68 @@
       this.select()
     }, false)
     pickSample(document.querySelector(".demo__option-img"))
+
+    // CAMERA
+
+    /*
+    Implementation of Matt West's excellent "Accessing the Device Camera with getUserMedia" article found at http://blog.teamtreehouse.com/accessing-the-device-camera-with-getusermedia
+    */
+
+    document.querySelector('.take-photo').addEventListener('click', function(){
+        // Normalize the various vendor prefixed versions of getUserMedia.
+        navigator.getUserMedia = (navigator.getUserMedia ||
+                                  navigator.webkitGetUserMedia ||
+                                  navigator.mozGetUserMedia ||
+                                  navigator.msGetUserMedia);
+
+        // open up the section
+        document.querySelector('.video-container').style.maxHeight = "420px";
+
+
+        // Check that the browser supports getUserMedia.
+        // If it doesn't show an alert, otherwise continue.
+        if (navigator.getUserMedia) {
+          // Request the camera.
+          navigator.getUserMedia(
+            // Constraints
+            {
+              video: true
+            },
+
+            // Success Callback
+            function(localMediaStream) {
+              // Get a reference to the video element on the page.
+              var vid = document.getElementById('camera-stream');
+
+              // Create an object URL for the video stream and use this
+              // to set the video source.
+              vid.src = window.URL.createObjectURL(localMediaStream);
+            },
+
+            // Error Callback
+            function(err) {
+              // Log the error to the console.
+              console.log('The following error occurred when trying to use getUserMedia: ' + err);
+            }
+          );
+
+        } else {
+          alert('Sorry, your browser does not support getUserMedia');
+        }
+
+      var snapshotButton = document.querySelector('button#snapshot');
+
+      // Put variables in global scope to make them available to the browser console.
+      var video = window.video = document.querySelector('video');
+      var canvas = window.canvas = document.querySelector('canvas');
+      canvas.width = 480;
+      canvas.height = 360;
+
+      snapshotButton.onclick = function() {
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width,
+            canvas.height);
+        updateImages(canvas.toDataURL());
+      };
+    });
   </script>
 {% endblock %}
