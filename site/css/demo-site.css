@@ -3806,3 +3806,50 @@ img {
   content: '✘';
   color: #c63082;
   margin-left: .5em; }
+
+.take-photo {
+  font-size: 1em;
+  color: #9b1c9b;
+  font-weight: 300;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed #9b1c9b;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  .take-photo:hover {
+    background: #c63082;
+    color: white; }
+
+.video-container {
+  margin-top: 2em;
+  max-height: 0;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  text-align: center;
+  width: 100%; }
+  .video-container video {
+    margin: 0 auto;
+    display: block; }
+
+#snapshot {
+  margin: 0 auto;
+  font-size: 1em;
+  color: #9b1c9b;
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed #9b1c9b;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  margin-top: 1em; }
+  #snapshot:hover {
+    background: #c63082;
+    color: white; }
