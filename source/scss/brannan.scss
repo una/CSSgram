@@ -1,0 +1,45 @@
+/*
+ * Brannan
+ *
+ */
+@import 'shared';
+
+// mixin to extend lark filter
+// @mixin brannan
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include brannan;
+//   }
+//   or
+//   img {
+//     @include brannan(blur(2px));
+//   }
+//   or
+//   img {
+//     @include brannan(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin brannan($filters...) {
+  @extend %filter-base;
+  filter: sepia(.2) brightness(1.1) contrast(1.3) saturate(.8) $filters;
+
+  &::after {
+    background: rgba(46, 0, 67, 0.61);
+    mix-blend-mode:screen;
+  }
+
+  &::before {
+    background: rgba(110, 239, 0, 0.19);
+    mix-blend-mode:multiply;
+  }
+
+  @content;
+}
+
+// brannan Instagram filter
+%brannan,
+.brannan {
+  @include brannan;
+}
