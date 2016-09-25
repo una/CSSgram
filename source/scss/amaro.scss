@@ -27,7 +27,6 @@
   filter: hue-rotate(-10deg) contrast(0.9) brightness(1.1) saturate(1.5) $filters;
 
   &::after {
-    background: radial-gradient(circle, rgb(128, 78, 15), rgb(59, 0, 59));
     mix-blend-mode: screen;
   }
 
