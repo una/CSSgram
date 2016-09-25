@@ -1,0 +1,40 @@
+/*
+ *
+ * Amaro
+ *
+ */
+@import 'shared';
+
+// mixin to extend amaro filter
+// @mixin amaro
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include amaro;
+//   }
+//   or
+//   img {
+//     @include amaro(blur(2px));
+//   }
+//   or
+//   img {
+//     @include amaro(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin amaro($filters...) {
+  @extend %filter-base;
+  filter: hue-rotate(-10deg) contrast(0.9) brightness(1.1) saturate(1.5) $filters;
+
+  &::after {
+    mix-blend-mode: screen;
+  }
+
+  @content;
+}
+
+// amaro Instagram filter
+%amaro,
+.amaro {
+  @include amaro;
+}
