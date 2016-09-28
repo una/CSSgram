@@ -20,6 +20,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -40,7 +41,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -71,7 +73,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -94,7 +97,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -118,7 +122,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -141,7 +146,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 /*
@@ -171,6 +177,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -191,7 +198,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -222,7 +230,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -245,7 +254,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -269,7 +279,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -292,7 +303,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -332,6 +344,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -352,7 +365,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -383,7 +397,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -406,7 +421,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -430,7 +446,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -453,7 +470,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -488,6 +506,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -508,7 +527,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -539,7 +559,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -562,7 +583,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -586,7 +608,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -609,7 +632,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -646,6 +670,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -666,7 +691,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -697,7 +723,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -720,7 +747,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -744,7 +772,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -767,7 +796,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -807,6 +837,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -827,7 +858,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -858,7 +890,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -881,7 +914,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -905,7 +939,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -928,7 +963,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -968,6 +1004,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -988,7 +1025,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1019,7 +1057,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1042,7 +1081,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1066,7 +1106,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1089,7 +1130,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1129,6 +1171,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1149,7 +1192,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1180,7 +1224,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1203,7 +1248,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1227,7 +1273,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1250,7 +1297,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1290,6 +1338,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1310,7 +1359,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1341,7 +1391,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1364,7 +1415,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1388,7 +1440,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1411,7 +1464,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1452,6 +1506,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1472,7 +1527,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1503,7 +1559,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1526,7 +1583,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1550,7 +1608,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1573,7 +1632,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1613,6 +1673,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1633,7 +1694,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1664,7 +1726,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1687,7 +1750,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1711,7 +1775,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1734,7 +1799,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1774,6 +1840,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1794,7 +1861,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1825,7 +1893,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -1848,7 +1917,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -1872,7 +1942,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -1895,7 +1966,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -1934,6 +2006,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1954,7 +2027,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -1985,7 +2059,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2008,7 +2083,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2032,7 +2108,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2055,7 +2132,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2094,6 +2172,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2114,7 +2193,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2145,7 +2225,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2168,7 +2249,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2192,7 +2274,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2215,7 +2298,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2255,6 +2339,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2275,7 +2360,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2306,7 +2392,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2329,7 +2416,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2353,7 +2441,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2376,7 +2465,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2416,6 +2506,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2436,7 +2527,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2467,7 +2559,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2490,7 +2583,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2514,7 +2608,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2537,7 +2632,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2579,6 +2675,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2599,7 +2696,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2630,7 +2728,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2653,7 +2752,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2677,7 +2777,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2700,7 +2801,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2742,6 +2844,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2762,7 +2865,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2793,7 +2897,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2816,7 +2921,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -2840,7 +2946,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -2863,7 +2970,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -2905,6 +3013,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2925,7 +3034,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -2956,7 +3066,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -2979,7 +3090,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -3003,7 +3115,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -3026,7 +3139,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -3064,6 +3178,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3084,7 +3199,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -3115,7 +3231,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -3138,7 +3255,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -3162,7 +3280,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -3185,7 +3304,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -3228,6 +3348,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3248,7 +3369,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -3279,7 +3401,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -3302,7 +3425,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -3326,7 +3450,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -3349,7 +3474,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -3395,6 +3521,7 @@
 .willow:before,
 .rise:before,
 .slumber:before,
+.brannan:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3415,7 +3542,8 @@
 .clarendon:after,
 .willow:after,
 .rise:after,
-.slumber:after {
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -3446,7 +3574,8 @@
 .clarendon,
 .willow,
 .rise,
-.slumber {
+.slumber,
+.brannan {
   position: relative; }
   
   .aden img,
@@ -3469,7 +3598,8 @@
   .clarendon img,
   .willow img,
   .rise img,
-  .slumber img {
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
   
@@ -3493,7 +3623,8 @@
   .clarendon:before,
   .willow:before,
   .rise:before,
-  .slumber:before {
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
   
   .aden:after,
@@ -3516,7 +3647,8 @@
   .clarendon:after,
   .willow:after,
   .rise:after,
-  .slumber:after {
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 
@@ -3530,4 +3662,170 @@
   
   .slumber::before {
     background: rgba(69, 41, 12, 0.4);
+    mix-blend-mode: lighten; }
+
+/*
+ *
+ * Brannan
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
+
+.brannan {
+  -webkit-filter: sepia(0.5) contrast(1.4);
+          filter: sepia(0.5) contrast(1.4); }
+  
+  .brannan::after {
+    background-color: rgba(161, 44, 199, 0.31);
     mix-blend-mode: lighten; }

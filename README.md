@@ -48,6 +48,7 @@ Alternatively, you can just download and link to any individual css file (e.g. `
 _For use in HTML markup:_
 
 *   Aden: `class="aden"`
+*   Brannan: `class="brannan"`
 *   Reyes: `class="reyes"`
 *   Perpetua: `class="perpetua"`
 *   Inkwell: `class="inkwell"`
@@ -115,6 +116,7 @@ _For use in Sass stylesheets:_
 **Extends**
 
 *   Aden: `@extend %aden`
+*   Brannan: `@extend %brannan`
 *   Reyes: `@extend %reyes`
 *   Perpetua: `@extend %perpetua`
 *   Inkwell: `@extend %inkwell`
@@ -136,6 +138,7 @@ _For use in Sass stylesheets:_
 **Mixins** (You can add more CSS3 filters as arguments)
 
 *   Aden: `@include aden()`
+*   Brannan: `@include brannan()`
 *   Reyes: `@include reyes()`
 *   Perpetua: `@include perpetua()`
 *   Inkwell: `@include inkwell()`
@@ -173,7 +176,7 @@ If you’d like to contribute, the following filters are yet to be added:
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)

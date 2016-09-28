@@ -22,12 +22,14 @@
 //       /*...*/
 //     };
 //   }
+
 @mixin brannan($filters...) {
   @extend %filter-base;
   filter: sepia(0.5) contrast(1.4) $filters;
 
   &::after {
-    mix-blend-mode: screen;
+    background-color: rgba(161, 44, 199, .31);
+    mix-blend-mode: lighten;
   }
 
   @content;
