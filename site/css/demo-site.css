@@ -3828,7 +3828,8 @@
           filter: sepia(0.5) contrast(1.4); }
   
   .brannan::after {
-    mix-blend-mode: screen; }
+    background-color: rgba(161, 44, 199, 0.31);
+    mix-blend-mode: lighten; }
 
 ::-moz-selection {
   background: #9b1c9b;
