@@ -2,7 +2,7 @@
 
 # CSSgram
 
-Instagram filter library in Sass and CSS.
+CSSGram is an Instagram filter library in Sass and CSS.
 
 ## What is This?
 
@@ -107,7 +107,7 @@ or using mixins (more flexible)
 }
 ```
 
-Alternatively, you can just download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`), if you're just using one of the styles.
+Alternatively, if you're just using one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
 ### Available Placeholders
 
