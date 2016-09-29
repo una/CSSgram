@@ -6,7 +6,7 @@
   <title>CSSGram</title>
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-       <link rel="stylesheet" href="css/demo-site.min.css"> 
+    <link rel="stylesheet" href="css/demo-site.min.css">
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -34,12 +34,19 @@
                 <img class="demo__option-img" src="img/cacti.jpg" alt="cacti image">
                 <img class="demo__option-img" src="img/lakegeneva.jpg" alt="lakegeneva image">
                 <img class="demo__option-img" src="img/tahoe.jpg" alt="tahoe image">
-              <br>
+                <button class="take-photo">Take a photo!</button>
+        <br>
         <label class="demo__input-label">
           Or paste in a link to your own photo:
           <input class="demo__input-img" type="text">
         </label>
       </fieldset>
+
+      <section class="video-container">
+        <video id="camera-stream" width="480px" height="360px" autoplay></video>
+        <button id="snapshot">Use snapshot</button>
+        <canvas style="display: none"></canvas>
+      </section>
 
       <small class="demo__note">Hovering over any of these images (or clicking on mobile) will remove the filter effect to visualize the changes.</small>
     </div>
@@ -59,10 +66,16 @@
                                 <li class="demo__item">
             <figure class="aden">
               <img>
-              <figcaption>aden</figcaption>
+              <figcaption>Aden</figcaption>
             </figure>
           </li>
-                                                                          <li class="demo__item">
+                                                            <li class="demo__item">
+            <figure class="brannan">
+              <img>
+              <figcaption>Brannan</figcaption>
+            </figure>
+          </li>
+                                <li class="demo__item">
             <figure class="brooklyn">
               <img>
               <figcaption>Brooklyn</figcaption>
@@ -140,7 +153,19 @@
               <figcaption>Reyes</figcaption>
             </figure>
           </li>
-                                                                                                                    <li class="demo__item">
+                                <li class="demo__item">
+            <figure class="rise">
+              <img>
+              <figcaption>Rise</figcaption>
+            </figure>
+          </li>
+                                                            <li class="demo__item">
+            <figure class="slumber">
+              <img>
+              <figcaption>Slumber</figcaption>
+            </figure>
+          </li>
+                                                            <li class="demo__item">
             <figure class="toaster">
               <img>
               <figcaption>Toaster</figcaption>
@@ -178,7 +203,7 @@
 
     <h3>Browser Support</h3>
 
-    <p>This library uses <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">CSS Filters</a> and <a href="https://css-tricks.com/basics-css-blend-modes/">CSS Blend Modes</a>. This features are supported in the following browsers:</p>
+    <p>This library uses <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">CSS Filters</a> and <a href="https://css-tricks.com/basics-css-blend-modes/">CSS Blend Modes</a>. These features are supported in the following browsers:</p>
 
     <ul class="supported-browsers">
       <li class="supported">Google Chrome: 43+</li>
@@ -195,9 +220,9 @@
   <section class="how-to-section">
     <h2>Usage</h2>
 
-    <p><strong>There are currently 2 ways to consume this library:</strong></p>
+    <p><strong>There are currently 3 ways to consume this library:</strong></p>
 
-    <h3 id="use-css-classes">Use CSS classes</h3>
+    <h3 id="use-css-classes">1. Use CSS classes</h3>
 
     <p>When using CSS classes, you can simply add the class with the filter name to the element containing your image.</p>
 
@@ -226,8 +251,9 @@
     <small><em>For use in HTML markup:</em></small>
     <ul class="available-classes">
                         <li>1977: <code>class="_1977"</code></li>
-                                <li>aden: <code>class="aden"</code></li>
-                                                                          <li>Brooklyn: <code>class="brooklyn"</code></li>
+                                <li>Aden: <code>class="aden"</code></li>
+                                                            <li>Brannan: <code>class="brannan"</code></li>
+                                <li>Brooklyn: <code>class="brooklyn"</code></li>
                                               <li>Clarendon: <code>class="clarendon"</code></li>
                                                             <li>Earlybird: <code>class="earlybird"</code></li>
                                 <li>Gingham: <code>class="gingham"</code></li>
@@ -240,7 +266,9 @@
                                 <li>Nashville: <code>class="nashville"</code></li>
                                 <li>Perpetua: <code>class="perpetua"</code></li>
                                 <li>Reyes: <code>class="reyes"</code></li>
-                                                                                                                    <li>Toaster: <code>class="toaster"</code></li>
+                                <li>Rise: <code>class="rise"</code></li>
+                                                            <li>Slumber: <code>class="slumber"</code></li>
+                                                            <li>Toaster: <code>class="toaster"</code></li>
                                                             <li>Walden: <code>class="walden"</code></li>
                                 <li>Willow: <code>class="willow"</code></li>
                                 <li>X-pro II: <code>class="xpro2"</code></li>
@@ -248,7 +276,7 @@
 
     <hr>
 
-    <h3>Use Sass <code>@extends</code></h3>
+    <h3>2. Use Sass <code>@extends</code></h3>
 
     <p>If you use custom naming in your CSS architecture, you can add the .scss files for the provided styles within your project and then <code>@extend</code> the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.</p>
 
@@ -280,8 +308,9 @@
     <small><em>For use in Sass elements:</em></small>
     <ul class="available-classes">
                         <li>1977: <code>@extend %_1977;</code></li>
-                                <li>aden: <code>@extend %aden;</code></li>
-                                                                          <li>Brooklyn: <code>@extend %brooklyn;</code></li>
+                                <li>Aden: <code>@extend %aden;</code></li>
+                                                            <li>Brannan: <code>@extend %brannan;</code></li>
+                                <li>Brooklyn: <code>@extend %brooklyn;</code></li>
                                               <li>Clarendon: <code>@extend %clarendon;</code></li>
                                                             <li>Earlybird: <code>@extend %earlybird;</code></li>
                                 <li>Gingham: <code>@extend %gingham;</code></li>
@@ -294,12 +323,78 @@
                                 <li>Nashville: <code>@extend %nashville;</code></li>
                                 <li>Perpetua: <code>@extend %perpetua;</code></li>
                                 <li>Reyes: <code>@extend %reyes;</code></li>
-                                                                                                                    <li>Toaster: <code>@extend %toaster;</code></li>
+                                <li>Rise: <code>@extend %rise;</code></li>
+                                                            <li>Slumber: <code>@extend %slumber;</code></li>
+                                                            <li>Toaster: <code>@extend %toaster;</code></li>
                                                             <li>Walden: <code>@extend %walden;</code></li>
                                 <li>Willow: <code>@extend %willow;</code></li>
                                 <li>X-pro II: <code>@extend %xpro2;</code></li>
                   </ul>
   <hr>
+
+    <h3>3. Use Sass <code>@mixins</code></h3>
+
+    <p>Mixins allow for multiple filter arguments to be passed into your classes. This is useful for if you want to add filters in addition to the ones provided (i.e. add a blur).</p>
+
+    <ol>
+      <li><a href="https://github.com/una/CSSgram/tree/master/source/scss" download>Download the /scss folder contents</a></li>
+      <li>Include a link to <code>scss/cssgram.scss</code> via an import statement in your Sass manifest file (i.e. <code>main.scss</code>). It may look like: <code>@import 'vendor/cssgram';</code></li>
+      <li>Include the mixin <code>@include aden()</code> in your element.</li>
+    </ol>
+
+    <p>For example:</p>
+
+    <pre><code>
+      <span class="comment">&lt;!-- HTML --&gt;</span>
+      &lt;figure class=<span class="highlight">"viz--beautiful"</span>&gt;
+        &lt;img src="../img.png"&gt;
+      &lt;/figure&gt;
+    </code></pre>
+
+    <pre><code>
+      <span class="comment">// Sass</span>
+      <span class="highlight">.viz--beautiful</span> {
+        @include aden()
+      }
+    </code></pre>
+
+    <p>As mentioned above, you can also add additional filters as arguments when using the library with mixins:</p>
+
+    <pre><code>
+      <span class="comment">// Sass</span>
+      <span class="highlight">.viz--beautiful</span> {
+        @include @include aden(blur(2px) /*...*/);
+      }
+    </code></pre>
+
+    <h3>Available Mixins</h3>
+    <small><em>For use in Sass elements:</em></small>
+    <ul class="available-classes">
+                        <li>1977: <code>@include _1977();</code></li>
+                                <li>Aden: <code>@include aden();</code></li>
+                                                            <li>Brannan: <code>@include brannan();</code></li>
+                                <li>Brooklyn: <code>@include brooklyn();</code></li>
+                                              <li>Clarendon: <code>@include clarendon();</code></li>
+                                                            <li>Earlybird: <code>@include earlybird();</code></li>
+                                <li>Gingham: <code>@include gingham();</code></li>
+                                                                          <li>Hudson: <code>@include hudson();</code></li>
+                                <li>Inkwell: <code>@include inkwell();</code></li>
+                                                            <li>Lark: <code>@include lark();</code></li>
+                                <li>Lo-Fi: <code>@include lofi();</code></li>
+                                                            <li>Mayfair: <code>@include mayfair();</code></li>
+                                <li>Moon: <code>@include moon();</code></li>
+                                <li>Nashville: <code>@include nashville();</code></li>
+                                <li>Perpetua: <code>@include perpetua();</code></li>
+                                <li>Reyes: <code>@include reyes();</code></li>
+                                <li>Rise: <code>@include rise();</code></li>
+                                                            <li>Slumber: <code>@include slumber();</code></li>
+                                                            <li>Toaster: <code>@include toaster();</code></li>
+                                                            <li>Walden: <code>@include walden();</code></li>
+                                <li>Willow: <code>@include willow();</code></li>
+                                <li>X-pro II: <code>@include xpro2();</code></li>
+                  </ul>
+  <hr>
+
   </section>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
 
@@ -323,6 +418,69 @@
       this.select()
     }, false)
     pickSample(document.querySelector(".demo__option-img"))
+
+    // CAMERA
+
+    /*
+    Implementation of Matt West's excellent "Accessing the Device Camera with getUserMedia" article found at http://blog.teamtreehouse.com/accessing-the-device-camera-with-getusermedia
+    */
+
+    document.querySelector('.take-photo').addEventListener('click', function(){
+        // Normalize the various vendor prefixed versions of getUserMedia.
+        navigator.getUserMedia = (navigator.getUserMedia ||
+                                  navigator.webkitGetUserMedia ||
+                                  navigator.mozGetUserMedia ||
+                                  navigator.msGetUserMedia);
+
+        // open up the section
+        document.querySelector('.video-container').style.maxHeight = "420px";
+
+
+        // Check that the browser supports getUserMedia.
+        // If it doesn't show an alert, otherwise continue.
+        if (navigator.getUserMedia) {
+          // Request the camera.
+          navigator.getUserMedia(
+            // Constraints
+            {
+              video: true
+            },
+
+            // Success Callback
+            function(localMediaStream) {
+              // Get a reference to the video element on the page.
+              var vid = document.getElementById('camera-stream');
+
+              // Create an object URL for the video stream and use this
+              // to set the video source.
+              vid.src = window.URL.createObjectURL(localMediaStream);
+            },
+
+            // Error Callback
+            function(err) {
+              // Log the error to the console.
+              console.log('The following error occurred when trying to use getUserMedia: ' + err);
+            }
+          );
+
+        } else {
+          alert('Sorry, your browser does not support getUserMedia');
+        }
+
+      var snapshotButton = document.querySelector('button#snapshot');
+
+      // Put variables in global scope to make them available to the browser console.
+      var video = window.video = document.querySelector('video');
+      var canvas = window.canvas = document.querySelector('canvas');
+      canvas.width = 480;
+      canvas.height = 360;
+
+      snapshotButton.onclick = function() {
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width,
+            canvas.height);
+        updateImages(canvas.toDataURL());
+      };
+    });
   </script>
 </body>
 </html>

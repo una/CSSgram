@@ -1,7 +1,7 @@
 var gulp        = require('gulp'),
     sass        = require('gulp-sass'),
     rename      = require('gulp-rename'),
-    cssmin      = require('gulp-minify-css'),
+    cssmin      = require('gulp-clean-css'),
     concat      = require('gulp-concat'),
     uglify      = require('gulp-uglify'),
     cache       = require('gulp-cached'),
@@ -10,7 +10,7 @@ var gulp        = require('gulp'),
     reload      = browserSync.reload,
     size        = require('gulp-size'),
     imagemin    = require('gulp-imagemin'),
-    minifyHTML  = require('gulp-minify-html'),
+    minifyHTML  = require('gulp-htmlmin'),
     pngquant    = require('imagemin-pngquant'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
@@ -98,7 +98,8 @@ gulp.task('twig', function () {
 
 
 gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'site-scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'sass-lint']);
+  gulp.watch('site/scss/**/*.scss', ['site-scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
   gulp.watch('site/**/*.twig', ['twig']);
 });

@@ -1,5 +1,49 @@
 @charset "UTF-8";
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -9,14 +53,102 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
 /*
@@ -24,7 +156,51 @@
  * Aden
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -34,19 +210,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .aden {
-  -webkit-filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2);
-          filter: hue-rotate(-20deg) contrast(.9) saturate(0.85) brightness(1.2); }
+  -webkit-filter: hue-rotate(-20deg) contrast(0.9) saturate(0.85) brightness(1.2);
+          filter: hue-rotate(-20deg) contrast(0.9) saturate(0.85) brightness(1.2); }
+  
   .aden::after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
@@ -57,16 +323,51 @@
  * Inkwell
  *
  */
-.inkwell {
-  -webkit-filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1);
-          filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1); }
 
-/*
- *
- * Perpetua
- *
- */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -76,15 +377,266 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
+
+.inkwell {
+  -webkit-filter: sepia(0.3) contrast(1.1) brightness(1.1) grayscale(1);
+          filter: sepia(0.3) contrast(1.1) brightness(1.1) grayscale(1); }
+
+/*
+ *
+ * Perpetua
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
 
 .perpetua::after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
@@ -97,7 +649,51 @@
  * Reyes
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -107,19 +703,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .reyes {
-  -webkit-filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75);
-          filter: sepia(.22) brightness(1.1) contrast(.85) saturate(0.75); }
+  -webkit-filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75);
+          filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75); }
+  
   .reyes::after {
     background: #efcdad;
     mix-blend-mode: soft-light;
@@ -130,7 +816,51 @@
  * Gingham
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -140,19 +870,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 .gingham {
   -webkit-filter: brightness(1.05) hue-rotate(-10deg);
           filter: brightness(1.05) hue-rotate(-10deg); }
+  
   .gingham::after {
     background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
     background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
@@ -163,7 +983,51 @@
  * Toaster
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -173,19 +1037,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .toaster {
-  -webkit-filter: contrast(1.5) brightness(.9);
-          filter: contrast(1.5) brightness(.9); }
+  -webkit-filter: contrast(1.5) brightness(0.9);
+          filter: contrast(1.5) brightness(0.9); }
+  
   .toaster::after {
     background: -webkit-radial-gradient(circle, #804e0f, #3b003b);
     background: radial-gradient(circle, #804e0f, #3b003b);
@@ -196,7 +1150,51 @@
  * Walden
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -206,19 +1204,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .walden {
-  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6);
-          filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6); }
+  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(0.3) saturate(1.6);
+          filter: brightness(1.1) hue-rotate(-10deg) sepia(0.3) saturate(1.6); }
+  
   .walden::after {
     background: #0044cc;
     mix-blend-mode: screen;
@@ -229,7 +1317,51 @@
  * Hudson
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -239,19 +1371,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .hudson {
-  -webkit-filter: brightness(1.2) contrast(.9) saturate(1.1);
-          filter: brightness(1.2) contrast(.9) saturate(1.1); }
+  -webkit-filter: brightness(1.2) contrast(0.9) saturate(1.1);
+          filter: brightness(1.2) contrast(0.9) saturate(1.1); }
+  
   .hudson::after {
     background: -webkit-radial-gradient(circle, #a6b1ff 50%, #342134);
     background: radial-gradient(circle, #a6b1ff 50%, #342134);
@@ -263,7 +1485,51 @@
  * Earlybird
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -273,19 +1539,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .earlybird {
-  -webkit-filter: contrast(.9) sepia(.2);
-          filter: contrast(.9) sepia(.2); }
+  -webkit-filter: contrast(0.9) sepia(0.2);
+          filter: contrast(0.9) sepia(0.2); }
+  
   .earlybird::after {
     background: -webkit-radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
     background: radial-gradient(circle, #d0ba8e 20%, #360309 85%, #1d0210 100%);
@@ -296,7 +1652,51 @@
  * Mayfair
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -306,19 +1706,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 .mayfair {
   -webkit-filter: contrast(1.1) saturate(1.1);
           filter: contrast(1.1) saturate(1.1); }
+  
   .mayfair::after {
     background: -webkit-radial-gradient(40% 40%, circle, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
     background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.8), rgba(255, 200, 200, 0.6), #111111 60%);
@@ -329,7 +1819,51 @@
  * Lo-fi
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -339,19 +1873,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 .lofi {
   -webkit-filter: saturate(1.1) contrast(1.5);
           filter: saturate(1.1) contrast(1.5); }
+  
   .lofi::after {
     background: -webkit-radial-gradient(circle, transparent 70%, #222222 150%);
     background: radial-gradient(circle, transparent 70%, #222222 150%);
@@ -361,7 +1985,51 @@
  * 1977
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -371,19 +2039,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 ._1977 {
   -webkit-filter: contrast(1.1) brightness(1.1) saturate(1.3);
           filter: contrast(1.1) brightness(1.1) saturate(1.3); }
+  
   ._1977:after {
     background: rgba(243, 106, 188, 0.3);
     mix-blend-mode: screen; }
@@ -393,7 +2151,51 @@
  * Brooklyn
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -403,19 +2205,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .brooklyn {
-  -webkit-filter: contrast(.9) brightness(1.1);
-          filter: contrast(.9) brightness(1.1); }
+  -webkit-filter: contrast(0.9) brightness(1.1);
+          filter: contrast(0.9) brightness(1.1); }
+  
   .brooklyn::after {
     background: -webkit-radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8);
     background: radial-gradient(circle, rgba(168, 223, 193, 0.4) 70%, #c4b7c8);
@@ -426,7 +2318,51 @@
  * X-Pro II
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -436,19 +2372,109 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .xpro2 {
-  -webkit-filter: sepia(.3);
-          filter: sepia(.3); }
+  -webkit-filter: sepia(0.3);
+          filter: sepia(0.3); }
+  
   .xpro2::after {
     background: -webkit-radial-gradient(circle, #e6e7e0 40%, rgba(43, 42, 161, 0.6) 110%);
     background: radial-gradient(circle, #e6e7e0 40%, rgba(43, 42, 161, 0.6) 110%);
@@ -459,7 +2485,51 @@
  * Nashville
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -469,22 +2539,113 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .nashville {
-  -webkit-filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2);
-          filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2); }
+  -webkit-filter: sepia(0.2) contrast(1.2) brightness(1.05) saturate(1.2);
+          filter: sepia(0.2) contrast(1.2) brightness(1.05) saturate(1.2); }
+  
   .nashville::after {
     background: rgba(0, 70, 150, 0.4);
     mix-blend-mode: lighten; }
+  
   .nashville::before {
     background: rgba(247, 176, 153, 0.56);
     mix-blend-mode: darken; }
@@ -493,7 +2654,51 @@
  * Lark
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -503,22 +2708,113 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
 
+
 .lark {
-  -webkit-filter: contrast(.9);
-          filter: contrast(.9); }
+  -webkit-filter: contrast(0.9);
+          filter: contrast(0.9); }
+  
   .lark::after {
     background: rgba(242, 242, 242, 0.8);
     mix-blend-mode: darken; }
+  
   .lark::before {
     background: #22253f;
     mix-blend-mode: color-dodge; }
@@ -527,7 +2823,51 @@
  * Moon
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -537,22 +2877,113 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 .moon {
   -webkit-filter: grayscale(1) contrast(1.1) brightness(1.1);
           filter: grayscale(1) contrast(1.1) brightness(1.1); }
+  
   .moon::before {
     background: #a0a0a0;
     mix-blend-mode: soft-light; }
+  
   .moon::after {
     background: #383838;
     mix-blend-mode: lighten; }
@@ -561,7 +2992,51 @@
  * Clarendon
  *
  */
-.aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before, .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
   content: '';
   display: block;
   height: 100%;
@@ -571,22 +3046,790 @@
   position: absolute;
   pointer-events: none; }
 
-.aden, .inkwell, .perpetua, .reyes, .gingham, .toaster, .walden, .hudson, .earlybird, .mayfair, .lofi, ._1977, .brooklyn, .xpro2, .nashville, .lark, .moon, .clarendon {
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
   position: relative; }
-  .aden img, .inkwell img, .perpetua img, .reyes img, .gingham img, .toaster img, .walden img, .hudson img, .earlybird img, .mayfair img, .lofi img, ._1977 img, .brooklyn img, .xpro2 img, .nashville img, .lark img, .moon img, .clarendon img {
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
     width: 100%;
     z-index: 1; }
-  .aden:before, .inkwell:before, .perpetua:before, .reyes:before, .gingham:before, .toaster:before, .walden:before, .hudson:before, .earlybird:before, .mayfair:before, .lofi:before, ._1977:before, .brooklyn:before, .xpro2:before, .nashville:before, .lark:before, .moon:before, .clarendon:before {
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
     z-index: 2; }
-  .aden:after, .inkwell:after, .perpetua:after, .reyes:after, .gingham:after, .toaster:after, .walden:after, .hudson:after, .earlybird:after, .mayfair:after, .lofi:after, ._1977:after, .brooklyn:after, .xpro2:after, .nashville:after, .lark:after, .moon:after, .clarendon:after {
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
     z-index: 3; }
+
 
 .clarendon {
   -webkit-filter: contrast(1.2) saturate(1.35);
           filter: contrast(1.2) saturate(1.35); }
+  
   .clarendon:before {
     background: rgba(127, 187, 227, 0.2);
     mix-blend-mode: overlay; }
+
+/*
+ * Willow
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
+
+.willow {
+  -webkit-filter: grayscale(0.5) contrast(0.95) brightness(0.9);
+          filter: grayscale(0.5) contrast(0.95) brightness(0.9); }
+  
+  .willow::before {
+    background-color: radial-gradient(40%, circle, #d4a9af 55%, black 150%);
+    mix-blend-mode: overlay; }
+  
+  .willow::after {
+    background-color: #d8cdcb;
+    mix-blend-mode: color; }
+
+/*
+ *
+ * Rise
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
+
+.rise {
+  -webkit-filter: brightness(1.05) sepia(0.2) contrast(0.9) saturate(0.9);
+          filter: brightness(1.05) sepia(0.2) contrast(0.9) saturate(0.9); }
+  
+  .rise::after {
+    background: -webkit-radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 90%);
+    background: radial-gradient(circle, rgba(232, 197, 152, 0.8), transparent 90%);
+    mix-blend-mode: overlay;
+    opacity: .6; }
+  
+  .rise::before {
+    background: -webkit-radial-gradient(circle, rgba(236, 205, 169, 0.15) 55%, rgba(50, 30, 7, 0.4));
+    background: radial-gradient(circle, rgba(236, 205, 169, 0.15) 55%, rgba(50, 30, 7, 0.4));
+    mix-blend-mode: multiply; }
+
+/*
+ *
+ * Slumber
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
+
+.slumber {
+  -webkit-filter: saturate(0.66) brightness(1.05);
+          filter: saturate(0.66) brightness(1.05); }
+  
+  .slumber::after {
+    background: rgba(125, 105, 24, 0.5);
+    mix-blend-mode: soft-light; }
+  
+  .slumber::before {
+    background: rgba(69, 41, 12, 0.4);
+    mix-blend-mode: lighten; }
+
+/*
+ *
+ * Brannan
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after {
+    z-index: 3; }
+
+
+.brannan {
+  -webkit-filter: sepia(0.5) contrast(1.4);
+          filter: sepia(0.5) contrast(1.4); }
+  
+  .brannan::after {
+    background-color: rgba(161, 44, 199, 0.31);
+    mix-blend-mode: lighten; }
 
 ::-moz-selection {
   background: #9b1c9b;
@@ -611,17 +3854,20 @@ body {
 section {
   overflow-x: hidden; }
 
-h1, h2 {
+h1,
+h2 {
   color: #9b1c9b; }
   @media (max-width: 500px) {
-    h1, h2 {
+    h1,
+    h2 {
       text-align: center; } }
 
-h3, em {
+h3,
+em {
   color: #c63082; }
 
 pre, code {
-  background: #eff1ef; }
+  background: #eff1f0; }
   pre code, code code {
     border: none;
     background: none; }
@@ -636,14 +3882,15 @@ code {
   font-weight: 800; }
 
 .comment {
-  color: #abb1ad; }
+  color: #acb2ad; }
 
 ul {
   width: 100%;
   margin: 0;
   padding: 0; }
 
-ul, ol {
+ul,
+ol {
   line-height: 1.8; }
 
 a {
@@ -654,8 +3901,8 @@ a {
   border-bottom: 1px solid #c63082;
   padding-bottom: .05em; }
   a:hover, a:focus {
-    color: #e297c0;
-    border-color: #e297c0; }
+    color: #e398c1;
+    border-color: #e398c1; }
 
 figure {
   max-width: 350px;
@@ -700,7 +3947,7 @@ figcaption {
 hr {
   clear: both;
   float: none;
-  border: 1px solid #eff1ef;
+  border: 1px solid #eff1f0;
   margin: 2em auto;
   display: block; }
 
@@ -715,14 +3962,17 @@ img {
 .demo__section {
   font-weight: 300;
   font-size: 1.2em; }
+
 .demo__subtitle {
   font-size: 2em;
   text-align: center; }
+
 .demo__note {
   font-style: italic;
   text-align: center;
   display: block;
   margin: 2em auto 0; }
+
 .demo__input-area {
   display: block;
   font-size: 1em;
@@ -734,9 +3984,11 @@ img {
     .demo__input-area {
       margin: 0;
       font-size: .8em; } }
+
 .demo__input-label {
   text-align: center;
   color: #9b1c9b; }
+
 .demo__input-img {
   max-width: 16em;
   font-size: 1em;
@@ -751,10 +4003,12 @@ img {
     background: #f5e8f5; }
   .demo__input-img:focus {
     background: #e6c6e6; }
+
 .demo__option-field {
   color: #9b1c9b;
   border: 1px solid #cad1cc;
   min-width: 200px; }
+
 .demo__option-img {
   max-width: 150px;
   height: 150px;
@@ -766,6 +4020,7 @@ img {
   @media (max-width: 500px) {
     .demo__option-img {
       height: 60px; } }
+
 .demo__list {
   width: 100%;
   display: -webkit-box;
@@ -779,6 +4034,7 @@ img {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+
 .demo__item {
   margin: .75em;
   list-style: none; }
@@ -792,8 +4048,10 @@ img {
 .title-section {
   width: 100%;
   text-align: center; }
+
 .title--logo {
   max-width: 400px; }
+
 .title--top-sub {
   font-weight: 200;
   margin: 0 auto;
@@ -803,7 +4061,8 @@ img {
     .title--top-sub {
       font-size: 1.2em; } }
 
-.how-to-section, .explanation-section {
+.how-to-section,
+.explanation-section {
   font-size: 1.2em;
   font-weight: 300;
   max-width: 40em;
@@ -816,7 +4075,7 @@ img {
 
 .callout {
   max-width: 14em;
-  background: #eff1ef;
+  background: #eff1f0;
   padding: 2em;
   margin: -.5em 2em 0;
   display: block;
@@ -829,7 +4088,9 @@ img {
       float: none;
       font-size: .8em; } }
 
-.available-classes, .available-extends, .supported-browsers {
+.available-classes,
+.available-extends,
+.supported-browsers {
   -webkit-columns: 15em 2;
      -moz-columns: 15em 2;
           columns: 15em 2; }
@@ -843,3 +4104,50 @@ img {
   content: '✘';
   color: #c63082;
   margin-left: .5em; }
+
+.take-photo {
+  font-size: 1em;
+  color: #9b1c9b;
+  font-weight: 300;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed #9b1c9b;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  .take-photo:hover {
+    background: #c63082;
+    color: white; }
+
+.video-container {
+  margin-top: 2em;
+  max-height: 0;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  text-align: center;
+  width: 100%; }
+  .video-container video {
+    margin: 0 auto;
+    display: block; }
+
+#snapshot {
+  margin: 0 auto;
+  font-size: 1em;
+  color: #9b1c9b;
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed #9b1c9b;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  margin-top: 1em; }
+  #snapshot:hover {
+    background: #c63082;
+    color: white; }

@@ -2,7 +2,7 @@
 
 # CSSgram
 
-Instagram filter library in Sass and CSS.
+CSSGram is an Instagram filter library in Sass and CSS.
 
 ## What is This?
 
@@ -14,11 +14,11 @@ We are using pseudo-elements (i.e. `::before` and `::after`) to create the filte
 
 This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:
 
-| <img src="http://i.imgur.com/dJC1GUv.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/8h3iz5H.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/iQV4nmJ.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/j3tgNKJ.png" width="48px" height="48px" alt="Safari logo"> |
-|:---:|:---:|:---:|:---:|:---:|
-| 43+ ✔ | 38+ ✔ | Nope ✘ | 32+ ✔ | 8+ ✔ |
+| <img src="http://i.imgur.com/dJC1GUv.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/8h3iz5H.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/kQ1e7Mk.png" width="45px" height="45px" alt="Edge logo"> | <img src="http://i.imgur.com/iQV4nmJ.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/j3tgNKJ.png" width="48px" height="48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 43+ ✔ | 38+ ✔ | Nope ✘ |  13 ✔ | 32+ ✔ | 8+ ✔ |
 
-For more information, check on [Can I Use](http://caniuse.com/).
+For more information, check on [Can I Use](http://caniuse.com/#feat=css-filters).
 
 ## Usage
 
@@ -34,7 +34,7 @@ When using CSS classes, you can simply add the class with the filter name to the
 
 For example:
 
-```
+```html
 <!-- HTML -->
 <figure class="aden">
   <img src="../img.png">
@@ -48,6 +48,7 @@ Alternatively, you can just download and link to any individual css file (e.g. `
 _For use in HTML markup:_
 
 *   Aden: `class="aden"`
+*   Brannan: `class="brannan"`
 *   Reyes: `class="reyes"`
 *   Perpetua: `class="perpetua"`
 *   Inkwell: `class="inkwell"`
@@ -63,40 +64,59 @@ _For use in HTML markup:_
 *   Nashville: `class="nashville"`
 *   Lark: `class="lark"`
 *   Moon: `class="moon"`
+*   Clarendon: `class="clarendon"`
+*   Willow: `class="willow"`
 
 * * *
 
-### Use Sass `@extend`
+### Use Sass `@extend` or `@mixin`
 
 If you use custom naming in your CSS architecture, you can add the `.scss` files for the provided styles within your project and then `@extend` the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.
 
 1. [Download the `scss/` folder contents](https://github.com/una/CSSgram/tree/master/source/scss)
 * Include a link to `scss/cssgram.scss` via an `@import` statement in your Sass manifest file (i.e. `main.scss`). It may look like: `@import 'vendor/cssgram'`
-* Extend the placeholder selector (e.g. `@extend %aden`) in your element.
+* Extend the placeholder selector (e.g. `@extend %aden` or using mixins `@include aden()`) in your element.
 
 For example:
 
-```
+```html
 <!-- HTML -->
 <figure class="viz--beautiful">
   <img src="../img.png">
 </figure>
 ```
 
-```
+```sass
 // Sass
 .viz--beautiful {
   @extend %aden;
 }
 ```
 
-Alternatively, you can just download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`), if you're just using one of the styles.
+or using mixins (more flexible)
+
+```
+// Sass (without adding new CSS3 filters)
+.viz--beautiful {
+  @include aden();
+}
+
+// Sass (adding new CSS3 filters)
+.viz--beautiful {
+  @include aden(blur(2px) /*...*/);
+}
+```
+
+Alternatively, if you're just using one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
 ### Available Placeholders
 
 _For use in Sass stylesheets:_
 
+**Extends**
+
 *   Aden: `@extend %aden`
+*   Brannan: `@extend %brannan`
 *   Reyes: `@extend %reyes`
 *   Perpetua: `@extend %perpetua`
 *   Inkwell: `@extend %inkwell`
@@ -112,6 +132,30 @@ _For use in Sass stylesheets:_
 *   Nashville: `@extend %nashville`
 *   Lark: `@extend %lark`
 *   Moon: `@extend %moon`
+*   Clarendon: `@extend %clarendon`
+*   Willow: `@extend %willow`
+
+**Mixins** (You can add more CSS3 filters as arguments)
+
+*   Aden: `@include aden()`
+*   Brannan: `@include brannan()`
+*   Reyes: `@include reyes()`
+*   Perpetua: `@include perpetua()`
+*   Inkwell: `@include inkwell()`
+*   Toaster: `@include toaster()`
+*   Walden: `@include walden()`
+*   Hudson: `@include hudson()`
+*   Gingham: `@include gingham()`
+*   Mayfair: `@include mayfair()`
+*   Lo-fi: `@include lofi()`
+*   X-Pro II: `@include xpro2()`
+*   1977: `@include _1977()`
+*   Brooklyn: `@include brooklyn()`
+*   Nashville: `@include nashville()`
+*   Lark: `@include lark()`
+*   Moon: `@include moon()`
+*   Clarendon: `@include clarendon()`
+*   Willow: `@include willow()`
 
 ## Contributing
 
@@ -132,9 +176,8 @@ If you’d like to contribute, the following filters are yet to be added:
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
-- [ ] [Clarendon](https://github.com/una/CSSgram/issues/121)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
 - [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
@@ -152,7 +195,6 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
 - [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
-- [ ] [Willow](https://github.com/una/CSSgram/issues/131)
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
