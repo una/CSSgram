@@ -2,15 +2,17 @@
 
 # CSSgram
 
+
 CSSGram is an Instagram filter library in Sass and CSS.
 
-## What is This?
+## What is This??
+
 
 Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we’re doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
 
 We are using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
 
-## Browser Support
+## Browser Support. (Lists of Browsers Supported)
 
 This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:
 
@@ -22,9 +24,11 @@ For more information, check on [Can I Use](http://caniuse.com/#feat=css-filters)
 
 ## Usage
 
+
 **There are currently 2 ways to consume this library:**
 
 ### Use CSS classes
+
 
 When using CSS classes, you can simply add the class with the filter name to the element containing your image.
 
@@ -44,6 +48,7 @@ For example:
 Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
 
 ### Available Classes
+
 
 _For use in HTML markup:_
 
@@ -78,6 +83,7 @@ If you use custom naming in your CSS architecture, you can add the `.scss` files
 * Extend the placeholder selector (e.g. `@extend %aden` or using mixins `@include aden()`) in your element.
 
 For example:
+
 
 ```html
 <!-- HTML -->
