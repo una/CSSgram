@@ -1,0 +1,42 @@
+/*
+ *
+ * Ashby
+ *
+ */
+
+@import 'shared';
+
+// mixin to extend aden filter
+// @mixin aashby
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include aden;
+//   }
+//   or
+//   img {
+//     @include aden(blur(2px));
+//   }
+//   or
+//   img {
+//     @include aden(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin ashby($filters...) {
+  @extend %filter-base;
+  filter: contrast(0.78) brightness(1.1) saturate(1.3) sepia(0.12) $filters;
+
+  &::after {
+    background-color: rgba(255, 179, 105, 0.247059);
+    mix-blend-mode: darken;
+  }
+
+  @content;
+}
+
+// aden Instagram filter
+%ashby,
+.ashby {
+  @include ashby;
+}
