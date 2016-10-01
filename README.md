@@ -174,7 +174,7 @@ Or:
 
 If you’d like to contribute, the following filters are yet to be added:
 
-- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [x] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
 - [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
@@ -187,10 +187,10 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
 - [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
 - [ ] [Maven](https://github.com/una/CSSgram/issues/127)
-- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
+- [x] [Rise](https://github.com/una/CSSgram/issues/15)
 - [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
 - [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
-- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
+- [x] [Slumber](https://github.com/una/CSSgram/issues/129)
 - [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
