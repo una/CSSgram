@@ -2,13 +2,13 @@
 
 # CSSgram
 
-CSSGram is an Instagram filter library in Sass and CSS.
+CSSgram is an Instagram filter library in Sass and CSS.
 
 ## What is This?
 
 Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we’re doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
 
-We are using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
+We are using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). We recommend yo to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
 
 ## Browser Support
 
@@ -41,7 +41,7 @@ For example:
 </figure>
 ```
 
-Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
+Alternatively, you can just download and link any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
 
 ### Available Classes
 
@@ -205,4 +205,4 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `site/` is the public facing website
 - `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/filters.json`.
 
-Note: this will also have mixin options and a PostCSS Component.
+Note: This will also have mixin options and a PostCSS Component.
