@@ -5,21 +5,20 @@
  */
 
 @import 'shared';
-
-// mixin to extend aden filter
-// @mixin aashby
+// mixin to extend ashby filter
+// @mixin ashby
 // @param $filters... {filter} - Zero to many css filters to be added
 // @example
 //   img {
-//     @include aden;
+//     @include ashby;
 //   }
 //   or
 //   img {
-//     @include aden(blur(2px));
+//     @include ashby(blur(2px));
 //   }
 //   or
 //   img {
-//     @include aden(blur(2px)) {
+//     @include ashby(blur(2px)) {
 //       /*...*/
 //     };
 //   }
@@ -35,7 +34,7 @@
   @content;
 }
 
-// aden Instagram filter
+//ashby Instagram filter
 %ashby,
 .ashby {
   @include ashby;
