@@ -3,7 +3,9 @@
  * Perpetua
  *
  */
-.perpetua:before, .perpetua:after {
+
+.perpetua:before,
+.perpetua:after {
   content: '';
   display: block;
   height: 100%;
@@ -13,17 +15,22 @@
   position: absolute;
   pointer-events: none; }
 
+
 .perpetua {
   position: relative; }
+  
   .perpetua img {
     width: 100%;
     z-index: 1; }
+  
   .perpetua:before {
     z-index: 2; }
+  
   .perpetua:after {
     z-index: 3; }
 
-.perpetua:after {
+
+.perpetua::after {
   background: -webkit-linear-gradient(top, #005b9a, #e6c13d);
   background: linear-gradient(to bottom, #005b9a, #e6c13d);
   mix-blend-mode: soft-light;

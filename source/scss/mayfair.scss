@@ -5,14 +5,38 @@
  */
 @import 'shared';
 
-%mayfair,
-.mayfair {
+// mixin to extend mayfair filter
+// @mixin mayfair
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include mayfair;
+//   }
+//   or
+//   img {
+//     @include mayfair(blur(2px));
+//   }
+//   or
+//   img {
+//     @include mayfair(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin mayfair($filters...) {
   @extend %filter-base;
-  filter: contrast(1.1) saturate(1.1);
+  filter: contrast(1.1) saturate(1.1) $filters;
 
-  &:after{
-    background: radial-gradient(circle at 40% 40%, rgba(255,255,255, .8), rgba(255,200,200,.6), #111 60%);
+  &::after {
+    background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, .8), rgba(255, 200, 200, .6), rgb(17, 17, 17) 60%);
     mix-blend-mode: overlay;
     opacity: .4;
   }
+
+  @content;
+}
+
+// mayfair Instagram filter
+%mayfair,
+.mayfair {
+  @include mayfair;
 }

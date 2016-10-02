@@ -118,12 +118,10 @@ figure {
     filter: none !important;
   }
 
-  &:after {
-    transition-duration: .35s;
-  }
-
-  &:hover:after,
-  &:focus:after {
+  &:hover::after,
+  &:focus::after,
+  &:hover::before,
+  &:focus::before {
     opacity: 0 !important;
   }
 }
@@ -327,5 +325,60 @@ img {
     content: '✘';
     color: $maroon;
     margin-left: .5em;
+  }
+}
+
+// vid section
+.take-photo {
+  font-size: 1em;
+  color: $accent;
+  font-weight: 300;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed $accent;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  transition-duration: .25s;
+
+  &:hover {
+    background: $secondary;
+    color: white;
+  }
+}
+
+.video-container {
+  margin-top: 2em;
+  max-height: 0;
+  transition-duration: .3s;
+  text-align: center;
+  width: 100%;
+
+  video {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+#snapshot {
+  margin: 0 auto;
+
+  font-size: 1em;
+  color: $accent;
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed $accent;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  transition-duration: .25s;
+  margin-top: 1em;
+
+  &:hover {
+    background: $secondary;
+    color: white;
   }
 }
