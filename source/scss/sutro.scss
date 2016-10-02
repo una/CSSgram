@@ -1,0 +1,42 @@
+/*
+ *
+ * Sutro
+ *
+ */
+@import 'shared';
+
+// mixin to extend sutro filter
+// @mixin sutro
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include sutro;
+//   }
+//   or
+//   img {
+//     @include sutro(blur(2px));
+//   }
+//   or
+//   img {
+//     @include sutro(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin sutro($filters...) {
+  @extend %filter-base;
+  filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg) $filters;
+
+  &::after {
+    background: rgba(0, 70, 150, 0);
+    mix-blend-mode: initial;
+  }
+
+
+  @content;
+}
+
+// sutro Instagram filter
+%sutro,
+.sutro {
+  @include sutro;
+}
