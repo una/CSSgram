@@ -1,0 +1,43 @@
+/*
+ *
+ * Sierra
+ *
+ */
+@import 'shared';
+
+// mixin to extend sierra filter
+// @mixin sierra
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include sierra;
+//   }
+//   or
+//   img {
+//     @include sierra(blur(2px));
+//   }
+//   or
+//   img {
+//     @include sierra(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin sierra($filters...) {
+  @extend %filter-base;
+   -webkit-filter: contrast(0.8) saturate(1.2) sepia(0.15);
+  filter: contrast(0.8) saturate(1.2) sepia(0.15);
+
+  &::after {
+    background: rgba(0, 70, 150, 0);
+    mix-blend-mode: initial;
+  }
+
+
+  @content;
+}
+
+// sierra Instagram filter
+%sierra,
+.sierra {
+  @include sierra;
+}
