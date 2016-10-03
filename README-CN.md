@@ -183,7 +183,7 @@ Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
