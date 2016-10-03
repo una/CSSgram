@@ -1,0 +1,45 @@
+/*
+ *
+ * Vesper
+ *
+ */
+
+.vesper:before,
+.vesper:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.vesper {
+  position: relative; }
+  
+  .vesper img {
+    width: 100%;
+    z-index: 1; }
+  
+  .vesper:before {
+    z-index: 2; }
+  
+  .vesper:after {
+    z-index: 3; }
+
+
+.vesper {
+  -webkit-filter: contrast(0.9) sepia(0.4) hue-rotate(-10deg) brightness(0.9) saturate(170%);
+          filter: contrast(0.9) sepia(0.4) hue-rotate(-10deg) brightness(0.9) saturate(170%); }
+  
+  .vesper::after {
+    background: rgba(52, 87, 158, 0.56);
+    mix-blend-mode: overlay;
+    opacity: .8; }
+  
+  .vesper::before {
+    background: rgba(37, 107, 136, 0.7);
+    opacity: .8;
+    mix-blend-mode: color-dodge; }

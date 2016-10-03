@@ -1,0 +1,48 @@
+/*
+ *
+ * Vesper
+ *
+ */
+@import 'shared';
+
+// mixin to extend vesper filter
+// @mixin vesper
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include vesper;
+//   }
+//   or
+//   img {
+//     @include vesper(blur(2px));
+//   }
+//   or
+//   img {
+//     @include vesper(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin vesper($filters...) {
+  @extend %filter-base;
+  filter: contrast(.9) sepia(.4) hue-rotate(-10deg) brightness(.9) saturate(170%) $filters;
+
+  &::after {
+    background: rgba(52, 87, 158, 0.56);
+    mix-blend-mode: overlay;
+    opacity: .8;
+  }
+
+  &::before {
+    background: rgba(37, 107, 136, 0.7);
+    opacity: .8;
+    mix-blend-mode: color-dodge;
+  }
+
+  @content;
+}
+
+// vesper Instagram filter
+%vesper,
+.vesper {
+  @include vesper;
+}
