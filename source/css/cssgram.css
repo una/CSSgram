@@ -21,7 +21,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -44,7 +48,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -77,7 +85,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -102,7 +114,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -128,7 +144,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -153,7 +173,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 /*
@@ -184,7 +208,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -207,7 +235,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -240,7 +272,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -265,7 +301,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -291,7 +331,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -316,7 +360,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -357,7 +405,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -380,7 +432,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -413,7 +469,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -438,7 +498,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -464,7 +528,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -489,7 +557,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -525,7 +597,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -548,7 +624,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -581,7 +661,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -606,7 +690,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -632,7 +720,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -657,7 +749,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -695,7 +791,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -718,7 +818,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -751,7 +855,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -776,7 +884,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -802,7 +914,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -827,7 +943,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -868,7 +988,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -891,7 +1015,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -924,7 +1052,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -949,7 +1081,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -975,7 +1111,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1000,7 +1140,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1041,7 +1185,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1064,7 +1212,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1097,7 +1249,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1122,7 +1278,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -1148,7 +1308,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1173,7 +1337,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1214,7 +1382,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1237,7 +1409,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1270,7 +1446,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1295,7 +1475,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -1321,7 +1505,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1346,7 +1534,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1387,7 +1579,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1410,7 +1606,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1443,7 +1643,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1468,7 +1672,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -1494,7 +1702,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1519,7 +1731,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1561,7 +1777,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1584,7 +1804,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1617,7 +1841,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1642,7 +1870,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -1668,7 +1900,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1693,7 +1929,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1734,7 +1974,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1757,7 +2001,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1790,7 +2038,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1815,7 +2067,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -1841,7 +2097,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -1866,7 +2126,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -1907,7 +2171,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1930,7 +2198,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -1963,7 +2235,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -1988,7 +2264,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2014,7 +2294,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2039,7 +2323,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2079,7 +2367,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2102,7 +2394,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -2135,7 +2431,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -2160,7 +2460,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2186,7 +2490,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2211,7 +2519,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2251,7 +2563,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2274,7 +2590,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -2307,7 +2627,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -2332,7 +2656,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2358,7 +2686,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2383,7 +2715,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2424,7 +2760,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2447,7 +2787,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -2480,7 +2824,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -2505,7 +2853,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2531,7 +2883,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2556,7 +2912,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2597,7 +2957,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2620,7 +2984,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -2653,7 +3021,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -2678,7 +3050,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2704,7 +3080,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2729,7 +3109,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2772,7 +3156,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2795,7 +3183,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -2828,7 +3220,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -2853,7 +3249,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -2879,7 +3279,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -2904,7 +3308,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -2947,7 +3355,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2970,7 +3382,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3003,7 +3419,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3028,7 +3448,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3054,7 +3478,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3079,7 +3507,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3122,7 +3554,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3145,7 +3581,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3178,7 +3618,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3203,7 +3647,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3229,7 +3677,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3254,7 +3706,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3293,7 +3749,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3316,7 +3776,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3349,7 +3813,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3374,7 +3842,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3400,7 +3872,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3425,7 +3901,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3469,7 +3949,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3492,7 +3976,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3525,7 +4013,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3550,7 +4042,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3576,7 +4072,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3601,7 +4101,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3648,7 +4152,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3671,7 +4179,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3704,7 +4216,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3729,7 +4245,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3755,7 +4275,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3780,7 +4304,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3824,7 +4352,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3847,7 +4379,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -3880,7 +4416,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -3905,7 +4445,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -3931,7 +4475,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -3956,7 +4504,11 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
+=======
+  .valencia:after {
+>>>>>>> una/master
     z-index: 3; }
 
 
@@ -3970,7 +4522,11 @@
 
 /*
  *
+<<<<<<< HEAD
  * Charmes
+=======
+ * Valencia
+>>>>>>> una/master
  *
  */
 
@@ -3996,7 +4552,11 @@
 .rise:before,
 .slumber:before,
 .brannan:before,
+<<<<<<< HEAD
 .charmes:before,
+=======
+.valencia:before,
+>>>>>>> una/master
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -4019,7 +4579,11 @@
 .rise:after,
 .slumber:after,
 .brannan:after,
+<<<<<<< HEAD
 .charmes:after {
+=======
+.valencia:after {
+>>>>>>> una/master
   content: '';
   display: block;
   height: 100%;
@@ -4052,7 +4616,11 @@
 .rise,
 .slumber,
 .brannan,
+<<<<<<< HEAD
 .charmes {
+=======
+.valencia {
+>>>>>>> una/master
   position: relative; }
   
   .aden img,
@@ -4077,7 +4645,11 @@
   .rise img,
   .slumber img,
   .brannan img,
+<<<<<<< HEAD
   .charmes img {
+=======
+  .valencia img {
+>>>>>>> una/master
     width: 100%;
     z-index: 1; }
   
@@ -4103,7 +4675,11 @@
   .rise:before,
   .slumber:before,
   .brannan:before,
+<<<<<<< HEAD
   .charmes:before {
+=======
+  .valencia:before {
+>>>>>>> una/master
     z-index: 2; }
   
   .aden:after,
@@ -4128,6 +4704,7 @@
   .rise:after,
   .slumber:after,
   .brannan:after,
+<<<<<<< HEAD
   .charmes:after {
     z-index: 3; }
 
@@ -4139,3 +4716,17 @@
   .charmes::after {
     background-color: rgba(185, 55, 55, 0.22);
     mix-blend-mode: lighten; }
+=======
+  .valencia:after {
+    z-index: 3; }
+
+
+.valencia {
+  -webkit-filter: contrast(1.08) brightness(1.08) sepia(0.08);
+          filter: contrast(1.08) brightness(1.08) sepia(0.08); }
+  
+  .valencia::after {
+    background: #3a0339;
+    mix-blend-mode: exclusion;
+    opacity: .5; }
+>>>>>>> una/master
