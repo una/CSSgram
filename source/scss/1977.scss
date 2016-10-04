@@ -22,7 +22,7 @@
 //     };
 //   }
 @mixin _1977($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: contrast(1.1) brightness(1.1) saturate(1.3) $filters;
 
   &:after{

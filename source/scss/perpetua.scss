@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin perpetua($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   @if length($filters) > 0 {
     filter: $filters;
   }

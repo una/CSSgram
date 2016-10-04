@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin nashville($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2) $filters;
 
   &::after {

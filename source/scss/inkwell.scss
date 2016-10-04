@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin inkwell($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1) $filters;
 
   @content;

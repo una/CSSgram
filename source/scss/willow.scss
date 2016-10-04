@@ -22,7 +22,7 @@
 //     };
 //   }
 @mixin willow($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: grayscale(.5) contrast(.95) brightness(.9) $filters;
 
   &::before {

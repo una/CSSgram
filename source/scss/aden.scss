@@ -24,7 +24,7 @@
 //     };
 //   }
 @mixin aden($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: hue-rotate(-20deg) contrast(.9) saturate(.85) brightness(1.2) $filters;
 
   &::after {

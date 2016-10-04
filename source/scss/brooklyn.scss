@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin brooklyn($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: contrast(.9) brightness(1.1) $filters;
 
   &::after {

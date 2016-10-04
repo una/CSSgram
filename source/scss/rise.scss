@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin rise($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: brightness(1.05) sepia(.2) contrast(.9) saturate(.9) $filters;
 
   &::after{

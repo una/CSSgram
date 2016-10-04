@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin earlybird($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: contrast(.9) sepia(.2) $filters;
 
   &::after {

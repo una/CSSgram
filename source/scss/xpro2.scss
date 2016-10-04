@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin xpro2($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: sepia(.3) $filters;
 
   &::after {

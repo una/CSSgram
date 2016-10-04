@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin walden($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: brightness(1.1) hue-rotate(-10deg) sepia(.3) saturate(1.6) $filters;
 
   &::after {

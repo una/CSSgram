@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin gingham($filters...) {
-  @include filter-base;
+  @extend %filter-base;
   filter: brightness(1.05) hue-rotate(-10deg) $filters;
 
   &::after {

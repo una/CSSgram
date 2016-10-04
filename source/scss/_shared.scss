@@ -1,4 +1,4 @@
-@mixin pseudo-elem {
+%pseudo-elem {
   content: '';
   display: block;
   height: 100%;
@@ -9,7 +9,7 @@
   pointer-events: none;
 }
 
-@mixin filter-base {
+%filter-base {
   position: relative;
 
   img {
@@ -18,12 +18,12 @@
   }
 
   &:before {
-    @include pseudo-elem;
+    @extend %pseudo-elem;
     z-index: 2;
   }
 
   &:after {
-    @include pseudo-elem;
+    @extend %pseudo-elem;
     z-index: 3;
   }
 }
