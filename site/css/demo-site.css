@@ -4347,6 +4347,8 @@ img {
           flex-wrap: wrap; }
 
 .demo__item {
+  padding: 5px;
+  border: 1px solid #cad1cc;
   margin: .75em;
   list-style: none; }
   @media (max-width: 992px) {
