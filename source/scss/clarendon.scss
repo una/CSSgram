@@ -22,7 +22,7 @@
 //     };
 //   }
 @mixin clarendon($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: contrast(1.2) saturate(1.35) $filters;
 
   &:before {

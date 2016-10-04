@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin mayfair($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: contrast(1.1) saturate(1.1) $filters;
 
   &::after {
