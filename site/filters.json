@@ -87,7 +87,7 @@
         },
         {
             "name": "Juno",
-            "is_done": false,
+            "is_done": true,
             "usage": "juno"
         },
         {
