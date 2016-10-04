@@ -2,19 +2,19 @@
 
 # CSSgram
 
-CSSGram is an Instagram filter library in Sass and CSS.
+CSSGram is an Instagram filter library written in Sass and CSS.
 
 ## What is This?
 
-Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we’re doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
+Simply put, CSSgram is a library for editing your images with Instagram-like filters directly using CSS. What we're doing is adding filters to the images, as well as applying color and/or gradient overlays via various blending techniques to mimic filter effects. This means *less manual image processing* and more fun filter effects on the web!
 
-We are using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
+We're using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
 
 ## Browser Support
 
 This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:
 
-| <img src="http://i.imgur.com/dJC1GUv.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/8h3iz5H.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/kQ1e7Mk.png" width="45px" height="45px" alt="Edge logo"> | <img src="http://i.imgur.com/iQV4nmJ.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/j3tgNKJ.png" width="48px" height="48px" alt="Safari logo"> |
+| <img src="http://i.imgur.com/NjIVmRO.png" width="48px" height="48px" alt="Chrome logo"> | <img src="http://i.imgur.com/o1m5RcQ.png" width="48px" height="48px" alt="Firefox logo"> | <img src="http://i.imgur.com/0R5whqc.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="http://i.imgur.com/kQ1e7Mk.png" width="45px" height="45px" alt="Edge logo"> | <img src="http://i.imgur.com/FSJB8BL.png" width="48px" height="48px" alt="Opera logo"> | <img src="http://i.imgur.com/yLwF24I.png" width="48px" height="48px" alt="Safari logo"> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 43+ ✔ | 38+ ✔ | Nope ✘ |  13 ✔ | 32+ ✔ | 8+ ✔ |
 
@@ -41,7 +41,7 @@ For example:
 </figure>
 ```
 
-Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
+Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`) if you're using only one of the styles.
 
 ### Available Classes
 
@@ -107,7 +107,7 @@ or using mixins (more flexible)
 }
 ```
 
-Alternatively, if you're just using one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
+Alternatively, if you're using only one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
 ### Available Placeholders
 
@@ -172,7 +172,7 @@ Or:
 5. Make changes and check the test site with your changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
-If you’d like to contribute, the following filters are yet to be added:
+If you would like to contribute, the following filters are yet to be added:
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
@@ -187,10 +187,10 @@ If you’d like to contribute, the following filters are yet to be added:
 - [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
 - [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
 - [ ] [Maven](https://github.com/una/CSSgram/issues/127)
-- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
+- [x] [Rise](https://github.com/una/CSSgram/issues/15)
 - [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
 - [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
-- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
+- [x] [Slumber](https://github.com/una/CSSgram/issues/129)
 - [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
 - [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
@@ -203,6 +203,6 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `source/css/cssgram.css` contains each of the CSS classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the library
 - `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
 - `site/` is the public facing website
-- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/filters.json`.
+- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you are creating in `site/filters.json`.
 
-Note: this will also have mixin options and a PostCSS Component.
+Note: This will also have mixin options and a PostCSS Component.
