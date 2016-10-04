@@ -25,10 +25,10 @@
 
 @mixin charmes($filters...) {
   @extend %filter-base;
-  filter: contrast(1.07) brightness(1.1);
+  filter: contrast(1.15) brightness(1.25);
 
   &::after {
-    background-color: rgba(185, 55, 55, 0.22);
+    background-color: rgba(185, 55, 172, 0.2);
     mix-blend-mode: lighten;
   }
 
