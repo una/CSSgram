@@ -31,9 +31,9 @@
 
 
 .charmes {
-  -webkit-filter: contrast(0.8) brightness(1.1);
-          filter: contrast(0.8) brightness(1.1); }
+  -webkit-filter: contrast(1.07) brightness(1.1);
+          filter: contrast(1.07) brightness(1.1); }
   
   .charmes::after {
-    background-color: rgba(162, 78, 78, 0.17);
+    background-color: rgba(185, 55, 55, 0.22);
     mix-blend-mode: lighten; }
