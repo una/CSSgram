@@ -174,7 +174,7 @@ Or:
 
 If you’d like to contribute, the following filters are yet to be added:
 
-- [] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
 - [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
