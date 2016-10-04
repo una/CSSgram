@@ -107,7 +107,7 @@ or using mixins (more flexible)
 }
 ```
 
-Alternatively, if you are using only one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
+Alternatively, if you're using only one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
 ### Available Placeholders
 
