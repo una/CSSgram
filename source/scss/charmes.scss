@@ -1,0 +1,42 @@
+/*
+ *
+ * Charmes
+ *
+ */
+@import 'shared';
+
+// mixin to extend charmes filter
+// @mixin charmes
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include charmes;
+//   }
+//   or
+//   img {
+//     @include charmes(blur(2px));
+//   }
+//   or
+//   img {
+//     @include charmes(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+
+@mixin charmes($filters...) {
+  @extend %filter-base;
+  filter: contrast(.8) brightness(1.1);
+
+  &::after {
+    background-color: rgba(162, 78, 78, 0.17);
+    mix-blend-mode: lighten;
+  }
+
+  @content;
+}
+
+// charmes Instagram filter
+%charmes,
+.charmes {
+  @include charmes;
+}

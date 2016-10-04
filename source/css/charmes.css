@@ -1,0 +1,39 @@
+/*
+ *
+ * Charmes
+ *
+ */
+
+.charmes:before,
+.charmes:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.charmes {
+  position: relative; }
+  
+  .charmes img {
+    width: 100%;
+    z-index: 1; }
+  
+  .charmes:before {
+    z-index: 2; }
+  
+  .charmes:after {
+    z-index: 3; }
+
+
+.charmes {
+  -webkit-filter: contrast(0.8) brightness(1.1);
+          filter: contrast(0.8) brightness(1.1); }
+  
+  .charmes::after {
+    background-color: rgba(162, 78, 78, 0.17);
+    mix-blend-mode: lighten; }
