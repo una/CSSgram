@@ -1,0 +1,35 @@
+/*
+ *
+ * Ludwig
+ *
+ */
+
+.ludwig:before,
+.ludwig:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.ludwig {
+  position: relative; }
+  
+  .ludwig img {
+    width: 100%;
+    z-index: 1; }
+  
+  .ludwig:before {
+    z-index: 2; }
+  
+  .ludwig:after {
+    z-index: 3; }
+
+
+.ludwig {
+  -webkit-filter: saturate(0.8) contrast(1.15) grayscale(0.25);
+          filter: saturate(0.8) contrast(1.15) grayscale(0.25); }

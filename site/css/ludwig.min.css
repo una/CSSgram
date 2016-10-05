@@ -1,0 +1,1 @@
+.ludwig:after,.ludwig:before{content:'';display:block;height:100%;width:100%;top:0;left:0;position:absolute;pointer-events:none}.ludwig{position:relative;-webkit-filter:saturate(.8) contrast(1.15) grayscale(.25);filter:saturate(.8) contrast(1.15) grayscale(.25)}.ludwig img{width:100%;z-index:1}.ludwig:before{z-index:2}.ludwig:after{z-index:3}
