@@ -31,5 +31,5 @@
 
 
 .ludwig {
-  -webkit-filter: saturate(0.8) contrast(1.15) brightness(1) grayscale(0.25);
-          filter: saturate(0.8) contrast(1.15) brightness(1) grayscale(0.25); }
+  -webkit-filter: saturate(0.8) contrast(1.15) grayscale(0.25);
+          filter: saturate(0.8) contrast(1.15) grayscale(0.25); }

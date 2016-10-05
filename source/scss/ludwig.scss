@@ -24,7 +24,7 @@
 //   }
 @mixin ludwig($filters...) {
   @extend %filter-base;
-  filter: saturate(0.8) contrast(1.15) brightness(1) grayscale(0.25) $filters;
+  filter: saturate(0.8) contrast(1.15) grayscale(0.25) $filters;
 
   @content;
 }
