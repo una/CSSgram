@@ -174,9 +174,7 @@ Or:
 
 If you would like to contribute, the following filters are yet to be added:
 
-- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
@@ -187,13 +185,10 @@ If you would like to contribute, the following filters are yet to be added:
 - [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
 - [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
 - [ ] [Maven](https://github.com/una/CSSgram/issues/127)
-- [x] [Rise](https://github.com/una/CSSgram/issues/15)
 - [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
 - [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
-- [x] [Slumber](https://github.com/una/CSSgram/issues/129)
 - [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
 - [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
-- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
 - [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
