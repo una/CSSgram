@@ -1,0 +1,36 @@
+/*
+  *
+  * Ludwig
+  *
+  */
+ @import 'shared';
+
+ // mixin to extend slumber filter
+ // @mixin ludwig
+ // @param $filters... {filter} - Zero to many css filters to be added
+ // @example
+ //   img {
+ //     @include ludwig;
+ //   }
+ //   or
+ //   img {
+ //     @include ludwig(blur(2px));
+ //   }
+ //   or
+ //   img {
+ //     @include ludwig(blur(2px)) {
+ //       /*...*/
+ //     };
+ //   }
+ @mixin ludwig($filters...) {
+   @extend %filter-base;
+   filter: saturate(0.8) contrast(1.15) brightness(1) grayscale(0.25) $filters;
+
+   @content;
+ }
+
+ // ludwig Instagram filter
+ %ludwig,
+ .ludwig {
+   @include ludwig;
+ }
