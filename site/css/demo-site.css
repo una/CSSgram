@@ -24,6 +24,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -47,7 +48,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -81,7 +83,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -107,7 +110,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -134,7 +138,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -160,7 +165,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 /*
@@ -193,6 +199,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -216,7 +223,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -250,7 +258,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -276,7 +285,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -303,7 +313,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -329,7 +340,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -372,6 +384,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -395,7 +408,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -429,7 +443,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -455,7 +470,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -482,7 +498,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -508,7 +525,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -546,6 +564,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -569,7 +588,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -603,7 +623,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -629,7 +650,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -656,7 +678,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -682,7 +705,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -722,6 +746,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -745,7 +770,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -779,7 +805,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -805,7 +832,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -832,7 +860,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -858,7 +887,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -901,6 +931,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -924,7 +955,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -958,7 +990,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -984,7 +1017,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1011,7 +1045,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1037,7 +1072,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1080,6 +1116,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1103,7 +1140,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -1137,7 +1175,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -1163,7 +1202,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1190,7 +1230,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1216,7 +1257,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1259,6 +1301,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1282,7 +1325,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -1316,7 +1360,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -1342,7 +1387,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1369,7 +1415,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1395,7 +1442,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1438,6 +1486,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1461,7 +1510,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -1495,7 +1545,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -1521,7 +1572,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1548,7 +1600,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1574,7 +1627,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1618,6 +1672,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1641,7 +1696,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -1675,7 +1731,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -1701,7 +1758,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1728,7 +1786,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1754,7 +1813,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1797,6 +1857,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1820,7 +1881,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -1854,7 +1916,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -1880,7 +1943,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -1907,7 +1971,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -1933,7 +1998,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -1976,6 +2042,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -1999,7 +2066,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2033,7 +2101,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2059,7 +2128,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2086,7 +2156,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -2112,7 +2183,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -2154,6 +2226,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2177,7 +2250,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2211,7 +2285,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2237,7 +2312,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2264,7 +2340,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -2290,7 +2367,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -2332,6 +2410,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2355,7 +2434,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2389,7 +2469,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2415,7 +2496,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2442,7 +2524,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -2468,7 +2551,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -2511,6 +2595,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2534,7 +2619,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2568,7 +2654,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2594,7 +2681,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2621,7 +2709,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -2647,7 +2736,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -2690,6 +2780,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2713,7 +2804,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2747,7 +2839,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2773,7 +2866,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2800,7 +2894,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -2826,7 +2921,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -2871,6 +2967,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -2894,7 +2991,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -2928,7 +3026,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -2954,7 +3053,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -2981,7 +3081,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3007,7 +3108,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3052,6 +3154,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3075,7 +3178,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -3109,7 +3213,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -3135,7 +3240,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -3162,7 +3268,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3188,7 +3295,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3233,6 +3341,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3256,7 +3365,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -3290,7 +3400,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -3316,7 +3427,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -3343,7 +3455,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3369,7 +3482,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3410,6 +3524,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3433,7 +3548,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -3467,7 +3583,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -3493,7 +3610,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -3520,7 +3638,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3546,7 +3665,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3592,6 +3712,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3615,7 +3736,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -3649,7 +3771,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -3675,7 +3798,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -3702,7 +3826,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3728,7 +3853,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3777,6 +3903,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3800,7 +3927,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -3834,7 +3962,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -3860,7 +3989,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -3887,7 +4017,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -3913,7 +4044,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -3959,6 +4091,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -3982,7 +4115,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -4016,7 +4150,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -4042,7 +4177,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -4069,7 +4205,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -4095,7 +4232,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -4137,6 +4275,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -4160,7 +4299,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -4194,7 +4334,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -4220,7 +4361,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -4247,7 +4389,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -4273,7 +4416,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -4315,6 +4459,7 @@
 .brannan:before,
 .valencia:before,
 .kelvin:before,
+.hefe:before,
 .aden:after,
 .inkwell:after,
 .perpetua:after,
@@ -4338,7 +4483,8 @@
 .slumber:after,
 .brannan:after,
 .valencia:after,
-.kelvin:after {
+.kelvin:after,
+.hefe:after {
   content: '';
   display: block;
   height: 100%;
@@ -4372,7 +4518,8 @@
 .slumber,
 .brannan,
 .valencia,
-.kelvin {
+.kelvin,
+.hefe {
   position: relative; }
   
   .aden img,
@@ -4398,7 +4545,8 @@
   .slumber img,
   .brannan img,
   .valencia img,
-  .kelvin img {
+  .kelvin img,
+  .hefe img {
     width: 100%;
     z-index: 1; }
   
@@ -4425,7 +4573,8 @@
   .slumber:before,
   .brannan:before,
   .valencia:before,
-  .kelvin:before {
+  .kelvin:before,
+  .hefe:before {
     z-index: 2; }
   
   .aden:after,
@@ -4451,7 +4600,8 @@
   .slumber:after,
   .brannan:after,
   .valencia:after,
-  .kelvin:after {
+  .kelvin:after,
+  .hefe:after {
     z-index: 3; }
 
 
@@ -4463,6 +4613,195 @@
 .kelvin::before {
   background: #382c34;
   mix-blend-mode: color-dodge; }
+
+/*
+ *
+ * Hefe
+ *
+ */
+
+.aden:before,
+.inkwell:before,
+.perpetua:before,
+.reyes:before,
+.gingham:before,
+.toaster:before,
+.walden:before,
+.hudson:before,
+.earlybird:before,
+.mayfair:before,
+.lofi:before,
+._1977:before,
+.brooklyn:before,
+.xpro2:before,
+.nashville:before,
+.lark:before,
+.moon:before,
+.clarendon:before,
+.willow:before,
+.rise:before,
+.slumber:before,
+.brannan:before,
+.valencia:before,
+.kelvin:before,
+.hefe:before,
+.aden:after,
+.inkwell:after,
+.perpetua:after,
+.reyes:after,
+.gingham:after,
+.toaster:after,
+.walden:after,
+.hudson:after,
+.earlybird:after,
+.mayfair:after,
+.lofi:after,
+._1977:after,
+.brooklyn:after,
+.xpro2:after,
+.nashville:after,
+.lark:after,
+.moon:after,
+.clarendon:after,
+.willow:after,
+.rise:after,
+.slumber:after,
+.brannan:after,
+.valencia:after,
+.kelvin:after,
+.hefe:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.aden,
+.inkwell,
+.perpetua,
+.reyes,
+.gingham,
+.toaster,
+.walden,
+.hudson,
+.earlybird,
+.mayfair,
+.lofi,
+._1977,
+.brooklyn,
+.xpro2,
+.nashville,
+.lark,
+.moon,
+.clarendon,
+.willow,
+.rise,
+.slumber,
+.brannan,
+.valencia,
+.kelvin,
+.hefe {
+  position: relative; }
+  
+  .aden img,
+  .inkwell img,
+  .perpetua img,
+  .reyes img,
+  .gingham img,
+  .toaster img,
+  .walden img,
+  .hudson img,
+  .earlybird img,
+  .mayfair img,
+  .lofi img,
+  ._1977 img,
+  .brooklyn img,
+  .xpro2 img,
+  .nashville img,
+  .lark img,
+  .moon img,
+  .clarendon img,
+  .willow img,
+  .rise img,
+  .slumber img,
+  .brannan img,
+  .valencia img,
+  .kelvin img,
+  .hefe img {
+    width: 100%;
+    z-index: 1; }
+  
+  .aden:before,
+  .inkwell:before,
+  .perpetua:before,
+  .reyes:before,
+  .gingham:before,
+  .toaster:before,
+  .walden:before,
+  .hudson:before,
+  .earlybird:before,
+  .mayfair:before,
+  .lofi:before,
+  ._1977:before,
+  .brooklyn:before,
+  .xpro2:before,
+  .nashville:before,
+  .lark:before,
+  .moon:before,
+  .clarendon:before,
+  .willow:before,
+  .rise:before,
+  .slumber:before,
+  .brannan:before,
+  .valencia:before,
+  .kelvin:before,
+  .hefe:before {
+    z-index: 2; }
+  
+  .aden:after,
+  .inkwell:after,
+  .perpetua:after,
+  .reyes:after,
+  .gingham:after,
+  .toaster:after,
+  .walden:after,
+  .hudson:after,
+  .earlybird:after,
+  .mayfair:after,
+  .lofi:after,
+  ._1977:after,
+  .brooklyn:after,
+  .xpro2:after,
+  .nashville:after,
+  .lark:after,
+  .moon:after,
+  .clarendon:after,
+  .willow:after,
+  .rise:after,
+  .slumber:after,
+  .brannan:after,
+  .valencia:after,
+  .kelvin:after,
+  .hefe:after {
+    z-index: 3; }
+
+
+.hefe {
+  -webkit-filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+          filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95); }
+  
+  .hefe:before {
+    background: rgba(198, 88, 44, 0.15);
+    mix-blend-mode: soft-light; }
+  
+  .hefe:after {
+    background: rgba(113, 55, 250, 0.05);
+    box-shadow: inset 0px 0px 34px 5px rgba(0, 0, 0, 0.41);
+    mix-blend-mode: darken; }
 
 ::-moz-selection {
   background: #9b1c9b;
@@ -4657,16 +4996,13 @@ img {
 .demo__list {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .demo__item {
   margin: .75em;

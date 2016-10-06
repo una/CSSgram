@@ -1,0 +1,44 @@
+/*
+ *
+ * Hefe
+ *
+ */
+
+.hefe:before,
+.hefe:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none; }
+
+
+.hefe {
+  position: relative; }
+  
+  .hefe img {
+    width: 100%;
+    z-index: 1; }
+  
+  .hefe:before {
+    z-index: 2; }
+  
+  .hefe:after {
+    z-index: 3; }
+
+
+.hefe {
+  -webkit-filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+          filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95); }
+  
+  .hefe:before {
+    background: rgba(198, 88, 44, 0.15);
+    mix-blend-mode: soft-light; }
+  
+  .hefe:after {
+    background: rgba(113, 55, 250, 0.05);
+    box-shadow: inset 0px 0px 34px 5px rgba(0, 0, 0, 0.41);
+    mix-blend-mode: darken; }
