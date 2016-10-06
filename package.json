@@ -1,6 +1,6 @@
 {
   "name": "cssgram",
-  "version": "0.1.6",
+  "version": "0.1.10",
   "style": "source/css/cssgram.css",
   "dependencies": {},
   "author": {
