@@ -1,0 +1,34 @@
+/*
+ * Dogpatch
+ *
+ */
+ @import 'shared';
+ // mixin to extend dogpatch filter
+ // @mixin dogpatch
+ // @param $filters... {filter} - Zero to many css filters to be added
+ // @example
+ //   img {
+ //     @include dogpatch;
+ //   }
+ //   or
+ //   img {
+ //     @include dogpatch(blur(2px));
+ //   }
+ //   or
+ //   img {
+ //     @include dogpatch(blur(2px)) {
+ //       /*...*/
+ //     };
+ //   }
+ @mixin dogpatch($filters...) {
+   @extend %filter-base;
+   filter: contrast(1.38) saturate(.85) brightness(1.08) $filters;
+
+   @content;
+ }
+
+ // dogpatch Instagram filter
+ %dogpatch,
+ .dogpatch {
+   @include dogpatch;
+ }
