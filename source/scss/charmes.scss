@@ -28,8 +28,13 @@
   filter: contrast(1.15) brightness(1.25);
 
   &::after {
-    background-color: rgba(185, 55, 172, 0.2);
+    background-color: rgba(140, 46, 171, .2);
     mix-blend-mode: lighten;
+  }
+
+  &::before {
+    background-color: rgba(154, 147, 108, .58);
+    mix-blend-mode: darken;
   }
 
   @content;
