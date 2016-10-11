@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin reyes($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: sepia(.22) brightness(1.1) contrast(.85) saturate(.75) $filters;
 
    &::after {

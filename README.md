@@ -2,13 +2,13 @@
 
 # CSSgram
 
-CSSGram is an Instagram filter library in Sass and CSS.
+CSSGram is an Instagram filter library written in Sass and CSS.
 
 ## What is This?
 
-Simply put, CSSgram is a library for editing your images with Instagram-like filters directly in CSS. What we’re doing here is adding filters to the images as well as applying color and/or gradient overlays via various blending techniques to mimic these effects. This means *less manual image processing* and more fun filter effects on the web!
+Simply put, CSSgram is a library for editing your images with Instagram-like filters directly using CSS. What we're doing is adding filters to the images, as well as applying color and/or gradient overlays via various blending techniques to mimic filter effects. This means *less manual image processing* and more fun filter effects on the web!
 
-We are using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
+We're using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
 
 ## Browser Support
 
@@ -28,7 +28,7 @@ For more information, check on [Can I Use](http://caniuse.com/#feat=css-filters)
 
 When using CSS classes, you can simply add the class with the filter name to the element containing your image.
 
-  1. Include the CDN link in your `<head>` tag: `<link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">`
+  1. Include the CDN link in your `<head>` tag: `<link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">`. We're also on [CDNJS](https://cdnjs.com/libraries/cssgram) which means another option is `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cssgram/0.1.10/cssgram.min.css">`
   * Alternatively, you can [download the CSSgram library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) locally and link to the it within your project: `<link rel="stylesheet" href="css/vendor/cssgram.min.css">`
   * Add a class to your image element with the name of the filter you would like to use
 
@@ -41,31 +41,36 @@ For example:
 </figure>
 ```
 
-Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`), if you’re just using one of the styles.
+Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`) if you're using only one of the styles.
 
 ### Available Classes
 
 _For use in HTML markup:_
 
-*   Aden: `class="aden"`
-*   Brannan: `class="brannan"`
-*   Reyes: `class="reyes"`
-*   Perpetua: `class="perpetua"`
-*   Inkwell: `class="inkwell"`
-*   Toaster: `class="toaster"`
-*   Walden: `class="walden"`
-*   Hudson: `class="hudson"`
-*   Gingham: `class="gingham"`
-*   Mayfair: `class="mayfair"`
-*   Lo-fi: `class="lofi"`
-*   X-Pro II: `class="xpro2"`
 *   1977: `class="_1977"`
+*   Aden: `class="aden"`
+*   Amaro: `class="amaro"`
+*   Brannan: `class="brannan"`
 *   Brooklyn: `class="brooklyn"`
-*   Nashville: `class="nashville"`
-*   Lark: `class="lark"`
-*   Moon: `class="moon"`
 *   Clarendon: `class="clarendon"`
+*   Gingham: `class="gingham"`
+*   Hudson: `class="hudson"`
+*   Inkwell: `class="inkwell"`
+*   Kelvin: `class="kelvin"`
+*   Lark: `class="lark"`
+*   Lo-fi: `class="lofi"`
+*   Mayfair: `class="mayfair"`
+*   Moon: `class="moon"`
+*   Nashville: `class="nashville"`
+*   Perpetua: `class="perpetua"`
+*   Reyes: `class="reyes"`
+*   Rise: `class="rise"`
+*   Slumber: `class="slumber"`
+*   Toaster: `class="toaster"`
+*   Valencia: `class="valencia"`
+*   Walden: `class="walden"`
 *   Willow: `class="willow"`
+*   X-Pro-2: `class="xpro2"`
 
 * * *
 
@@ -107,7 +112,7 @@ or using mixins (more flexible)
 }
 ```
 
-Alternatively, if you're just using one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
+Alternatively, if you're using only one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
 ### Available Placeholders
 
@@ -115,47 +120,57 @@ _For use in Sass stylesheets:_
 
 **Extends**
 
-*   Aden: `@extend %aden`
-*   Brannan: `@extend %brannan`
-*   Reyes: `@extend %reyes`
-*   Perpetua: `@extend %perpetua`
-*   Inkwell: `@extend %inkwell`
-*   Toaster: `@extend %toaster`
-*   Walden: `@extend %walden`
-*   Hudson: `@extend %hudson`
-*   Gingham: `@extend %gingham`
-*   Mayfair: `@extend %mayfair`
-*   Lo-fi: `@extend %lofi`
-*   X-Pro II: `@extend %xpro2`
 *   1977: `@extend %_1977`
+*   Aden: `@extend %aden`
+*   Amaro: `@extend %amaro`
+*   Brannan: `@extend %brannan`
 *   Brooklyn: `@extend %brooklyn`
-*   Nashville: `@extend %nashville`
-*   Lark: `@extend %lark`
-*   Moon: `@extend %moon`
 *   Clarendon: `@extend %clarendon`
+*   Gingham: `@extend %gingham`
+*   Hudson: `@extend %hudson`
+*   Inkwell: `@extend %inkwell`
+*   Kelvin: `@extend %kelvin`
+*   Lark: `@extend %lark`
+*   Lo-fi: `@extend %lofi`
+*   Mayfair: `@extend %mayfair`
+*   Moon: `@extend %moon`
+*   Nashville: `@extend %nashville`
+*   Perpetua: `@extend %perpetua`
+*   Reyes: `@extend %reyes`
+*   Rise: `@extend %rise`
+*   Slumber: `@extend %slumber`
+*   Toaster: `@extend %toaster`
+*   Valencia: `@extend %valencia`
+*   Walden: `@extend %walden`
 *   Willow: `@extend %willow`
+*   X-Pro-2: `@extend %xpro2`
 
 **Mixins** (You can add more CSS3 filters as arguments)
 
-*   Aden: `@include aden()`
-*   Brannan: `@include brannan()`
-*   Reyes: `@include reyes()`
-*   Perpetua: `@include perpetua()`
-*   Inkwell: `@include inkwell()`
-*   Toaster: `@include toaster()`
-*   Walden: `@include walden()`
-*   Hudson: `@include hudson()`
-*   Gingham: `@include gingham()`
-*   Mayfair: `@include mayfair()`
-*   Lo-fi: `@include lofi()`
-*   X-Pro II: `@include xpro2()`
 *   1977: `@include _1977()`
+*   Aden: `@include aden()`
+*   Amaro: `@include amaro()`
+*   Brannan: `@include brannan()`
 *   Brooklyn: `@include brooklyn()`
-*   Nashville: `@include nashville()`
-*   Lark: `@include lark()`
-*   Moon: `@include moon()`
 *   Clarendon: `@include clarendon()`
+*   Gingham: `@include gingham()`
+*   Hudson: `@include hudson()`
+*   Inkwell: `@include inkwell()`
+*   Kelvin: `@include kelvin()`
+*   Lark: `@include lark()`
+*   Lo-fi: `@include lofi()`
+*   Mayfair: `@include mayfair()`
+*   Moon: `@include moon()`
+*   Nashville: `@include nashville()`
+*   Perpetua: `@include perpetua()`
+*   Reyes: `@include reyes()`
+*   Rise: `@include rise()`
+*   Slumber: `@include slumber()`
+*   Toaster: `@include toaster()`
+*   Valencia: `@include valencia()`
+*   Walden: `@include walden()`
 *   Willow: `@include willow()`
+*   X-Pro-2: `@include xpro2()`
 
 ## Contributing
 
@@ -172,30 +187,6 @@ Or:
 5. Make changes and check the test site with your changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
-If you’d like to contribute, the following filters are yet to be added:
-
-- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
-- [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
-- [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
-- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
-- [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
-- [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
-- [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
-- [ ] [Helena](https://github.com/una/CSSgram/issues/124)
-- [ ] [Juno](https://github.com/una/CSSgram/issues/125)
-- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
-- [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
-- [ ] [Maven](https://github.com/una/CSSgram/issues/127)
-- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
-- [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
-- [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
-- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
-- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
-- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
-- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
-- [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
-
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
 ## File Structure Outline
@@ -203,6 +194,6 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `source/css/cssgram.css` contains each of the CSS classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the library
 - `source/scss/` contains the source files for individual classes and placeholder selectors you can use to extend CSS classes in Sass
 - `site/` is the public facing website
-- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you're creating in `site/filters.json`.
+- `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you are creating in `site/filters.json`.
 
-Note: this will also have mixin options and a PostCSS Component.
+Note: This will also have mixin options and a PostCSS Component.
