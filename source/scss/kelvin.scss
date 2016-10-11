@@ -22,7 +22,7 @@
 //     };
 //   }
 @mixin kelvin($filters...) {
-  @extend %filter-base;
+  @include filter-base;
 
   @if length($filters) > 0 {
     filter: $filters;

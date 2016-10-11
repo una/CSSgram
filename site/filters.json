@@ -92,7 +92,7 @@
         },
         {
             "name": "Kelvin",
-            "is_done": true,
+            "is_done": false,
             "usage": "kelvin"
         },
         {

@@ -23,7 +23,7 @@
 //     };
 //   }
 @mixin valencia($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: contrast(1.08) brightness(1.08) sepia(0.08) $filters;
 
   &::after {
