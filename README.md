@@ -1,9 +1,9 @@
 ![](http://una.im/CSSgram/img/cssgram-logo.png)
 
 # CSSgram
-
-CSSGram is an Instagram filter library written in Sass and CSS.
-
+So what you know about css?? What you know about power of css?? This is the powet of css.<br>
+CSSGram is an Instagram filter library written in Sass and CSS.<br>
+<br>
 ## What is This?
 
 Simply put, CSSgram is a library for editing your images with Instagram-like filters directly using CSS. What we're doing is adding filters to the images, as well as applying color and/or gradient overlays via various blending techniques to mimic filter effects. This means *less manual image processing* and more fun filter effects on the web!
