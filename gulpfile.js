@@ -36,12 +36,12 @@ gulp.task('lib-scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(gulp.dest('source/css'))
-    .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('source/css'))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('site-scss', function() {
@@ -61,11 +61,11 @@ gulp.task('site-scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(gulp.dest('site/css'))
-    .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('browser-sync', function() {
