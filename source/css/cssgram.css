@@ -418,6 +418,40 @@
     mix-blend-mode: screen; }
 
 /*
+ * Ginza
+ *
+ */
+.ginza {
+  position: relative;
+  filter: brightness(0.9) contrast(1.4) hue-rotate(330deg) saturate(1.4) sepia(0.4); }
+  .ginza img {
+    width: 100%;
+    z-index: 1; }
+  .ginza:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  .ginza:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  .ginza:after {
+    background: rgba(243, 106, 188, 0.3);
+    mix-blend-mode: screen; }
+
+/*
  *
  * Brooklyn
  *
@@ -818,4 +852,38 @@
     mix-blend-mode: exclusion;
     opacity: .5; }
 
-/*# sourceMappingURL=cssgram.css.map */
+/*
+ * Kelvin
+ *
+ */
+.kelvin {
+  position: relative; }
+  .kelvin img {
+    width: 100%;
+    z-index: 1; }
+  .kelvin:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  .kelvin:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  .kelvin::after {
+    background: #b77d21;
+    mix-blend-mode: overlay; }
+  .kelvin::before {
+    background: #382c34;
+    mix-blend-mode: color-dodge; }
