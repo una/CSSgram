@@ -1,27 +1,27 @@
 /*
- * Ginza
+ * Helena
  *
  */
 @import 'shared';
 
 // mixin to extend Ginza filter
-// @mixin ginza
+// @mixin helena
 // @param $filters... {filter} - Zero to many css filters to be added
 // @example
 //   img {
-//     @include ginza;
+//     @include helena;
 //   }
 //   or
 //   img {
-//     @include ginza(blur(2px));
+//     @include helena(blur(2px));
 //   }
 //   or
 //   img {
-//     @include ginza(blur(2px)) {
+//     @include helena(blur(2px)) {
 //       /*...*/
 //     };
 //   }
-@mixin ginza($filters...) {
+@mixin helena($filters...) {
   @include filter-base;
   filter: brightness(0.9) contrast(1.4) hue-rotate(330deg) saturate(1.4) sepia(0.4) $filters;
 
@@ -32,8 +32,8 @@
   @content;
 }
 
-// Ginza Instagram filter
-%ginza,
-.ginza {
-  @include ginza;
+// Helena Instagram filter
+%helena,
+.helena {
+  @include helena;
 }

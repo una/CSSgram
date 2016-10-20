@@ -418,16 +418,16 @@
     mix-blend-mode: screen; }
 
 /*
- * Ginza
+ * Helena
  *
  */
-.ginza {
+.helena {
   position: relative;
   filter: brightness(0.9) contrast(1.4) hue-rotate(330deg) saturate(1.4) sepia(0.4); }
-  .ginza img {
+  .helena img {
     width: 100%;
     z-index: 1; }
-  .ginza:before {
+  .helena:before {
     content: '';
     display: block;
     height: 100%;
@@ -437,7 +437,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 2; }
-  .ginza:after {
+  .helena:after {
     content: '';
     display: block;
     height: 100%;
@@ -447,7 +447,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 3; }
-  .ginza:after {
+  .helena:after {
     background: rgba(243, 106, 188, 0.3);
     mix-blend-mode: screen; }
 

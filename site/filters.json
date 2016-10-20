@@ -62,7 +62,7 @@
         },
         {
             "name": "Ginza",
-            "is_done": true,
+            "is_done": false,
             "usage": "ginza"
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "name": "Helena",
-            "is_done": false,
+            "is_done": true,
             "usage": "helena"
         },
         {
