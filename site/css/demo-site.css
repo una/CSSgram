@@ -4209,7 +4209,7 @@ a {
   color: #9b1c9b;
   -webkit-transition-duration: .35s;
           transition-duration: .35s;
-  border-bottom: 1px solid #c63082;
+  border-bottom: none;
   padding-bottom: .05em; }
   a:hover, a:focus {
     color: #e398c1;
@@ -4347,6 +4347,8 @@ img {
           flex-wrap: wrap; }
 
 .demo__item {
+  padding: 5px;
+  border: 1px solid #cad1cc;
   margin: .75em;
   list-style: none; }
   @media (max-width: 992px) {
