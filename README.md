@@ -1,6 +1,7 @@
 ![](http://una.im/CSSgram/img/cssgram-logo.png)
 
 # CSSgram
+[![CDNJS](https://img.shields.io/cdnjs/v/cssgram.svg)](https://cdnjs.com/libraries/cssgram)
 
 CSSGram is an Instagram filter library written in Sass and CSS.
 
