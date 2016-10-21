@@ -1,0 +1,42 @@
+/*
+ *
+ * Valencia
+ *
+ */
+@import 'shared';
+
+// mixin to extend valencia filter
+// @mixin valencia
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include valencia;
+//   }
+//   or
+//   img {
+//     @include valencia(blur(2px));
+//   }
+//   or
+//   img {
+//     @include valencia(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin valencia($filters...) {
+  @include filter-base;
+  filter: contrast(1.08) brightness(1.08) sepia(0.08) $filters;
+
+  &::after {
+    background: rgb(58, 3, 57);
+    mix-blend-mode: exclusion;
+    opacity: .5;
+  }
+
+  @content;
+}
+
+// valencia Instagram filter
+%valencia,
+.valencia {
+  @include valencia;
+}
