@@ -162,7 +162,7 @@
         },
         {
             "name": "Stinson",
-            "is_done": false,
+            "is_done": true,
             "usage": "stinson"
         },
         {
