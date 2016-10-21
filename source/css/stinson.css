@@ -1,19 +1,19 @@
 /*
  *
- * Slumber
+ * Stinson
  *
  */
 
-.slumber {
+.stinson {
   position: relative;
-  -webkit-filter: saturate(0.66) brightness(1.05);
-          filter: saturate(0.66) brightness(1.05); }
+  -webkit-filter: brightness(1.24) contrast(0.94) hue-rotate(12deg);
+          filter: brightness(1.24) contrast(0.94) hue-rotate(12deg); }
   
-  .slumber img {
+  .stinson img {
     width: 100%;
     z-index: 1; }
   
-  .slumber:before {
+  .stinson:before {
     content: '';
     display: block;
     height: 100%;
@@ -24,7 +24,7 @@
     pointer-events: none;
     z-index: 2; }
   
-  .slumber:after {
+  .stinson:after {
     content: '';
     display: block;
     height: 100%;
@@ -35,10 +35,6 @@
     pointer-events: none;
     z-index: 3; }
   
-  .slumber::after {
-    background: rgba(125, 105, 24, 0.5);
-    mix-blend-mode: soft-light; }
-  
-  .slumber::before {
-    background: rgba(69, 41, 12, 0.4);
-    mix-blend-mode: lighten; }
+  .stinson::after {
+    background: #ebe4de;
+    mix-blend-mode: multiply; }
