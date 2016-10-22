@@ -1,0 +1,36 @@
+/*
+ *
+ * Stinson
+ *
+ */
+
+.stinson {
+  position: relative;
+  -webkit-filter: contrast(0.75) saturate(0.85);
+          filter: contrast(0.75) saturate(0.85); }
+  
+  .stinson img {
+    width: 100%;
+    z-index: 1; }
+  
+  .stinson:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .stinson:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
