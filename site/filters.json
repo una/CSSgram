@@ -112,7 +112,7 @@
         },
         {
             "name": "Maven",
-            "is_done": false,
+            "is_done": true,
             "usage": "maven"
         },
         {
