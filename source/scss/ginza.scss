@@ -1,0 +1,47 @@
+/*
+ *
+ * Ginza
+ *
+ */
+
+@import 'shared';
+
+// mixin to extend ginza filter
+// @mixin ginza
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include ginza;
+//   }
+//   or
+//   img {
+//     @include ginza(blur(2px));
+//   }
+//   or
+//   img {
+//     @include ginza(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin ginza($filters...) {
+  @include filter-base;
+  filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2) $filters;
+
+  &::after {
+    background: rgba(0, 70, 150, .4);
+    mix-blend-mode: lighten;
+  }
+
+  &::before {
+    background: rgba(247, 176, 153, .56);
+    mix-blend-mode: darken;
+  }
+
+  @content;
+}
+
+// ginza Instagram filter
+%ginza,
+.ginza {
+  @include ginza;
+}
