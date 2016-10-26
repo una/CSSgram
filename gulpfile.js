@@ -62,7 +62,6 @@ gulp.task('lib-scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(dest))
-    .pipe(gulp.dest('site/css'))
     .pipe(reload({stream:true}));
 });
 
