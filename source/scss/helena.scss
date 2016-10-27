@@ -1,0 +1,42 @@
+/*
+ *
+ * Helena
+ *
+ */
+@import 'shared';
+
+// mixin to extend helena filter
+// @mixin helena
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include helena;
+//   }
+//   or
+//   img {
+//     @include helena(blur(2px));
+//   }
+//   or
+//   img {
+//     @include helena(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin helena($filters...) {
+  @include filter-base;
+  filter: hue-rotate(-18deg) sepia(0.3) saturate(1.3) $filters;
+
+  &::after {
+    background: #007ccc;
+    mix-blend-mode: soft-light;
+    opacity: .3;
+  }
+
+  @content;
+}
+
+// helena Instagram filter
+%helena,
+.helena {
+  @include helena;
+}
