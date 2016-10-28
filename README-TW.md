@@ -183,6 +183,30 @@ Cssgram 是一個使用 CSS 給圖片加上類似 Instagram 效果的濾鏡套�
 
 製作這些效果是一件開心的事情，感謝 [Miles Croxford](https://twitter.com/milescroxford) 提供的[圖片] (https://instagram.com/cssgram/)
 
+下面这些效果正渴望你的加入完善:
+
+- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
+- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
+- [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
+- [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
+- [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
+- [ ] [Helena](https://github.com/una/CSSgram/issues/124)
+- [ ] [Juno](https://github.com/una/CSSgram/issues/125)
+- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
+- [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
+- [ ] [Maven](https://github.com/una/CSSgram/issues/127)
+- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
+- [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
+- [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
+- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
+- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
+- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
+- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
+- [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
+
 ## 目錄結構
 
 - `source/css/cssgram.css` 包含可以使用的濾鏡的 `class`，你可以在直接在你的開發環境使用，你也可以在正式環境使用壓縮過的檔案 `source/css/cssgram.min.css`

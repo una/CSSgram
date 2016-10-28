@@ -1,0 +1,42 @@
+/*
+ *
+ * Hefe
+ *
+ */
+
+@import 'shared';
+
+// mixin to extend Hefe filter
+// @mixin Hefe
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include Hefe;
+//   }
+//   or
+//   img {
+//     @include Hefe(blur(2px));
+//   }
+//   or
+//   img {
+//     @include Hefe(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+
+@mixin _Hefe($filters...) {
+  @include filter-base;
+  filter: contrast(1.3) brightness(0.95) saturate(1.3) $filters;
+
+  &:after{
+    background: rgba(243, 106, 188, 0);
+    mix-blend-mode: screen;
+  }
+  @content;
+}
+
+// Hefe Instagram filter
+%_Hefe,
+._Hefe {
+  @include _Hefe;
+}
