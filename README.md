@@ -190,6 +190,30 @@ Or:
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
 
+The following effects are to be added:
+
+- [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
+- [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
+- [ ] [Crema](https://github.com/una/CSSgram/issues/12)
+- [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)
+- [ ] [Ginza](https://github.com/una/CSSgram/issues/123)
+- [ ] [Hefe](https://github.com/una/CSSgram/issues/17)
+- [ ] [Helena](https://github.com/una/CSSgram/issues/124)
+- [ ] [Juno](https://github.com/una/CSSgram/issues/125)
+- [ ] [Kelvin](https://github.com/una/CSSgram/issues/20)
+- [ ] [Ludwig](https://github.com/una/CSSgram/issues/126)
+- [ ] [Maven](https://github.com/una/CSSgram/issues/127)
+- [ ] [Rise](https://github.com/una/CSSgram/issues/15)
+- [ ] [Sierra](https://github.com/una/CSSgram/issues/14)
+- [ ] [Skyline](https://github.com/una/CSSgram/issues/128)
+- [ ] [Slumber](https://github.com/una/CSSgram/issues/129)
+- [ ] [Stinsen](https://github.com/una/CSSgram/issues/21)
+- [ ] [Sutro](https://github.com/una/CSSgram/issues/19)
+- [ ] [Valencia](https://github.com/una/CSSgram/issues/16)
+- [ ] [Vesper](https://github.com/una/CSSgram/issues/130)
+
 ## File Structure Outline
 
 - `source/css/cssgram.css` contains each of the CSS classes you can apply to your `<img>` to give it the filter. You should use `source/css/cssgram.min.css` for production if you want access to all of the library
