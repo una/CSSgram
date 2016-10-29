@@ -15,9 +15,8 @@ var gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
-    sassLint    = require('gulp-sass-lint'),
     twig        = require('gulp-twig');
-
+    gulpStylelint = require('gulp-stylelint')
 
 gulp.task('lib-scss', function() {
     var onError = function(err) {
@@ -81,11 +80,22 @@ gulp.task('deploy', function () {
         .pipe(deploy());
 });
 
-gulp.task('sass-lint', function () {
-  gulp.src('scss/**/*.scss')
-    .pipe(sassLint())
-    .pipe(sassLint.format())
-    .pipe(sassLint.failOnError());
+gulp.task('lint-css', function lintCssTask() {
+  const gulpStylelint = require('gulp-stylelint');
+  const myStylelintFormatter = require('my-stylelint-formatter');
+
+  return gulp
+    .src('src/**/*.css')
+    .pipe(gulpStylelint({
+      failAfterError: true,
+      reportOutputDir: 'reports/lint',
+      reporters: [
+        {formatter: 'verbose', console: true},
+        {formatter: 'json', save: 'report.json'},
+        {formatter: myStylelintFormatter, save: 'my-custom-report.txt'}
+      ],
+      debug: true
+    }));
 });
 
 gulp.task('twig', function () {

@@ -1,18 +1,16 @@
 /*
- * Lo-fi
+ * Kelvin
  *
  */
 
-.lofi {
-  position: relative;
-  -webkit-filter: saturate(1.1) contrast(1.5);
-          filter: saturate(1.1) contrast(1.5); }
+.kelvin {
+  position: relative; }
   
-  .lofi img {
+  .kelvin img {
     width: 100%;
     z-index: 1; }
   
-  .lofi:before {
+  .kelvin:before {
     content: '';
     display: block;
     height: 100%;
@@ -23,7 +21,7 @@
     pointer-events: none;
     z-index: 2; }
   
-  .lofi:after {
+  .kelvin:after {
     content: '';
     display: block;
     height: 100%;
@@ -34,7 +32,10 @@
     pointer-events: none;
     z-index: 3; }
   
-  .lofi::after {
-    background: -webkit-radial-gradient(circle, transparent 70%, #222222 150%);
-    background: radial-gradient(circle, transparent 70%, #222222 150%);
-    mix-blend-mode: multiply; }
+  .kelvin::after {
+    background: #b77d21;
+    mix-blend-mode: overlay; }
+  
+  .kelvin::before {
+    background: #382c34;
+    mix-blend-mode: color-dodge; }
