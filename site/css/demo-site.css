@@ -1015,6 +1015,52 @@
     background: #382c34;
     mix-blend-mode: color-dodge; }
 
+
+
+/*
+
+NKK II
+
+*/
+
+.nkk {
+  position: relative;
+  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(10.3) saturate(20.6);
+          filter: brightness(1.1) hue-rotate(-10deg) sepia(10.3) saturate(20.6); }
+  
+  .nkk img {
+    width: 100%;
+    z-index: 1; }
+  
+  .nkk:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .nkk:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  
+  .nkk::after {
+    background: #0044cc;
+    mix-blend-mode: screen;
+    opacity: .3; }
+
+
+
 ::-moz-selection {
   background: #9b1c9b;
   color: white; }
