@@ -30,6 +30,7 @@
   &::after {
     background: radial-gradient(circle at 29% 33%,rgba(85, 78, 136, 0.28),rgb(72, 17, 76),#540d80 97%);
     mix-blend-mode: screen;
+    opacity: 0.4;
   }
 
   @content;
