@@ -16,69 +16,82 @@ var gulp        = require('gulp'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
     sassLint    = require('gulp-sass-lint'),
-    twig        = require('gulp-twig');
+    twig        = require('gulp-twig'),
+    runSequence = require('run-sequence'),
+    del         = require('del');
 
+var is_prod = false;
+
+var paths = {
+    libscss: 'source/scss/**/*.scss',
+    sitescss: 'site/scss/**/*.scss',
+    sitetwig: 'site/**/*.twig',
+    siteimg: 'site/img',
+    testimg: 'site/test/ref',
+    testcss: 'site/test/css',
+    filtersjson: 'site/filters.json',
+    dev: '.dev/'
+}
+var compiledPaths = {
+    libcss: 'source/css/',
+    sitecss: 'site/css/'
+}
 
 gulp.task('lib-scss', function() {
-    var onError = function(err) {
-      notify.onError({
-          title:    "Gulp",
-          subtitle: "Failure!",
-          message:  "Error: <%= error.message %>",
-          sound:    "Beep"
-      })(err);
-      this.emit('end');
+  var dest = paths.dev + compiledPaths.libcss;
+  if (is_prod) {
+    dest = compiledPaths.libcss;
+  }
+  var onError = function(err) {
+    notify.onError({
+        title:    "Gulp",
+        subtitle: "Failure!",
+        message:  "Error: <%= error.message %>",
+        sound:    "Beep"
+    })(err);
+    this.emit('end');
   };
 
-  return gulp.src('source/scss/**/*.scss')
+  return gulp.src(paths.libscss)
     .pipe(plumber({errorHandler: onError}))
     .pipe(sass())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
-    .pipe(gulp.dest('source/css'))
-    .pipe(reload({stream:true}))
+    .pipe(gulp.dest(dest))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('source/css'))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest(dest))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('site-scss', function() {
-    var onError = function(err) {
-      notify.onError({
-          title:    "Gulp",
-          subtitle: "Failure!",
-          message:  "Error: <%= error.message %>",
-          sound:    "Beep"
-      })(err);
-      this.emit('end');
+  var dest = paths.dev + compiledPaths.sitecss;
+  if (is_prod) {
+    dest = compiledPaths.sitecss;
+  }
+  var onError = function(err) {
+    notify.onError({
+        title:    "Gulp",
+        subtitle: "Failure!",
+        message:  "Error: <%= error.message %>",
+        sound:    "Beep"
+    })(err);
+    this.emit('end');
   };
 
-  return gulp.src('site/scss/**/*.scss')
+  return gulp.src(paths.sitescss)
     .pipe(plumber({errorHandler: onError}))
     .pipe(sass())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
-    .pipe(gulp.dest('site/css'))
+    .pipe(gulp.dest(dest))
     .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('site/css'));
-});
-
-gulp.task('browser-sync', function() {
-    browserSync({
-        server: {
-            baseDir: "site"
-        }
-    });
-});
-
-gulp.task('deploy', function () {
-    return gulp.src('site/**/*')
-        .pipe(deploy());
+    .pipe(gulp.dest(dest))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('sass-lint', function () {
@@ -88,27 +101,93 @@ gulp.task('sass-lint', function () {
     .pipe(sassLint.failOnError());
 });
 
-gulp.task('twig', function () {
-  gulp.src(['site/**/*.twig', "!site/twig/template.twig"], {base: './'})
-    .pipe(twig({
-      data: require('./site/filters.json')
-    }))
-    .pipe(gulp.dest('./'));
-});
-
-
-gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'sass-lint']);
-  gulp.watch('site/scss/**/*.scss', ['site-scss', 'sass-lint']);
-  gulp.watch('source/scss/**/*.html', ['minify-html']);
-  gulp.watch('site/**/*.twig', ['twig']);
-});
-
-
 gulp.task('jshint', function() {
   gulp.src('js/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
 
-gulp.task('default', ['browser-sync', 'twig', 'lib-scss', 'site-scss', 'watch']);
+gulp.task('twig', function () {
+  var dest = paths.dev;
+  if (is_prod) {
+    dest = './';
+  }
+  gulp.src([paths.sitetwig, "!site/twig/template.twig"], {base: './'})
+    .pipe(twig({
+      data: require('./site/filters.json')
+    }))
+    .pipe(gulp.dest(dest));
+});
+
+function copytask(src, dest) {
+    return function() {
+        return gulp.src(src)
+            .pipe(gulp.dest(dest));
+    }
+}
+
+gulp.task('copy-site-img', copytask(
+    paths.siteimg + '/**/*',
+    paths.dev + paths.siteimg
+));
+gulp.task('copy-test-img', copytask(
+    paths.testimg + '/**/*',
+    paths.dev + paths.testimg
+));
+gulp.task('copy-test-css', copytask(
+    paths.testcss + '/**/*',
+    paths.dev + paths.testcss
+));
+gulp.task('copy-files', ['copy-site-img', 'copy-test-img', 'copy-test-css']);
+
+gulp.task('dev-build', function(cb) {
+    is_prod = false;
+    runSequence(
+        'cleandev',
+        'copy-files',
+        'site-scss',
+        'lib-scss',
+        'twig',
+        cb
+    );
+});
+gulp.task('watch', ['dev-build'], function() {
+  browserSync({
+        server: {
+            baseDir: paths.dev + 'site'
+        }
+    });
+  gulp.watch(paths.libscss, ['lib-scss', 'site-scss', 'sass-lint']);
+  gulp.watch(paths.sitescss, ['site-scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.html', ['minify-html']);
+  gulp.watch(paths.sitetwig, ['twig']);
+});
+
+gulp.task('cleandev', function() {
+    return del([paths.dev]);
+});
+
+gulp.task('build', function(cb) {
+    is_prod = true;
+    runSequence(
+        'site-scss',
+        'lib-scss',
+        'twig',
+        cb
+    );
+});
+
+gulp.task('server', function() {
+    browserSync({
+        server: {
+            baseDir: 'site'
+        }
+    });
+});
+
+gulp.task('deploy', function () {
+    return gulp.src('site/**/*')
+        .pipe(deploy());
+});
+
+gulp.task('default', ['watch']);

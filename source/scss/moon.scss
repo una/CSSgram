@@ -22,7 +22,7 @@
 //     };
 //   }
 @mixin moon($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: grayscale(1) contrast(1.1) brightness(1.1) $filters;
 
   &::before {

@@ -24,7 +24,7 @@
 //   }
 
 @mixin brannan($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: sepia(0.5) contrast(1.4) $filters;
 
   &::after {

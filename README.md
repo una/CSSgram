@@ -1,6 +1,7 @@
 ![](http://una.im/CSSgram/img/cssgram-logo.png)
 
 # CSSgram
+[![CDNJS](https://img.shields.io/cdnjs/v/cssgram.svg)](https://cdnjs.com/libraries/cssgram)
 
 CSSGram is an Instagram filter library written in Sass and CSS.
 
@@ -47,27 +48,30 @@ Alternatively, you can just download and link to any individual css file (e.g. `
 
 _For use in HTML markup:_
 
-*   Aden: `class="aden"`
-*   Brannan: `class="brannan"`
-*   Reyes: `class="reyes"`
-*   Perpetua: `class="perpetua"`
-*   Inkwell: `class="inkwell"`
-*   Toaster: `class="toaster"`
-*   Walden: `class="walden"`
-*   Hudson: `class="hudson"`
-*   Gingham: `class="gingham"`
-*   Mayfair: `class="mayfair"`
-*   Lo-fi: `class="lofi"`
-*   X-Pro II: `class="xpro2"`
 *   1977: `class="_1977"`
+*   Aden: `class="aden"`
+*   Amaro: `class="amaro"`
+*   Brannan: `class="brannan"`
 *   Brooklyn: `class="brooklyn"`
-*   Nashville: `class="nashville"`
-*   Lark: `class="lark"`
-*   Moon: `class="moon"`
 *   Clarendon: `class="clarendon"`
-*   Willow: `class="willow"`
-*   Valencia: `class="valencia"`
+*   Gingham: `class="gingham"`
+*   Hudson: `class="hudson"`
+*   Inkwell: `class="inkwell"`
 *   Kelvin: `class="kelvin"`
+*   Lark: `class="lark"`
+*   Lo-fi: `class="lofi"`
+*   Mayfair: `class="mayfair"`
+*   Moon: `class="moon"`
+*   Nashville: `class="nashville"`
+*   Perpetua: `class="perpetua"`
+*   Reyes: `class="reyes"`
+*   Rise: `class="rise"`
+*   Slumber: `class="slumber"`
+*   Toaster: `class="toaster"`
+*   Valencia: `class="valencia"`
+*   Walden: `class="walden"`
+*   Willow: `class="willow"`
+*   X-Pro-2: `class="xpro2"`
 
 * * *
 
@@ -117,51 +121,57 @@ _For use in Sass stylesheets:_
 
 **Extends**
 
-*   Aden: `@extend %aden`
-*   Brannan: `@extend %brannan`
-*   Reyes: `@extend %reyes`
-*   Perpetua: `@extend %perpetua`
-*   Inkwell: `@extend %inkwell`
-*   Toaster: `@extend %toaster`
-*   Walden: `@extend %walden`
-*   Hudson: `@extend %hudson`
-*   Gingham: `@extend %gingham`
-*   Mayfair: `@extend %mayfair`
-*   Lo-fi: `@extend %lofi`
-*   X-Pro II: `@extend %xpro2`
 *   1977: `@extend %_1977`
+*   Aden: `@extend %aden`
+*   Amaro: `@extend %amaro`
+*   Brannan: `@extend %brannan`
 *   Brooklyn: `@extend %brooklyn`
-*   Nashville: `@extend %nashville`
-*   Lark: `@extend %lark`
-*   Moon: `@extend %moon`
 *   Clarendon: `@extend %clarendon`
-*   Willow: `@extend %willow`
-*   Valencia: `@extend %valencia`
+*   Gingham: `@extend %gingham`
+*   Hudson: `@extend %hudson`
+*   Inkwell: `@extend %inkwell`
 *   Kelvin: `@extend %kelvin`
+*   Lark: `@extend %lark`
+*   Lo-fi: `@extend %lofi`
+*   Mayfair: `@extend %mayfair`
+*   Moon: `@extend %moon`
+*   Nashville: `@extend %nashville`
+*   Perpetua: `@extend %perpetua`
+*   Reyes: `@extend %reyes`
+*   Rise: `@extend %rise`
+*   Slumber: `@extend %slumber`
+*   Toaster: `@extend %toaster`
+*   Valencia: `@extend %valencia`
+*   Walden: `@extend %walden`
+*   Willow: `@extend %willow`
+*   X-Pro-2: `@extend %xpro2`
 
 **Mixins** (You can add more CSS3 filters as arguments)
 
-*   Aden: `@include aden()`
-*   Brannan: `@include brannan()`
-*   Reyes: `@include reyes()`
-*   Perpetua: `@include perpetua()`
-*   Inkwell: `@include inkwell()`
-*   Toaster: `@include toaster()`
-*   Walden: `@include walden()`
-*   Hudson: `@include hudson()`
-*   Gingham: `@include gingham()`
-*   Mayfair: `@include mayfair()`
-*   Lo-fi: `@include lofi()`
-*   X-Pro II: `@include xpro2()`
 *   1977: `@include _1977()`
+*   Aden: `@include aden()`
+*   Amaro: `@include amaro()`
+*   Brannan: `@include brannan()`
 *   Brooklyn: `@include brooklyn()`
-*   Nashville: `@include nashville()`
-*   Lark: `@include lark()`
-*   Moon: `@include moon()`
 *   Clarendon: `@include clarendon()`
-*   Willow: `@include willow()`
-*   Valencia: `@include valencia()`
+*   Gingham: `@include gingham()`
+*   Hudson: `@include hudson()`
+*   Inkwell: `@include inkwell()`
 *   Kelvin: `@include kelvin()`
+*   Lark: `@include lark()`
+*   Lo-fi: `@include lofi()`
+*   Mayfair: `@include mayfair()`
+*   Moon: `@include moon()`
+*   Nashville: `@include nashville()`
+*   Perpetua: `@include perpetua()`
+*   Reyes: `@include reyes()`
+*   Rise: `@include rise()`
+*   Slumber: `@include slumber()`
+*   Toaster: `@include toaster()`
+*   Valencia: `@include valencia()`
+*   Walden: `@include walden()`
+*   Willow: `@include willow()`
+*   X-Pro-2: `@include xpro2()`
 
 ## Contributing
 
