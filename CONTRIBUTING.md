@@ -4,7 +4,7 @@
 
 Either:
 
-1. Create an [issue](https://github.com/una/CSSgram/issues)
+1. Create an [issue](https://github.com/una/CSSgram/issues) if one does not already exist.
 
 Or:
 
@@ -16,6 +16,19 @@ Or:
 6. Submit a PR referencing the issue with a smile :smile:
 
 Filters are really fun to create! Reference photos created by [Miles Croxford](https://twitter.com/milescroxford) can be found [here](https://instagram.com/cssgram/).
+
+## Installing Node
+
+If you do not have Node installed please follow these steps for your system:
+
+### Mac
+Make sure you have XCode and Homebrew installed and run 'brew install node'
+
+### Windows
+It is easiest to download the installer from the [nodejs.org](https://nodejs.org/en/#download) website.
+
+### Linux
+Instructions may vary depending on your distribution, found [here](https://nodejs.org/en/download/package-manager/)
 
 
 ## What to Commit
