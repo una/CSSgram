@@ -108,8 +108,8 @@ gulp.task('deploy', function () {
 });
 
 gulp.task('lint-css', function lintCssTask() {
-  const gulpStylelint = require('gulp-stylelint');
-  const myStylelintFormatter = require('my-stylelint-formatter');
+  var gulpStylelint = require('gulp-stylelint');
+  var myStylelintFormatter = require('my-stylelint-formatter');
 
   return gulp
     .src('src/**/*.css')

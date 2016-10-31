@@ -4,14 +4,10 @@
         "stylelint-declaration-block-order"
     ],
     "rules": {
-        number-leading-zero: always,
-        value-list-comma-newline-after: always,
+        number-leading-zero: never,
         value-list-comma-space-after: always,
-        declaration-bang-space-after: always,
-        declaration-bang-space-before: never,
         declaration-colon-space-after: always,
         declaration-colon-space-before: never,
-        declaration-no-important: true,
         declaration-block-no-duplicate-properties: true,
         declaration-block-no-ignored-properties: true,
         declaration-block-no-redundant-longhand-properties: true,
@@ -19,35 +15,18 @@
         declaration-block-single-line-max-declarations: 1,
         declaration-block-trailing-semicolon: always,
         block-closing-brace-empty-line-before: never,
-        block-closing-brace-newline-after: always,
-        block-closing-brace-space-before: always,
         block-no-empty: true,
-        block-no-single-line: true,
         block-opening-brace-newline-after: always-multi-line,
         block-opening-brace-space-before: always-single-line,
-        selector-no-id: true,
-        at-rule-no-unknown: true,
         at-rule-name-case: lower,
         comment-empty-line-before: always,
         comment-no-empty: true,
         comment-whitespace-inside: always,
         indentation: 2,
-        max-nesting-depth: 1,
+        max-nesting-depth: 3,
         no-duplicate-selectors: true,
         no-eol-whitespace: true,
         no-extra-semicolons: true,
-        no-invalid-double-slash-comments: true,
-        no-missing-end-of-source-newline: true,
-        "plugin/declaration-block-order": [
-        {
-            type: 'at-rule',
-            name: extend
-        },
-        {
-            type: 'at-rule',
-            name: mixin
-        },
-            'declarations'
-        ]
+        no-invalid-double-slash-comments: true
     }
 }
