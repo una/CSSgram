@@ -15,8 +15,8 @@ var gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
-    twig        = require('gulp-twig');
-    gulpStylelint = require('gulp-stylelint')
+    twig        = require('gulp-twig'),
+    gulpStylelint = require('gulp-stylelint'),
     runSequence = require('run-sequence'),
     del         = require('del');
 

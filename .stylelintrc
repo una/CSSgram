@@ -26,7 +26,6 @@
         block-opening-brace-newline-after: always-multi-line,
         block-opening-brace-space-before: always-single-line,
         selector-no-id: true,
-        at-rule-semicolon-newline-after: true,
         at-rule-no-unknown: true,
         at-rule-name-case: lower,
         comment-empty-line-before: always,
