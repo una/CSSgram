@@ -26,11 +26,11 @@
   @include filter-base;
   filter: sepia(.2) hue-rotate(-2deg) contrast(.9) brightness(1.05) $filters;
   &::before {
-    background-color: #9E9795;
+    background-color: rgba(171,148,142,.8);
     mix-blend-mode: soft-light;
   }
   &::after {
-    background-color: #332A25;
+    background-color: rgba(51,42,37,1);
     mix-blend-mode: lighten;
   }
   @content;
