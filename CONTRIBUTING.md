@@ -7,12 +7,15 @@ Contributions are **welcome**!
 1. Look if there is an existing [issue](https://github.com/una/CSSgram/issues) for your case. 
 2. If there isn't an existing issue, then create one.
 
-## Proedure 2
+## Procedure 2
 
 1. Fork this repository
 2. Clone the fork onto your system
 3. `npm install` dependencies (must have Node installed)
-4. Run `gulp` to compile CSS and the test site
+4. Run `gulp` which starts dev server, watches and does compilations to .dev folder
+**In master:**
+**gulp build**: does compilation, files are generated in the respective folders
+**gulp server**: starts server in root to view compiled files after master build
 5. Make changes (e.g. edit the .scss file related to the filter) and check the test site with your changes (see file structure outline below)
 6. Submit a PR referencing the issue with a smile :smile:
 
@@ -26,3 +29,4 @@ Filters are really fun to create! Reference photos created by [Miles Croxford](h
 - `site/test` is how you test filters if you're developing, remember to change `is_done` for the filter you are creating in `site/filters.json`.
 
 Note: This will also have mixin options and a PostCSS Component.
+
