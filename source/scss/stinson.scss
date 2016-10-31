@@ -1,0 +1,43 @@
+/*
+ *
+ * Inkwell
+ *
+ */
+@import 'shared';
+
+// mixin to extend inkwell filter
+// @mixin inkwell
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include inkwell;
+//   }
+//   or
+//   img {
+//     @include inkwell(blur(2px));
+//   }
+//   or
+//   img {
+//     @include inkwell(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin stinson($filters...) {
+  @include filter-base;
+  filter: sepia(.2) hue-rotate(-2deg) contrast(.9) brightness(1.05) $filters;
+  &::before {
+    background-color: #9E9795;
+    mix-blend-mode: soft-light;
+  }
+  &::after {
+    background-color: #332A25;
+    mix-blend-mode: lighten;
+  }
+  @content;
+}
+
+// inkwell Instagram filter
+%stinson,
+.stinson {
+  @include stinson;
+}
