@@ -47,7 +47,7 @@
         },
         {
             "name": "Dogpatch",
-            "is_done": false,
+            "is_done": true,
             "usage": "dogpatch"
         },
         {
