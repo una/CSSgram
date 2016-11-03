@@ -198,9 +198,8 @@
     z-index: 3; }
   
   .gingham::after {
-    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
-    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
-    mix-blend-mode: darken; }
+    background: lavender;
+    mix-blend-mode: soft-light; }
 
 /*
  *
@@ -1013,3 +1012,44 @@
   .kelvin::before {
     background: #382c34;
     mix-blend-mode: color-dodge; }
+
+/*
+ *
+ * Maven
+ *
+ */
+
+.maven {
+  position: relative;
+  -webkit-filter: sepia(0.25) brightness(0.95) contrast(0.95) saturate(1.5);
+          filter: sepia(0.25) brightness(0.95) contrast(0.95) saturate(1.5); }
+  
+  .maven img {
+    width: 100%;
+    z-index: 1; }
+  
+  .maven:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .maven:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  
+  .maven:after {
+    background: rgba(3, 230, 26, 0.2);
+    mix-blend-mode: hue; }

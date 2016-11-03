@@ -23,12 +23,13 @@
 //       /*...*/
 //     };
 //   }
+
 @mixin maven($filters...) {
   @include filter-base;
   filter: sepia(.25) brightness(.95) contrast(.95) saturate(1.5) $filters;
 
   &:after{
-    background: rgba(3,230,26,0.20);
+    background: rgba(3, 230, 26, .20);
     mix-blend-mode: hue;
   }
 

@@ -36,6 +36,5 @@
     z-index: 3; }
   
   .gingham::after {
-    background: -webkit-linear-gradient(left, rgba(66, 10, 14, 0.2), transparent);
-    background: linear-gradient(to right, rgba(66, 10, 14, 0.2), transparent);
-    mix-blend-mode: darken; }
+    background: lavender;
+    mix-blend-mode: soft-light; }

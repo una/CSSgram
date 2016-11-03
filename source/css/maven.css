@@ -8,11 +8,11 @@
   position: relative;
   -webkit-filter: sepia(0.25) brightness(0.95) contrast(0.95) saturate(1.5);
           filter: sepia(0.25) brightness(0.95) contrast(0.95) saturate(1.5); }
-
+  
   .maven img {
     width: 100%;
     z-index: 1; }
-
+  
   .maven:before {
     content: '';
     display: block;
@@ -23,7 +23,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 2; }
-
+  
   .maven:after {
     content: '';
     display: block;
@@ -34,7 +34,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 3; }
-
+  
   .maven:after {
-    background: rgba(3,230,26,0.20);
+    background: rgba(3, 230, 26, 0.2);
     mix-blend-mode: hue; }
