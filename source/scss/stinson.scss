@@ -24,11 +24,11 @@
 //   }
 @mixin stinson($filters...) {
   @include filter-base;
-  filter: brightness(1.25) contrast(0.8) saturate(0.95) grayscale(0.05) sepia(0.05) $filters;
+  filter: brightness(1.15) contrast(.8) saturate(.85) sepia(.1) $filters;
 
   &::after {
-    background: rgb(235, 228, 222);
-    mix-blend-mode: multiply;
+    background: rgba(240, 149, 128, .2);
+    mix-blend-mode: soft-light;
   }
 
   @content;
