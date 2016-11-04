@@ -25,7 +25,12 @@
 //   }
 @mixin stinson($filters...) {
   @include filter-base;
-  filter: contrast(0.75) saturate(0.85) $filters;
+  filter: contrast(0.75) saturate(0.85) brightness(1.15) $filters;
+
+  &::before {
+    background: rgba(240, 149, 128, .2);
+    mix-blend-mode: soft-light;
+  }
 
   @content;
 }
