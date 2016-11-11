@@ -8,11 +8,11 @@
   position: relative;
   -webkit-filter: contrast(0.75) saturate(0.85) brightness(1.15);
           filter: contrast(0.75) saturate(0.85) brightness(1.15); }
-
+  
   .stinson img {
     width: 100%;
     z-index: 1; }
-
+  
   .stinson:before {
     content: '';
     display: block;
@@ -23,7 +23,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 2; }
-
+  
   .stinson:after {
     content: '';
     display: block;
@@ -34,8 +34,7 @@
     position: absolute;
     pointer-events: none;
     z-index: 3; }
-
-  &::before {
-    background: rgba(240, 149, 128, .2);
-    mix-blend-mode: soft-light;
-  }
+  
+  .stinson::before {
+    background: rgba(240, 149, 128, 0.2);
+    mix-blend-mode: soft-light; }
