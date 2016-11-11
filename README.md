@@ -67,6 +67,7 @@ _For use in HTML markup:_
 *   Reyes: `class="reyes"`
 *   Rise: `class="rise"`
 *   Slumber: `class="slumber"`
+*   Stinson: `class="stinson"`
 *   Toaster: `class="toaster"`
 *   Valencia: `class="valencia"`
 *   Walden: `class="walden"`
@@ -140,6 +141,7 @@ _For use in Sass stylesheets:_
 *   Reyes: `@extend %reyes`
 *   Rise: `@extend %rise`
 *   Slumber: `@extend %slumber`
+*   Stinson: `@extend %stinson`
 *   Toaster: `@extend %toaster`
 *   Valencia: `@extend %valencia`
 *   Walden: `@extend %walden`
@@ -167,6 +169,7 @@ _For use in Sass stylesheets:_
 *   Reyes: `@include reyes()`
 *   Rise: `@include rise()`
 *   Slumber: `@include slumber()`
+*   Stinson: `@include stinson()`
 *   Toaster: `@include toaster()`
 *   Valencia: `@include valencia()`
 *   Walden: `@include walden()`
