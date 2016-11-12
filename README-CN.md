@@ -3,9 +3,9 @@
 # CSSgram
 
 一个支持Instagram 滤镜库的 Sass/CSS框架,
-## 这是什么
+## 这是什么？
 
-Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所做的就是通过改变各种各样的[混合模式](http://www.w3cplus.com/css3/basics-css-blend-modes.html)颜色或者渐变所产生的效果运用到图片上。这也就意味着减少更少的图片处理，以及提供更多的有趣的效果。
+简单来说，CSSgram 是一个直接使用CSS以类似Instagram的滤镜库来修改您的图片的库。我们所做的就是通过改变各种各样的[混合模式](http://www.w3cplus.com/css3/basics-css-blend-modes.html)颜色或者渐变所产生的效果运用到图片上。这也就减少手工图片处理，以及提供更多的有趣的网上的效果。
 
 我们使用伪类(i.e,`::before` and  `::after`)创建滤镜效果，这样你必须在img 外面包裹一层标签，我们建议你使用`figure`标签进行去包裹你的图片。
 
@@ -183,7 +183,7 @@ Cssgram 是一个使用CSS给图片加上类似Instagram的滤镜库。我们所
 
 - [ ] [Amaro](https://github.com/una/CSSgram/issues/13)
 - [ ] [Ashby](https://github.com/una/CSSgram/issues/119)
-- [ ] [Brannan](https://github.com/una/CSSgram/issues/120)
+- [x] [Brannan](https://github.com/una/CSSgram/issues/120)
 - [ ] [Charmes](https://github.com/una/CSSgram/issues/22)
 - [ ] [Crema](https://github.com/una/CSSgram/issues/12)
 - [ ] [Dogpatch](https://github.com/una/CSSgram/issues/122)

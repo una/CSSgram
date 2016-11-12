@@ -23,12 +23,12 @@
 //     };
 //   }
 @mixin gingham($filters...) {
-  @extend %filter-base;
+  @include filter-base;
   filter: brightness(1.05) hue-rotate(-10deg) $filters;
 
   &::after {
-    background: linear-gradient(to right, rgba(66, 10, 14, .2), transparent);
-    mix-blend-mode: darken;
+    background: rgb(230, 230, 250);
+    mix-blend-mode: soft-light;
   }
 
   @content;

@@ -36,12 +36,12 @@ gulp.task('lib-scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(gulp.dest('source/css'))
-    .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('source/css'))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('site-scss', function() {
@@ -61,11 +61,11 @@ gulp.task('site-scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(gulp.dest('site/css'))
-    .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('browser-sync', function() {
@@ -98,7 +98,7 @@ gulp.task('twig', function () {
 
 
 gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'site-scss', 'sass-lint']);
   gulp.watch('site/scss/**/*.scss', ['site-scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
   gulp.watch('site/**/*.twig', ['twig']);

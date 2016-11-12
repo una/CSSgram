@@ -1,0 +1,48 @@
+/*
+ * Kelvin
+ *
+ */
+@import 'shared';
+
+// mixin to extend kelvin filter
+// @mixin kelvin
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include kelvin;
+//   }
+//   or
+//   img {
+//     @include kelvin(blur(2px));
+//   }
+//   or
+//   img {
+//     @include kelvin(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin kelvin($filters...) {
+  @include filter-base;
+
+  @if length($filters) > 0 {
+    filter: $filters;
+  }
+
+  &::after{
+    background: rgb(183, 125, 33);
+    mix-blend-mode: overlay;
+  }
+
+  &::before {
+    background: rgb(56, 44, 52);
+    mix-blend-mode: color-dodge;
+  }
+
+  @content;
+}
+
+// kelvin Instagram filter
+%kelvin,
+.kelvin {
+  @include kelvin;
+}
