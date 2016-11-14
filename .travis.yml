@@ -1,0 +1,15 @@
+sudo: required
+dist: trusty
+
+language: node_js
+node_js:
+  - "4"
+  - "5"
+  - "6"
+
+before_script:
+  - npm install -g gulp
+
+script:
+  - gulp lib-scss
+  - gulp sass-lint
