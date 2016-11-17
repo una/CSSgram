@@ -1,0 +1,41 @@
+/*
+ *
+ * Juno
+ *
+ */
+@import 'shared';
+
+// mixin to extend juno filter
+// @mixin juno
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include juno;
+//   }
+//   or
+//   img {
+//     @include juno(blur(2px));
+//   }
+//   or
+//   img {
+//     @include juno(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin juno($filters...) {
+  @include filter-base;
+  filter: contrast(1.25) saturate(1.1) grayscale(.19) $filters;
+
+  &::after {
+    background: radial-gradient(circle, rgba(150, 160, 150, .8) 100%, rgb(192, 110, 201));
+    mix-blend-mode: overlay;
+  }
+
+  @content;
+}
+
+// juno Instagram filter
+%juno,
+.juno {
+  @include juno;
+}
