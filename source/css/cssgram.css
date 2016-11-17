@@ -1015,6 +1015,48 @@
 
 /*
  *
+ * Juno
+ *
+ */
+
+.juno {
+  position: relative;
+  -webkit-filter: contrast(1.25) saturate(1.1) grayscale(0.19);
+          filter: contrast(1.25) saturate(1.1) grayscale(0.19); }
+  
+  .juno img {
+    width: 100%;
+    z-index: 1; }
+  
+  .juno:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .juno:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  
+  .juno::after {
+    background: -webkit-radial-gradient(circle, rgba(150, 160, 150, 0.8) 100%, #c06ec9);
+    background: radial-gradient(circle, rgba(150, 160, 150, 0.8) 100%, #c06ec9);
+    mix-blend-mode: overlay; }
+
+/*
+ *
  * Maven
  *
  */
