@@ -92,7 +92,7 @@
         },
         {
             "name": "Kelvin",
-            "is_done": false,
+            "is_done": true,
             "usage": "kelvin"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "name": "Maven",
-            "is_done": false,
+            "is_done": true,
             "usage": "maven"
         },
         {
@@ -162,7 +162,7 @@
         },
         {
             "name": "Stinson",
-            "is_done": false,
+            "is_done": true,
             "usage": "stinson"
         },
         {

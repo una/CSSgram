@@ -1,0 +1,43 @@
+/*
+ *
+ * Maven
+ *
+ */
+
+@import 'shared';
+
+// mixin to extend maven filter
+// @mixin maven
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include maven;
+//   }
+//   or
+//   img {
+//     @include maven(blur(2px));
+//   }
+//   or
+//   img {
+//     @include maven(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+
+@mixin maven($filters...) {
+  @include filter-base;
+  filter: sepia(.25) brightness(.95) contrast(.95) saturate(1.5) $filters;
+
+  &:after{
+    background: rgba(3, 230, 26, .20);
+    mix-blend-mode: hue;
+  }
+
+  @content;
+}
+
+// maven Instagram filter
+%maven,
+.maven {
+  @include maven;
+}

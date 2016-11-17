@@ -1,0 +1,32 @@
+{
+    "plugins": [
+        "stylelint-scss",
+        "stylelint-declaration-block-order"
+    ],
+    "rules": {
+        number-leading-zero: never,
+        value-list-comma-space-after: always,
+        declaration-colon-space-after: always,
+        declaration-colon-space-before: never,
+        declaration-block-no-duplicate-properties: true,
+        declaration-block-no-ignored-properties: true,
+        declaration-block-no-redundant-longhand-properties: true,
+        declaration-block-semicolon-newline-after: always,
+        declaration-block-single-line-max-declarations: 1,
+        declaration-block-trailing-semicolon: always,
+        block-closing-brace-empty-line-before: never,
+        block-no-empty: true,
+        block-opening-brace-newline-after: always-multi-line,
+        block-opening-brace-space-before: always-single-line,
+        at-rule-name-case: lower,
+        comment-empty-line-before: always,
+        comment-no-empty: true,
+        comment-whitespace-inside: always,
+        indentation: 2,
+        max-nesting-depth: 3,
+        no-duplicate-selectors: true,
+        no-eol-whitespace: true,
+        no-extra-semicolons: true,
+        no-invalid-double-slash-comments: true
+    }
+}
