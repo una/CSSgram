@@ -24,10 +24,10 @@
 //   }
 @mixin juno($filters...) {
   @include filter-base;
-  filter: contrast(1.25) brightness(.989) saturate(1.1) grayscale(.19) $filters;
+  filter: contrast(1.25) saturate(1.1) grayscale(.19) $filters;
 
   &::after {
-    background: radial-gradient(circle, rgba(150, 160, 150, .4) 100%, rgb(192, 110, 201));
+    background: radial-gradient(circle, rgba(150, 160, 150, .8) 100%, rgb(192, 110, 201));
     mix-blend-mode: overlay;
   }
 
@@ -38,4 +38,6 @@
 %juno,
 .juno {
   @include juno;
+}
+@include juno;
 }
