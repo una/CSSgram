@@ -1,0 +1,39 @@
+/*
+ * Skyline
+ *
+ */
+@import 'shared';
+
+// mixin to extend skyline filter
+// @mixin skyline
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include skyline;
+//   }
+//   or
+//   img {
+//     @include skyline(blur(2px));
+//   }
+//   or
+//   img {
+//     @include skyline(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin skyline($filters...) {
+  @extend %filter-base;
+  filter: contrast(1.1) brightness(1.2) $filters;
+
+  &::after{
+    background: rgba(93, 101, 186, 0.2);
+    mix-blend-mode: overlay;
+  }
+  @content;
+}
+
+// skyline Instagram filter
+%skyline,
+.skyline {
+  @include skyline;
+}
