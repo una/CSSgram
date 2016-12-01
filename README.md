@@ -44,7 +44,7 @@ For example:
 
 Alternatively, you can just download and link to any individual css file (e.g. `<link rel="stylesheet" href="css/vendor/aden.min.css">`) if you're using only one of the styles.
 
-### Available Classes
+### Available Classes:
 
 _For use in HTML markup:_
 
@@ -116,7 +116,7 @@ or using mixins (more flexible)
 
 Alternatively, if you're using only one of the styles, you can download and link any individual `.scss` file in your Sass manifest (i.e. `scss/aden.scss`).
 
-### Available Placeholders
+### Available Placeholders:
 
 _For use in Sass stylesheets:_
 
