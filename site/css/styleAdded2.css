@@ -1,0 +1,71 @@
+.rock1 {
+  position: relative;
+  -webkit-filter: brightness(1.1) hue-rotate(-10deg) sepia(10.3) saturate(2.6);
+          filter: brightness(1.1) hue-rotate(-10deg) sepia(10.3) saturate(2.6); }
+  
+  .rock1 img {
+    width: 100%;
+    z-index: 1; }
+  
+  .rock1:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .rock1:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  
+  .rock1::after {
+    background: #000;
+    mix-blend-mode: screen;
+    opacity: .3; }
+
+.bingo1 {
+  position: relative;
+  -webkit-filter: brightness(0.71) hue-rotate(-1deg) sepia(1.3) saturate(3.6);
+          filter: brightness(0.71) hue-rotate(-1deg) sepia(1.3) saturate(3.6); }
+  
+  .bingo1 img {
+    width: 100%;
+    z-index: 1; }
+  
+  .bingo1:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2; }
+  
+  .bingo1:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3; }
+  
+  .bingo1::after {
+    background: #6966AD;
+    mix-blend-mode: screen;
+    opacity: .3; }
