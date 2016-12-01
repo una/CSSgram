@@ -67,7 +67,7 @@
         },
         {
             "name": "Hefe",
-            "is_done": false,
+            "is_done": true,
             "usage": "hefe"
         },
         {
