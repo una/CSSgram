@@ -1,16 +1,16 @@
 ![](http://una.im/CSSgram/img/cssgram-logo.png)
 
-# CSSgram
+## CSSgram
 [![CDNJS](https://img.shields.io/cdnjs/v/cssgram.svg)](https://cdnjs.com/libraries/cssgram)
 
 CSSGram is an Instagram filter library written in Sass and CSS.
 
 ## What is This?
-
+It is a project name CSSgram. <br>
 Simply put, CSSgram is a library for editing your images with Instagram-like filters directly using CSS. What we're doing is adding filters to the images, as well as applying color and/or gradient overlays via various blending techniques to mimic filter effects. This means *less manual image processing* and more fun filter effects on the web!
-
+<br>
 We're using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like `<img>`). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).
-
+<br>
 ## Browser Support
 
 This library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:
