@@ -2,7 +2,9 @@
   "name": "cssgram",
   "version": "0.1.12",
   "style": "source/css/cssgram.css",
-  "dependencies": {},
+  "dependencies": {
+    "path": "^0.12.7"
+  },
   "author": {
     "name": "Una Kravets",
     "email": "una.kravets@gmail.com",
@@ -16,8 +18,13 @@
     "CSS",
     "library",
     "photo",
-    "effects"
+    "effects",
+    "eyeglass-module"
   ],
+  "eyeglass": {
+    "needs": "^0.6.5",
+    "exports": "eyeglass-exports.js"
+  },
   "devDependencies": {
     "browser-sync": "^2.16.1",
     "del": "^2.2.2",
