@@ -1,3 +1,8 @@
-node_modules/
-assets/
-.dev/
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+.DS_Store
+*.log
+/tmp
+node_modules/**/*

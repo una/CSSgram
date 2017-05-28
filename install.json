@@ -3,11 +3,11 @@
     "head": [
       {
         "type": "style",
-        "src": "./source/css/cssgram.css"
+        "src": "./node_modules/cssgram/source/css/cssgram.css"
       },
       {
         "type": "script",
-        "src": "./install/helper.js"
+        "src": "./source/app.js"
       }
     ]
   },
