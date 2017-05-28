@@ -2,47 +2,83 @@
   if (!document.documentElement.classList) return
 
   var options = INSTALL_OPTIONS
-  var prevFilters = []
+  var parseCache = []
+  var mutationObservers = []
+  var MutationObserver = window.MutationObserver
 
-  function updateElements () {
-    for (var i = 0; i < prevFilters.length; i++) {
-      prevFilters[i][0].classList.remove(prevFilters[i][1])
+  function parseNode (filter, image) {
+    // if (node.nodeType !== window.Node.ELEMENT_NODE || node.tagName !== 'IMG') return
+
+    image.setAttribute('data-cf-cssgram', 'parsed')
+
+    var figure = image.parentNode.tagName === 'FIGURE' ? image.parentNode : document.createElement('figure')
+    var style = window.getComputedStyle(image)
+
+    figure.style.display = style.display === 'inline' ? 'inline-block' : style.display
+
+    if (!figure.contains(image)) {
+      figure.style.margin = style.margin
+      image.style.margin = 0
+
+      image.parentNode.replaceChild(figure, image)
+      figure.appendChild(image)
     }
-    prevFilters = []
 
-    for (var i = 0; i < options.regions.length; i++) {
-      var region = options.regions[i]
+    figure.classList.add(filter)
 
-      var el = document.querySelector(region.location)
-      if (!el) { continue }
-
-      var imgs = el.querySelectorAll('img')
-      if (!imgs) { continue }
-
-      for (var j = 0; j < imgs.length; j++) {
-        if (imgs[j].parentNode.tagName == 'FIGURE') {
-          var figure = imgs[j].parentNode
-        } else {
-          var figure = document.createElement('figure')
-
-          var style = getComputedStyle(imgs[j])
-          figure.style.display = style.display == 'inline' ? 'inline-block' : style.display
-
-          figure.style.margin = style.margin
-          imgs[j].style.margin = 0
-
-          imgs[j].parentNode.replaceChild(figure, imgs[j])
-          figure.appendChild(imgs[j])
-        }
-
-        figure.classList.add(region.filter)
-
-        prevFilters.push([figure, region.filter])
-      }
-    }
+    parseCache.push({
+      image: image,
+      figure: figure,
+      filter: filter
+    })
   }
 
-  if (document.readyState == 'loading') {
+  function updateElements () {
+    mutationObservers.forEach(function (observer) { observer.disconnect() })
+    mutationObservers = []
+
+    parseCache.forEach(function (cache) {
+      cache.figure.classList.remove(cache.filter)
+      cache.image.setAttribute('data-cf-cssgram', 'unparsed')
+    })
+
+    parseCache = []
+
+    var regionConfigs = options.regions
+      .map(function (region, index) {
+        var element = document.querySelector(region.location)
+        var parseNodeWithFilter = parseNode.bind(null, region.filter)
+
+        return {
+          element: element,
+          filter: region.filter,
+          refreshChildNodes: function refreshChildNodes () {
+            var images = element.querySelectorAll('img:not([data-cf-cssgram="parsed"])')
+
+            Array.prototype.slice.call(images).forEach(parseNodeWithFilter)
+          }
+        }
+      })
+      .filter(function (config) { return config.element })
+
+    // Initial filter application.
+    regionConfigs.forEach(function (config) { config.refreshChildNodes() })
+
+    mutationObservers = regionConfigs.map(function (config) {
+      var observer = new MutationObserver(function () {
+        config.refreshChildNodes()
+      })
+
+      observer.observe(config.element, {
+        childList: true,
+        subtree: true
+      })
+
+      return observer
+    })
+  }
+
+  if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', updateElements)
   } else {
     updateElements()
