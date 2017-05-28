@@ -15,7 +15,7 @@
     "handlers": [
       {
         "options": ["*"],
-        "execute": "CSSGramInstall.setOptions(INSTALL_OPTIONS)"
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
       }
     ]
   },
