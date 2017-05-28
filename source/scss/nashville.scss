@@ -1,0 +1,46 @@
+/*
+ *
+ * Nashville
+ *
+ */
+@import 'shared';
+
+// mixin to extend nashville filter
+// @mixin nashville
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include nashville;
+//   }
+//   or
+//   img {
+//     @include nashville(blur(2px));
+//   }
+//   or
+//   img {
+//     @include nashville(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin nashville($filters...) {
+  @include filter-base;
+  filter: sepia(.2) contrast(1.2) brightness(1.05) saturate(1.2) $filters;
+
+  &::after {
+    background: rgba(0, 70, 150, .4);
+    mix-blend-mode: lighten;
+  }
+
+  &::before {
+    background: rgba(247, 176, 153, .56);
+    mix-blend-mode: darken;
+  }
+
+  @content;
+}
+
+// nashville Instagram filter
+%nashville,
+.nashville {
+  @include nashville;
+}

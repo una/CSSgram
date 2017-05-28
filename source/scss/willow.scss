@@ -1,0 +1,45 @@
+/*
+ * Willow
+ *
+ */
+@import 'shared';
+
+// mixin to extend willow filter
+// @mixin willow
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include willow;
+//   }
+//   or
+//   img {
+//     @include willow(blur(2px));
+//   }
+//   or
+//   img {
+//     @include willow(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin willow($filters...) {
+  @include filter-base;
+  filter: grayscale(.5) contrast(.95) brightness(.9) $filters;
+
+  &::before {
+    background-color: radial-gradient(40%, circle, rgb(212, 169, 175) 55%, black 150%);
+    mix-blend-mode: overlay;
+  }
+
+  &::after {
+    background-color: rgb(216, 205, 203);
+    mix-blend-mode: color;
+  }
+
+  @content;
+}
+
+// willow Instagram filter
+%willow,
+.willow {
+  @include willow;
+}

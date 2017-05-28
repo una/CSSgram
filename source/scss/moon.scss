@@ -1,0 +1,45 @@
+/*
+ * Moon
+ *
+ */
+@import 'shared';
+
+// mixin to extend moon filter
+// @mixin moon
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include moon;
+//   }
+//   or
+//   img {
+//     @include moon(blur(2px));
+//   }
+//   or
+//   img {
+//     @include moon(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin moon($filters...) {
+  @include filter-base;
+  filter: grayscale(1) contrast(1.1) brightness(1.1) $filters;
+
+  &::before {
+    background: rgb(160, 160, 160);
+    mix-blend-mode: soft-light;
+  }
+
+  &::after {
+    background: rgb(56, 56, 56);
+    mix-blend-mode: lighten;
+  }
+
+  @content;
+}
+
+// moon Instagram filter
+%moon,
+.moon {
+  @include moon;
+}

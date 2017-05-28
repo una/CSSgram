@@ -1,0 +1,64 @@
+.test-page {
+  max-width: 650px;
+  line-height: 1.5;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.test-page a {
+  border-bottom: none;
+}
+
+.test-page .logo {
+  display: block;
+  float: left;
+  height: 100px;
+  width: auto;
+}
+
+.test-page .blurb {
+  display: block;
+  float: left;
+
+}
+
+.test-page section {
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.filter-header a {
+  color: #9b1c9b;
+  text-decoration: none;
+}
+
+.filter-header .done.done--yep{
+  color: #62B859;
+}
+
+.filter-header .done.done--nope{
+  color: #c63082;
+}
+
+.headers h3{
+  float: left;
+  width: 50%;
+}
+
+.test-images>div {
+  float: left;
+  width: 50%;
+}
+
+.test-images figure {
+  margin: 10px;
+  padding: 0;
+}
+
+.test-images img {
+  display: block;
+  height: auto;
+  width: 100%;
+}

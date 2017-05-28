@@ -1,13 +1,29 @@
-%filter-base {
+@mixin pseudo-elem {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+@mixin filter-base {
   position: relative;
 
-  &:after {
-    content: '';
-    display: block;
-    height: 100%;
+  img {
     width: 100%;
-    top: 0; left: 0;
-    position: absolute;
-    pointer-events: none;
+    z-index: 1;
+  }
+
+  &:before {
+    @include pseudo-elem;
+    z-index: 2;
+  }
+
+  &:after {
+    @include pseudo-elem;
+    z-index: 3;
   }
 }

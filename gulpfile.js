@@ -1,7 +1,7 @@
 var gulp        = require('gulp'),
     sass        = require('gulp-sass'),
     rename      = require('gulp-rename'),
-    cssmin      = require('gulp-minify-css'),
+    cssmin      = require('gulp-clean-css'),
     concat      = require('gulp-concat'),
     uglify      = require('gulp-uglify'),
     cache       = require('gulp-cached'),
@@ -10,15 +10,16 @@ var gulp        = require('gulp'),
     reload      = browserSync.reload,
     size        = require('gulp-size'),
     imagemin    = require('gulp-imagemin'),
-    minifyHTML  = require('gulp-minify-html'),
+    minifyHTML  = require('gulp-htmlmin'),
     pngquant    = require('imagemin-pngquant'),
     plumber     = require('gulp-plumber'),
     deploy      = require('gulp-gh-pages'),
     notify      = require('gulp-notify'),
-    sassLint    = require('gulp-sass-lint');
+    sassLint    = require('gulp-sass-lint'),
+    twig        = require('gulp-twig');
 
 
-gulp.task('scss', function() {
+gulp.task('lib-scss', function() {
     var onError = function(err) {
       notify.onError({
           title:    "Gulp",
@@ -35,12 +36,36 @@ gulp.task('scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(gulp.dest('source/css'))
-    .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('source/css'))
-    .pipe(gulp.dest('site/css'));
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
+});
+
+gulp.task('site-scss', function() {
+    var onError = function(err) {
+      notify.onError({
+          title:    "Gulp",
+          subtitle: "Failure!",
+          message:  "Error: <%= error.message %>",
+          sound:    "Beep"
+      })(err);
+      this.emit('end');
+  };
+
+  return gulp.src('site/scss/**/*.scss')
+    .pipe(plumber({errorHandler: onError}))
+    .pipe(sass())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(prefix())
+    .pipe(gulp.dest('site/css'))
+    .pipe(cssmin())
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest('site/css'))
+    .pipe(reload({stream:true}));
 });
 
 gulp.task('browser-sync', function() {
@@ -56,7 +81,6 @@ gulp.task('deploy', function () {
         .pipe(deploy());
 });
 
-
 gulp.task('sass-lint', function () {
   gulp.src('scss/**/*.scss')
     .pipe(sassLint())
@@ -64,22 +88,22 @@ gulp.task('sass-lint', function () {
     .pipe(sassLint.failOnError());
 });
 
+gulp.task('twig', function () {
+  gulp.src(['site/**/*.twig', "!site/twig/template.twig"], {base: './'})
+    .pipe(twig({
+      data: require('./site/filters.json')
+    }))
+    .pipe(gulp.dest('./'));
+});
+
+
 gulp.task('watch', function() {
-  gulp.watch('source/scss/**/*.scss', ['scss', 'sass-lint']);
+  gulp.watch('source/scss/**/*.scss', ['lib-scss', 'site-scss', 'sass-lint']);
+  gulp.watch('site/scss/**/*.scss', ['site-scss', 'sass-lint']);
   gulp.watch('source/scss/**/*.html', ['minify-html']);
+  gulp.watch('site/**/*.twig', ['twig']);
 });
 
-gulp.task('minify-html', function() {
-    var opts = {
-      comments:true,
-      spare:true
-    };
-
-  gulp.src('./*.html')
-    .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('dist/'))
-    .pipe(reload({stream:true}));
-});
 
 gulp.task('jshint', function() {
   gulp.src('js/*.js')
@@ -87,5 +111,4 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-
-gulp.task('default', ['browser-sync', 'minify-html', 'scss', 'watch']);
+gulp.task('default', ['browser-sync', 'twig', 'lib-scss', 'site-scss', 'watch']);

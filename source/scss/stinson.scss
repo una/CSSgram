@@ -1,0 +1,42 @@
+/*
+ *
+ * Stinson
+ *
+ */
+
+@import 'shared';
+
+// mixin to extend stinson filter
+// @mixin stinson
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include stinson;
+//   }
+//   or
+//   img {
+//     @include stinson(blur(2px));
+//   }
+//   or
+//   img {
+//     @include stinson(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin stinson($filters...) {
+  @include filter-base;
+  filter: contrast(0.75) saturate(0.85) brightness(1.15) $filters;
+
+  &::before {
+    background: rgba(240, 149, 128, .2);
+    mix-blend-mode: soft-light;
+  }
+
+  @content;
+}
+
+// stinson Instagram filter
+%stinson,
+.stinson {
+  @include stinson;
+}

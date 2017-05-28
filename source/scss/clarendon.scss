@@ -1,0 +1,40 @@
+/*
+ * Clarendon
+ *
+ */
+@import 'shared';
+
+// mixin to extend clarendon filter
+// @mixin clarendon
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include clarendon;
+//   }
+//   or
+//   img {
+//     @include clarendon(blur(2px));
+//   }
+//   or
+//   img {
+//     @include clarendon(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin clarendon($filters...) {
+  @include filter-base;
+  filter: contrast(1.2) saturate(1.35) $filters;
+
+  &:before {
+    background: rgba(127, 187, 227, .2);
+    mix-blend-mode: overlay;
+  }
+
+  @content;
+}
+
+// clarendon Instagram filter
+%clarendon,
+.clarendon {
+  @include clarendon;
+}

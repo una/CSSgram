@@ -1,0 +1,47 @@
+/*
+ *
+ * Rise
+ *
+ */
+@import 'shared';
+
+// mixin to extend rise filter
+// @mixin rise
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include rise;
+//   }
+//   or
+//   img {
+//     @include rise(blur(2px));
+//   }
+//   or
+//   img {
+//     @include rise(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin rise($filters...) {
+  @include filter-base;
+  filter: brightness(1.05) sepia(.2) contrast(.9) saturate(.9) $filters;
+
+  &::after{
+    background: radial-gradient(circle, rgba(232, 197, 152, .8), transparent 90%);
+    mix-blend-mode: overlay;
+    opacity: .6;
+  }
+
+  &::before{
+    background: radial-gradient(circle, rgba(236, 205, 169, .15) 55%, rgba(50, 30, 7, .4));
+    mix-blend-mode: multiply;
+  }
+
+  @content;
+}
+
+// rise Instagram filter
+%rise,
+.rise {
+  @include rise;
+}

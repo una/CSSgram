@@ -1,0 +1,46 @@
+/*
+ *
+ * Slumber
+ *
+ */
+@import 'shared';
+
+// mixin to extend slumber filter
+// @mixin slumber
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include slumber;
+//   }
+//   or
+//   img {
+//     @include slumber(blur(2px));
+//   }
+//   or
+//   img {
+//     @include slumber(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin slumber($filters...) {
+  @include filter-base;
+  filter: saturate(.66) brightness(1.05) $filters;
+
+  &::after {
+    background: rgba(125, 105, 24, 0.5);
+    mix-blend-mode: soft-light;
+  }
+
+  &::before {
+    background: rgba(69, 41, 12, .4);
+    mix-blend-mode: lighten;
+  }
+
+  @content;
+}
+
+// slumber Instagram filter
+%slumber,
+.slumber {
+  @include slumber;
+}

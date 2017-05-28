@@ -5,13 +5,37 @@
  */
 @import 'shared';
 
+// mixin to extend gingham filter
+// @mixin gingham
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include gingham;
+//   }
+//   or
+//   img {
+//     @include gingham(blur(2px));
+//   }
+//   or
+//   img {
+//     @include gingham(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin gingham($filters...) {
+  @include filter-base;
+  filter: brightness(1.05) hue-rotate(-10deg) $filters;
+
+  &::after {
+    background: rgb(230, 230, 250);
+    mix-blend-mode: soft-light;
+  }
+
+  @content;
+}
+
+// gingham Instagram filter
 %gingham,
 .gingham {
-  @extend %filter-base;
-  filter: brightness(1.05) hue-rotate(-10deg);
-
-  &:after{
-    background: linear-gradient(to right, rgba(66, 10, 14, .2), transparent);
-    mix-blend-mode: darken;
-  }
+  @include gingham;
 }

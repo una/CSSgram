@@ -1,0 +1,383 @@
+&::selection {
+  background: $accent;
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 1200px;
+  line-height: 1.5;
+  font-size: 1.1em;
+  overflow-x: hidden;
+
+  @include breakpoint(xs) {
+    font-size: .9em;
+  }
+}
+
+section {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  color: $accent;
+
+  @include breakpoint(xs) {
+    text-align: center;
+  }
+}
+
+h3,
+em {
+  color: $secondary;
+}
+
+pre, code {
+  background: $lightergrey;
+
+  code {
+    border: none;
+    background: none;
+  }
+}
+
+code {
+  font-family: monospace;
+  padding: .25em .5em;
+}
+
+.highlight {
+  color: $secondary;
+  font-weight: 800;
+}
+
+.comment {
+  color: $midgrey;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: $accent;
+  transition-duration: .35s;
+  border-bottom: 1px solid $secondary;
+  padding-bottom: .05em;
+
+  &:hover,
+  &:focus {
+    color: mix(white, $secondary, 50%);
+    border-color: mix(white, $secondary, 50%);
+  }
+}
+
+figure {
+  max-width: 350px;
+  max-height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  transition-duration: .35s;
+
+  @include breakpoint(lg) {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  @include breakpoint(md) {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  @include breakpoint(sm) {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  @include breakpoint(xs) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  &:hover,
+  &:focus {
+    filter: none !important;
+  }
+
+  &:hover::after,
+  &:focus::after,
+  &:hover::before,
+  &:focus::before {
+    opacity: 0 !important;
+  }
+}
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  padding: .25em 1em .25em .25em;
+  background: $black;
+  color: white;
+  font-weight: 200;
+}
+
+hr {
+  clear: both;
+  float: none;
+  border: 1px solid $lightergrey;
+  margin: 2em auto;
+  display: block;
+}
+
+img {
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}
+
+.demo {
+  &__section {
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+
+  &__subtitle {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  &__note {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin: 2em auto 0;
+  }
+
+  &__input-area {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    margin: 1em auto;
+    padding: 1em 0;
+
+    @include breakpoint(xs) {
+      margin: 0;
+      font-size: .8em;
+    }
+  }
+
+  &__input-label {
+    text-align: center;
+    color: $accent;
+  }
+
+  &__input-img {
+    max-width: 16em;
+    font-size: 1em;
+    padding: .5em;
+    border: 2px solid $accent;
+    outline: none;
+    margin: .5em;
+    font-weight: 200;
+    transition-duration: .35s;
+
+    &:hover {
+      background: mix(white, $accent, 90%);
+    }
+
+    &:focus {
+      background: mix(white, $accent, 75%);
+    }
+  }
+
+  &__option-field {
+    color: $accent;
+    border: 1px solid $lightgrey;
+    min-width: 200px;
+  }
+
+  &__option-img {
+    max-width: 150px;
+    height: 150px;
+    display: inline-block;
+    cursor: pointer;
+
+    @include breakpoint(sm) {
+      height: 100px;
+    }
+
+    @include breakpoint(xs) {
+      height: 60px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin: .75em;
+    list-style: none;
+
+    @include breakpoint(md) {
+      margin: .5em;
+    }
+
+    @include breakpoint(xs) {
+      margin: .5em 0;
+    }
+  }
+}
+
+.title {
+  &-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  &--logo {
+    max-width: 400px;
+  }
+
+  &--top-sub {
+    font-weight: 200;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 26em;
+
+    @include breakpoint(xs) {
+      font-size: 1.2em;
+    }
+  }
+}
+
+.how-to-section,
+.explanation-section {
+  font-size: 1.2em;
+  font-weight: 300;
+  max-width: 40em;
+  margin: 0 auto;
+  display: block;
+}
+
+.attribution {
+  padding: 1em 0 4em;
+  text-align: center;
+}
+
+.callout {
+  max-width: 14em;
+  background: $lightergrey;
+  padding: 2em;
+  margin: -.5em 2em 0;
+  display: block;
+  font-weight: 200;
+  float: right;
+
+  @include breakpoint(sm) {
+    max-width: 28em;
+    margin: 1em auto;
+    float: none;
+    font-size: .8em;
+  }
+}
+
+.available-classes,
+.available-extends,
+.supported-browsers {
+  columns: 15em 2;
+}
+
+.supported {
+  &:after {
+    content: '✔';
+    color: $green;
+    margin-left: .5em;
+  }
+}
+
+.not-supported {
+  &:after {
+    content: '✘';
+    color: $maroon;
+    margin-left: .5em;
+  }
+}
+
+// vid section
+.take-photo {
+  font-size: 1em;
+  color: $accent;
+  font-weight: 300;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed $accent;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  transition-duration: .25s;
+
+  &:hover {
+    background: $secondary;
+    color: white;
+  }
+}
+
+.video-container {
+  margin-top: 2em;
+  max-height: 0;
+  transition-duration: .3s;
+  text-align: center;
+  width: 100%;
+
+  video {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+#snapshot {
+  margin: 0 auto;
+
+  font-size: 1em;
+  color: $accent;
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px dashed $accent;
+  outline: none;
+  background: none;
+  vertical-align: top;
+  transition-duration: .25s;
+  margin-top: 1em;
+
+  &:hover {
+    background: $secondary;
+    color: white;
+  }
+}
