@@ -7,8 +7,6 @@
   var MutationObserver = window.MutationObserver
 
   function parseNode (filter, image) {
-    // if (node.nodeType !== window.Node.ELEMENT_NODE || node.tagName !== 'IMG') return
-
     image.setAttribute('data-cf-cssgram', 'parsed')
 
     var figure = image.parentNode.tagName === 'FIGURE' ? image.parentNode : document.createElement('figure')
