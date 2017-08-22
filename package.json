@@ -1,48 +1,32 @@
 {
-  "name": "cssgram",
-  "version": "0.1.12",
-  "style": "source/css/cssgram.css",
-  "dependencies": {},
-  "author": {
-    "name": "Una Kravets",
-    "email": "una.kravets@gmail.com",
-    "url": "http://una.im"
+  "name": "cloudflare-app-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard --fix ./source/**/*.js || true"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudflareApps/ExampleApp.git"
+  },
+  "author": "Cloudflare Inc.",
   "license": "MIT",
-  "repository": "http://github.com/una/CSSgram",
-  "keywords": [
-    "cssgram",
-    "filters",
-    "CSS",
-    "library",
-    "photo",
-    "effects"
-  ],
+  "bugs": {
+    "url": "https://github.com/CloudflareApps/ExampleApp/issues"
+  },
+  "homepage": "https://github.com/CloudflareApps/ExampleApp#readme",
+  "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.16.1",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-cached": "^1.1.0",
-    "gulp-clean-css": "^2.0.13",
-    "gulp-concat": "^2.6.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-imagemin": "^3.0.3",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-postcss": "^6.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-size": "^2.1.0",
-    "gulp-stylelint": "^3.4.0",
-    "gulp-twig": "~0.5.0",
-    "gulp-uglify": "^2.0.0",
-    "imagemin-pngquant": "^5.0.0",
-    "postcss-reporter": "^1.4.1",
-    "stylelint": "^7.5.0",
-    "stylelint-declaration-block-order": "^0.2.0",
-    "stylelint-scss": "^1.3.4",
-    "run-sequence": "^1.2.2"
+    "cssgram": "^0.1.3",
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
   }
 }
