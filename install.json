@@ -32,12 +32,19 @@
             "location": {
               "order": 1,
               "title": "Location",
-              "description": "Select the part of your page which contains the image or images you’d like to filter.",
+              "description": "Select the part of your page which contains the images you’d like to filter.",
               "type": "string",
               "format": "selector"
             },
-            "filter": {
+            "pages": {
               "order": 2,
+              "title": "Pages",
+              "description": "Which pages should use this filter?",
+              "type": "object",
+              "format": "page"
+            },
+            "filter": {
+              "order": 3,
               "title": "Filter",
               "type": "string",
               "enum": [

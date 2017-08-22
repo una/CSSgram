@@ -43,6 +43,7 @@
     parseCache = []
 
     var regionConfigs = options.regions
+      .filter(function (config) { return INSTALL.matchPage(config.pages) })
       .map(function (region, index) {
         var element = document.querySelector(region.location)
         var parseNodeWithFilter = parseNode.bind(null, region.filter)
