@@ -1,0 +1,7 @@
+language: node_js
+jobs:
+  include:
+    - stage: install
+      script: npm install
+    - stage: test
+      script: gulp
