@@ -43,7 +43,21 @@
     <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
   </section>
 
-  <section class="demo__section">
+  <section class="menu">
+	<h1>Menu</h1>
+	<ul>
+		<li><a href="#demo__section">Demo for CSSgram</a></li>
+		<li><a href="#explanation-section">What is This?</a></li>
+		<li><a href="#supported-browsers">Browser Support</a></li>
+		<li><a href="#usage">Usage</a></li>
+		<li><a href="#use-css-classes">Use CSS classes</a></li>
+		<li><a href="#use-sass-extends">Use Sass <code>@extends</code></a></li>
+		<li><a href="#use-sass-mixins">Use Sass <code>@mixins</code></a></li>
+		<li><a href="#contact">contact</a></li>
+	</ul>
+  </section>
+	
+  <section class="demo__section" id="demo__section">
     <div class="demo__input-area">
       <fieldset class="demo__option-field">
         <legend>Choose a sample image:</legend>
@@ -234,7 +248,7 @@
                   </ul>
   </section>
 
-  <section class="explanation-section">
+  <section class="explanation-section" id="explanation-section">
     <h2>What is This?</h2>
 
     <p><strong class="callout">For more background on CSS Image Effects, you can check out my blog series <a href="http://una.im">here</a>, or watch my <a href="https://www.youtube.com/watch?v=LY65F2e4B5w">video</a> from CSS Conf EU, which gives a baseline on blend modes and filters.</strong></p>
@@ -247,7 +261,7 @@
 
     <p>This library uses <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">CSS Filters</a> and <a href="https://css-tricks.com/basics-css-blend-modes/">CSS Blend Modes</a>. These features are supported in the following browsers:</p>
 
-    <ul class="supported-browsers">
+    <ul class="supported-browsers" id="supported-browsers">
       <li class="supported">Google Chrome: 43+</li>
       <li class="supported">Mozilla Firefox: 38+</li>
       <li class="not-supported">Internet Explorer: Nope</li>
@@ -259,7 +273,7 @@
   <hr>
   </section>
 
-  <section class="how-to-section">
+  <section class="how-to-section" id="usage">
     <h2>Usage</h2>
 
     <p><strong>There are currently 3 ways to consume this library:</strong></p>
@@ -322,7 +336,7 @@
 
     <hr>
 
-    <h3>2. Use Sass <code>@extends</code></h3>
+    <h3 id="use-sass-extends">2. Use Sass <code>@extends</code></h3>
 
     <p>If you use custom naming in your CSS architecture, you can add the .scss files for the provided styles within your project and then <code>@extend</code> the filter effects within your style definitions. If you think extends are stupid, I will fight you 😊.</p>
 
@@ -382,7 +396,7 @@
                   </ul>
   <hr>
 
-    <h3>3. Use Sass <code>@mixins</code></h3>
+    <h3 id="use-sass-mixins">3. Use Sass <code>@mixins</code></h3>
 
     <p>Mixins allow for multiple filter arguments to be passed into your classes. This is useful for if you want to add filters in addition to the ones provided (i.e. add a blur).</p>
 
@@ -450,7 +464,7 @@
   <hr>
 
   </section>
-  <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
+  <footer class="attribution" id="contact">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
 
     <script>
     var inputField = document.querySelector(".demo__input-img")
