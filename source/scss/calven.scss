@@ -1,0 +1,42 @@
+/*
+ *
+ * Calven
+ *
+ */
+@import 'shared';
+
+// mixin to extend calven filter
+// @mixin calven
+// @param $filters... {filter} - Zero to many css filters to be added
+// @example
+//   img {
+//     @include calven;
+//   }
+//   or
+//   img {
+//     @include calven(blur(2px));
+//   }
+//   or
+//   img {
+//     @include calven(blur(2px)) {
+//       /*...*/
+//     };
+//   }
+@mixin calven($filters...) {
+  @include filter-base;
+  filter: contrast(.9) brightness(1.1) $filters;
+
+  &::after {
+    filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+-webkit-filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+-moz-filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+  }
+
+  @content;
+}
+
+// calven Instagram filter
+%calven,
+.calven {
+  @include calven;
+}
