@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>CSSGram</title>
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
+	
     <link rel="stylesheet" href="css/demo-site.min.css">
 
   <script>
@@ -18,13 +18,23 @@
     ga('send', 'pageview');
 
   </script>
+  <div class="container">
+  <nav class="navbar">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#usage">Usage</a></li>
+        </ul>
+      </nav>
+	</div>
 </head>
 <body class="home">
+	<div id = "home">
     <section class="title-section">
-    <img class="title--logo" src="img/cssgram-logo.svg" alt="CSSgram">
+    <img class="title--logo" src="img/cssgram-newlogo.png" alt="CSSgram">
     <h2 class="title--top-sub">A tiny (&lt;1kb gzipped!) library for recreating <a href="http://instagram.com">Instagram</a> filters with CSS filters and blend modes.</h2>
   </section>
-
+	
   <section class="demo__section">
     <div class="demo__input-area">
       <fieldset class="demo__option-field">
@@ -34,6 +44,7 @@
                 <img class="demo__option-img" src="img/cacti.jpg" alt="cacti image">
                 <img class="demo__option-img" src="img/lakegeneva.jpg" alt="lakegeneva image">
                 <img class="demo__option-img" src="img/tahoe.jpg" alt="tahoe image">
+				<img class="demo__option-img" src="img/travel.jpg" alt="travel image">
                 <button class="take-photo">Take a photo!</button>
         <br>
         <label class="demo__input-label">
@@ -215,7 +226,8 @@
           </li>
                   </ul>
   </section>
-
+  </div>
+  <div id = "about">
   <section class="explanation-section">
     <h2>What is This?</h2>
 
@@ -240,7 +252,8 @@
     <p>For more information, check on <a href="http://caniuse.com/">Can I Use</a>.</p>
   <hr>
   </section>
-
+  </div>
+  <div id = "usage">
   <section class="how-to-section">
     <h2>Usage</h2>
 
@@ -432,6 +445,7 @@
   <hr>
 
   </section>
+  </div>
   <footer class="attribution">Made with love by <a href="http://twitter.com/una">Una</a> | <a href="http://github.com/una/CSSgram">View Source</a></footer>
 
     <script>
