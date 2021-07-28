@@ -1,0 +1,41 @@
+/*
+ *
+ * Niroshan
+ *
+ */
+
+ .niro {
+    position: relative;
+    -webkit-filter: contrast(0.7) brightness(1.1);
+            filter: contrast(0.7) brightness(1.1); }
+    
+    .niro img {
+      width: 100%;
+      z-index: 1; }
+    
+    .niro:before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      pointer-events: none;
+      z-index: 2; }
+    
+    .niro:after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      pointer-events: none;
+      z-index: 3; }
+    
+    .niro::after {
+       filter: brightness(99%) hue-rotate(25deg) saturate(218%) contrast(96%);
+  -webkit-filter: brightness(99%) hue-rotate(25deg) saturate(218%) contrast(96%);
+  -moz-filter: brightness(99%) hue-rotate(25deg) saturate(218%) contrast(96%); }

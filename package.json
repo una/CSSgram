@@ -2,7 +2,10 @@
   "name": "cssgram",
   "version": "0.1.12",
   "style": "source/css/cssgram.css",
-  "dependencies": {},
+  "dependencies": {
+    "latest": "^0.2.0",
+    "node-sass": "^6.0.1"
+  },
   "author": {
     "name": "Una Kravets",
     "email": "una.kravets@gmail.com",

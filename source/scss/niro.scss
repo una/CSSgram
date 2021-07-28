@@ -1,0 +1,42 @@
+/*
+ *
+ * Niroshan
+ *
+ */
+ @import 'shared';
+
+ // mixin to extend niro filter
+ // @mixin niro
+ // @param $filters... {filter} - Zero to many css filters to be added
+ // @example
+ //   img {
+ //     @include niro;
+ //   }
+ //   or
+ //   img {
+ //     @include niro(blur(2px));
+ //   }
+ //   or
+ //   img {
+ //     @include niro(blur(2px)) {
+ //       /*...*/
+ //     };
+ //   }
+ @mixin niro($filters...) {
+   @include filter-base;
+   filter: contrast(.9) brightness(1.1) $filters;
+ 
+   &::after {
+     filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+ -webkit-filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+ -moz-filter: brightness(99%) hue-rotate(25deg) saturate(238%) contrast(96%);
+   }
+ 
+   @content;
+ }
+ 
+ // niro Instagram filter
+ %niro,
+ .niro {
+   @include niro;
+ }

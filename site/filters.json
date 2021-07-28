@@ -199,6 +199,11 @@
             "name": "X-pro II",
             "is_done": true,
             "usage": "xpro2"
+        },
+        {
+            "name": "Niro",
+            "is_done": true,
+            "usage": "niro"
         }
     ],
 
