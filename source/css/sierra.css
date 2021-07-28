@@ -1,0 +1,49 @@
+/*
+ *
+ * Sierra
+ *
+ */
+ .sierra {
+   image-rendering: auto;
+   image-rendering: crisp-edges;
+   image-rendering: pixelated;
+ 
+ }
+ .sierra{
+   position: relative;
+  -webkit-filter: contrast(80%) brightness(90%) saturate(100%) ;
+           filter: contrast(80%) brightness(90%) saturate(100%) ; 
+ }
+           
+   .sierra:before {
+     content: '';
+     display: block;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     pointer-events: none;
+     z-index: 2;
+  
+  }
+     
+     .sierra:after {
+     content: '';
+     display: block;
+     height: 100%;
+     width:100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     pointer-events: none;
+     z-index: 3; 
+    }
+ 
+ .sierra:after {
+ background: radial-gradient(circle closest-side ,#f0d6c7 20%, transparent 80%, black 140%);
+
+ background-repeat:no-repeat;
+ mix-blend-mode:overlay; 
+ opacity:70%;
+ }
