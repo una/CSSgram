@@ -1,0 +1,48 @@
+/*
+ *
+ * Sierra
+ *
+ */
+
+ @import 'shared';
+
+ // mixin to extend sierra filter
+ // @mixin sierra
+ // @param $filters... {filter} - Zero to many css filters to be added
+ // @example
+ //   img {
+ //     @include sierra;
+ //   }
+ //   or
+ //   img {
+ //     @include sierra(blur(2px));
+ //   }
+ //   or
+ //   img {
+ //     @include sierra(blur(2px)) {
+ //       /*...*/
+ //     };
+ //   }
+ @mixin aden($filters...) {
+   @include filter-base;
+   position: relative;
+   
+            filter: contrast(80%) brightness(90%) saturate(100%) ;
+ 
+   &::after {
+    background: radial-gradient(circle closest-side ,#f0d6c7 20%, transparent 80%, black 140%);
+ background-size: 300px 300px;
+ background-repeat:no-repeat;
+ mix-blend-mode:overlay; 
+ opacity:70%;
+   }
+ 
+   @content;
+ }
+ 
+ // sierra Instagram filter
+ %sierra,
+ .sierra{
+   @include sierra;
+ }
+ 
