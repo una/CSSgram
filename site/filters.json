@@ -182,7 +182,7 @@
         },
         {
             "name": "Vesper",
-            "is_done": false,
+            "is_done": true,
             "usage": "vesper"
         },
         {
