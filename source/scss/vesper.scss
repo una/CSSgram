@@ -24,7 +24,7 @@
  //   }
  @mixin vesper($filters...) {
    @include filter-base;
-   filter: hue-rotate(-10deg) contrast(.9) saturate(.9) brightness(1.2) sepia(0.1) $filters;
+   filter: hue-rotate(-10deg) contrast(.9) saturate(.9) brightness(1.3) sepia(0.1) $filters;
  
    &::after {
      background: rgba(220, 250, 40, .1);
