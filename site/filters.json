@@ -147,7 +147,7 @@
         },
         {
             "name": "Sierra",
-            "is_done": false,
+            "is_done": true,
             "usage": "sierra"
         },
         {
@@ -200,6 +200,7 @@
             "is_done": true,
             "usage": "xpro2"
         }
+
     ],
 
     "images": ["atx", "bike", "cacti", "lakegeneva", "tahoe"]
